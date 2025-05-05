@@ -1,0 +1,1980 @@
+fileFormatVersion: 2
+guid: c66fe19bdf23a9e439e672720e48383a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2794489635396940759
+    second: burn3r_0
+  - first:
+      213: 3801382177318398720
+    second: burn3r_1
+  - first:
+      213: 5983576174608661589
+    second: burn3r_2
+  - first:
+      213: -7823988219276460446
+    second: burn3r_3
+  - first:
+      213: -2511628152517897589
+    second: burn3r_4
+  - first:
+      213: -3750109291947659805
+    second: burn3r_5
+  - first:
+      213: -2696205151378446559
+    second: burn3r_6
+  - first:
+      213: 509864001639102493
+    second: burn3r_7
+  - first:
+      213: 3242083530867765242
+    second: burn3r_8
+  - first:
+      213: -4603407333530845687
+    second: burn3r_9
+  - first:
+      213: -5740505278175042282
+    second: burn3r_10
+  - first:
+      213: -7400762865372938871
+    second: burn3r_11
+  - first:
+      213: 3418521234215555051
+    second: burn3r_12
+  - first:
+      213: -6743809425994341618
+    second: burn3r_13
+  - first:
+      213: -8008412625481271855
+    second: burn3r_14
+  - first:
+      213: 2828869196350927061
+    second: burn3r_15
+  - first:
+      213: -4870734538251996447
+    second: burn3r_16
+  - first:
+      213: 7913584882698358232
+    second: burn3r_17
+  - first:
+      213: -4545442551018981024
+    second: burn3r_18
+  - first:
+      213: 885229620398105760
+    second: burn3r_19
+  - first:
+      213: -4288047547402266006
+    second: burn3r_20
+  - first:
+      213: 4128699954710820725
+    second: burn3r_21
+  - first:
+      213: 1061944714850763501
+    second: burn3r_22
+  - first:
+      213: -3792461044592586558
+    second: burn3r_23
+  - first:
+      213: -8804005845990748747
+    second: burn3r_24
+  - first:
+      213: 2206936566734306199
+    second: burn3r_25
+  - first:
+      213: 441483965506632215
+    second: burn3r_26
+  - first:
+      213: 3483788550070652157
+    second: burn3r_27
+  - first:
+      213: -4206122790548386810
+    second: burn3r_28
+  - first:
+      213: -659532842727356152
+    second: burn3r_29
+  - first:
+      213: 312828369397041521
+    second: burn3r_30
+  - first:
+      213: -2467491100095655123
+    second: burn3r_31
+  - first:
+      213: 2150372964020016934
+    second: burn3r_32
+  - first:
+      213: -8120189592853384711
+    second: burn3r_33
+  - first:
+      213: 1995612370305504405
+    second: burn3r_34
+  - first:
+      213: 4308395059956954627
+    second: burn3r_35
+  - first:
+      213: -5724604386252352641
+    second: burn3r_36
+  - first:
+      213: 7053386905007309433
+    second: burn3r_37
+  - first:
+      213: -4344972292256484152
+    second: burn3r_38
+  - first:
+      213: 1907595210952820049
+    second: burn3r_39
+  - first:
+      213: 4838325335892591943
+    second: burn3r_40
+  - first:
+      213: -8204521357295476685
+    second: burn3r_41
+  - first:
+      213: 4150269934285731579
+    second: burn3r_42
+  - first:
+      213: -2266285875777765366
+    second: burn3r_43
+  - first:
+      213: -1137550313681221851
+    second: burn3r_44
+  - first:
+      213: -5787815003123321181
+    second: burn3r_45
+  - first:
+      213: -1461562537798706878
+    second: burn3r_46
+  - first:
+      213: -8915586363996824968
+    second: burn3r_47
+  - first:
+      213: -5379581432627157268
+    second: burn3r_48
+  - first:
+      213: 8314888993883833128
+    second: burn3r_49
+  - first:
+      213: -4718550233693486837
+    second: burn3r_50
+  - first:
+      213: -3367859255464444123
+    second: burn3r_51
+  - first:
+      213: 2911528614437941062
+    second: burn3r_52
+  - first:
+      213: 1303544430762276678
+    second: burn3r_53
+  - first:
+      213: -548068554511718355
+    second: burn3r_54
+  - first:
+      213: -3519840886714936818
+    second: burn3r_55
+  - first:
+      213: 9170095227301665247
+    second: burn3r_56
+  - first:
+      213: -8398493021241345047
+    second: burn3r_57
+  - first:
+      213: -4679253300565627711
+    second: burn3r_58
+  - first:
+      213: -2350554459443006687
+    second: burn3r_59
+  - first:
+      213: 3570783857891450031
+    second: burn3r_60
+  - first:
+      213: -5132114403727756682
+    second: burn3r_61
+  - first:
+      213: -8388496248730722008
+    second: burn3r_62
+  - first:
+      213: -3497205126017362791
+    second: burn3r_63
+  - first:
+      213: -2009395779951995907
+    second: burn3r_64
+  - first:
+      213: -6459762855022245498
+    second: burn3r_65
+  - first:
+      213: -219710182457313221
+    second: burn3r_66
+  - first:
+      213: -4955528518920132569
+    second: burn3r_67
+  - first:
+      213: 3497579709301063757
+    second: burn3r_68
+  - first:
+      213: 5120411769744631819
+    second: burn3r_69
+  - first:
+      213: 2459296046648473117
+    second: burn3r_70
+  - first:
+      213: -7242755556635104212
+    second: burn3r_71
+  - first:
+      213: 4430270402937827875
+    second: burn3r_72
+  - first:
+      213: -5803579838444540976
+    second: burn3r_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: burn3r_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 162
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c87a18b7af739d0800000000000000
+      internalID: -2794489635396940759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 169
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b609e13f831c430800000000000000
+      internalID: 3801382177318398720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c3a0614dee90350800000000000000
+      internalID: 5983576174608661589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 162
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e7f27fa2c9b6390800000000000000
+      internalID: -7823988219276460446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 159
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82dc41a087e42dd0800000000000000
+      internalID: -2511628152517897589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 161
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed6198c77fe4fbc0800000000000000
+      internalID: -3750109291947659805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 168
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127628e23b7259ad0800000000000000
+      internalID: -2696205151378446559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 159
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18357dab96631700800000000000000
+      internalID: 509864001639102493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 161
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff64854bc13efc20800000000000000
+      internalID: 3242083530867765242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 169
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e37788b696d10c0800000000000000
+      internalID: -4603407333530845687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 159
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6152f1f2dd0a550b0800000000000000
+      internalID: -5740505278175042282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 130
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d3b8682653b4990800000000000000
+      internalID: -7400762865372938871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 137
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef4c8e43f6017f20800000000000000
+      internalID: 3418521234215555051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 127
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e032daaae0d2962a0800000000000000
+      internalID: -6743809425994341618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 129
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d57f63c5276cd090800000000000000
+      internalID: -8008412625481271855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 137
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0ba8ccb89224720800000000000000
+      internalID: 2828869196350927061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 127
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e273446ebca76cb0800000000000000
+      internalID: -4870734538251996447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 129
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd0329d583b2dd60800000000000000
+      internalID: 7913584882698358232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 136
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069719725185be0c0800000000000000
+      internalID: -4545442551018981024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 127
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4ab7c46a7f84c00800000000000000
+      internalID: 885229620398105760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 130
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a5a15897bcd74c0800000000000000
+      internalID: -4288047547402266006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_21
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 127
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577b5b8ebb61c4930800000000000000
+      internalID: 4128699954710820725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 98
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de288cb7719ccbe00800000000000000
+      internalID: 1061944714850763501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 105
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c05d84f5c87e5bc0800000000000000
+      internalID: -3792461044592586558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 95
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd42452453e1d580800000000000000
+      internalID: -8804005845990748747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 95
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bb4065d1d90ae10800000000000000
+      internalID: 2206936566734306199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 105
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71abd0ad357702600800000000000000
+      internalID: 441483965506632215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_27
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 95
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcc8877a37e85030800000000000000
+      internalID: 3483788550070652157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 105
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c40b36b99d0a5c0800000000000000
+      internalID: -4206122790548386810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_29
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 98
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8094887bf5ed8d6f0800000000000000
+      internalID: -659532842727356152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_30
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 105
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17943999eb3675400800000000000000
+      internalID: 312828369397041521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_31
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 95
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d235c54fae5b1cdd0800000000000000
+      internalID: -2467491100095655123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_32
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 99
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627540f41d8a7dd10800000000000000
+      internalID: 2150372964020016934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_33
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 178
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f17621869a4f4f80800000000000000
+      internalID: -8120189592853384711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_34
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 98
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5945f69a0e6d1bb10800000000000000
+      internalID: 1995612370305504405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_35
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 105
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30638ccea7e7acb30800000000000000
+      internalID: 4308395059956954627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_36
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 95
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7319c514ae1e80b0800000000000000
+      internalID: -5724604386252352641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_37
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 63
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9724a58050aa2e160800000000000000
+      internalID: 7053386905007309433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4332988be83b3c0800000000000000
+      internalID: -4344972292256484152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_39
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 63
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155441cccb3297a10800000000000000
+      internalID: 1907595210952820049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 63
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74586a9224f252340800000000000000
+      internalID: 4838325335892591943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 73
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3302c428b4fa32e80800000000000000
+      internalID: -8204521357295476685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_42
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 63
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6b5132488b89930800000000000000
+      internalID: 4150269934285731579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 66
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0008c6d0098c80e0800000000000000
+      internalID: -2266285875777765366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_44
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 73
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52785e6440c9630f0800000000000000
+      internalID: -1137550313681221851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_45
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 63
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a678297bec8dafa0800000000000000
+      internalID: -5787815003123321181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_46
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 63
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2495d759d9c77bbe0800000000000000
+      internalID: -1461562537798706878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_47
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 66
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a17a15079754480800000000000000
+      internalID: -8915586363996824968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_48
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 73
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6a8f37033e755b0800000000000000
+      internalID: -5379581432627157268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_49
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 63
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823404b5c7b646370800000000000000
+      internalID: 8314888993883833128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_50
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 34
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010dd9ff87548eb0800000000000000
+      internalID: -4718550233693486837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fb780d9d5f241d0800000000000000
+      internalID: -3367859255464444123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f65f059d3d76820800000000000000
+      internalID: 2911528614437941062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_53
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6473688d0ce171210800000000000000
+      internalID: 1303544430762276678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_54
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 31
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2864cfad8ed468f0800000000000000
+      internalID: -548068554511718355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_55
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 35
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02d579cc53072fc0800000000000000
+      internalID: -3519840886714936818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_56
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 31
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd912d32609b24f70800000000000000
+      internalID: 9170095227301665247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_57
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebff44281f827b80800000000000000
+      internalID: -8398493021241345047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_58
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 31
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc26b53ae3ff0fb0800000000000000
+      internalID: -4679253300565627711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_59
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 34
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12370b34c27216fd0800000000000000
+      internalID: -2350554459443006687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_60
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac915bfff8fd8130800000000000000
+      internalID: 3570783857891450031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_61
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 31
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6723423142117c8b0800000000000000
+      internalID: -5132114403727756682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_62
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 31
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82165be1b13169b80800000000000000
+      internalID: -8388496248730722008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_63
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 34
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9945f05877e677fc0800000000000000
+      internalID: -3497205126017362791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_64
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3dac23f213d14e0800000000000000
+      internalID: -2009395779951995907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_65
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 31
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689c22d98ef4a56a0800000000000000
+      internalID: -6459762855022245498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_66
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 9
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38781dc0ce63fcf0800000000000000
+      internalID: -219710182457313221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_67
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728a27b411d6a3bb0800000000000000
+      internalID: -4955528518920132569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_68
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d400182f636e98030800000000000000
+      internalID: 3497579709301063757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_69
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08ab5f106b5f0740800000000000000
+      internalID: 5120411769744631819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_70
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16310a79bc212220800000000000000
+      internalID: 2459296046648473117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_71
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c27cbe1309c7b90800000000000000
+      internalID: -7242755556635104212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_72
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322390a757b7b7d30800000000000000
+      internalID: 4430270402937827875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burn3r_73
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbe4e7b2ea857fa0800000000000000
+      internalID: -5803579838444540976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
