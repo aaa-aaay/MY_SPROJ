@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      he2d-hunter_0: 5506536057696541745
+      he2d-hunter_1: -8597534938373752283
+      he2d-hunter_2: -6783571062705796031
+      he2d-hunter_3: -7945748578253172593
+      he2d-hunter_4: 4438226315510627573
+      he2d-hunter_5: -7830629087840097287
+      he2d-hunter_6: -7210235888882069077
+      he2d-hunter_7: -86695264942657409
+      he2d-hunter_8: -1202317431654659607
+      he2d-hunter_9: -4443564192058132680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
