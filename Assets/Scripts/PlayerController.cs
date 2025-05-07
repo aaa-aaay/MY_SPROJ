@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-        Debug.DrawRay(transform.position, Vector2.down * 1.5f, Color.red);
+        Debug.DrawRay(transform.position, Vector2.down * 0.5f, Color.red);
     }
 
     private void FixedUpdate()
@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
     private bool GetIsGrounded()
     {
 
-        return Physics2D.Raycast(transform.position, Vector2.down, 1.5f, LayerMask.GetMask("Ground"));
+        return Physics2D.Raycast(transform.position, Vector2.down, 0.5f, LayerMask.GetMask("Ground"));
 
     }
 }
