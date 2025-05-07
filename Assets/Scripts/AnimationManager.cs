@@ -23,17 +23,12 @@ public class AnimationManager : MonoBehaviour
     {
         { AnimationState.Idle, "Player_Idle" },
         { AnimationState.Run, "Player_Run" },
-        { AnimationState.Jump, "HeroKnight_Jump" },
-        { AnimationState.Fall, "HeroKnight_Fall 0" },
-        { AnimationState.Attack, "HeroKnight_Attack1" },
-        { AnimationState.Roll, "HeroKnight_Roll" },
-        { AnimationState.Climb, "HeroKnight_Climb" }
+        { AnimationState.Jump, "Player_Jump" },
+        { AnimationState.Fall, "Player_Fall" },
+        { AnimationState.Attack, "Player_Attack" },
+        { AnimationState.Roll, "Player_Roll" },
+        { AnimationState.Climb, "Player_Climb" }
     };
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
 
     public void ChangeAnimationState(AnimationState newState)
     {
