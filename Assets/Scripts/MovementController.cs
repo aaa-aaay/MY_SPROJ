@@ -8,6 +8,7 @@ public class MovementController : MonoBehaviour
     private Rigidbody2D rb;
     public float fallMultiplier = 2.5f;
     public float LowJumpMultiplier = 2.0f;
+    private Coroutine rollCoroutine;
 
     void Awake()
     {
@@ -56,9 +57,14 @@ public class MovementController : MonoBehaviour
     }
 
 
-    public void rolling(float rollPower)
+    public void Rolling(float rollPower)
     {
-        rb.linearVelocity = Vector2.right * rollPower;
+        rb.linearVelocity = new Vector2(rollPower, rb.linearVelocity.y);
+
+
+        //rb.linearVelocity = Vector2.right * rollPower;
+        //rb.AddForce(Vector2.right * rollPower,ForceMode2D.Impulse);
+
     }
 
     public void MoveInDirection(Vector2 direction)
