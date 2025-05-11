@@ -29,7 +29,8 @@ public class PlayerController : MonoBehaviour
     private bool isJump;
     private bool canDoubleJump;
     private bool haveDoubleJumped;
-    private bool canDash =false;
+    private bool dashReset = true;
+    private bool dash = false;
     private bool isDashing = false;
 
 
@@ -71,14 +72,15 @@ public class PlayerController : MonoBehaviour
             isJump = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (dashAction.WasPressedThisFrame() && dashReset)
         {
-            canDash = true;
+            dash = true;
         }
 
 
         //animations
-        if (_rb.linearVelocityY < -0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Fall);
+        if (isDashing) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Dash);
+        else if (_rb.linearVelocityY < -0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Fall);
         else if (_rb.linearVelocityY > 0.1 ) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Jump);
         else if (Mathf.Abs(dirH) > 0.1f && GetIsGrounded()) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Run);
         else _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Idle);
@@ -111,10 +113,14 @@ public class PlayerController : MonoBehaviour
         {
             haveDoubleJumped = false;
         }
+        if (!dashReset && GetIsGrounded()) {
+            dashReset = true;
+        }
 
-        if (canDash)
+        if (dash)
         {
-            canDash = false;
+            dashReset = false;
+            dash = false;
 
             if (!isDashing)
             {
@@ -149,6 +155,7 @@ public class PlayerController : MonoBehaviour
     private void RollComplete()
     {
         isDashing = false;
+        _MovementController.StopMovement();
     }
 
 

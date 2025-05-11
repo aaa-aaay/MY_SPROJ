@@ -15,7 +15,7 @@ public class AnimationManager : MonoBehaviour
         Jump,
         Fall,
         Attack,
-        Roll,
+        Dash,
         Climb
     }
 
@@ -26,7 +26,7 @@ public class AnimationManager : MonoBehaviour
         { AnimationState.Jump, "Player_Jump" },
         { AnimationState.Fall, "Player_Fall" },
         { AnimationState.Attack, "Player_Attack" },
-        { AnimationState.Roll, "Player_Roll" },
+        { AnimationState.Dash, "Player_Dash" },
         { AnimationState.Climb, "Player_Climb" }
     };
 

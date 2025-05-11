@@ -9,6 +9,7 @@ public class MovementController : MonoBehaviour
     public float fallMultiplier = 2.5f;
     public float LowJumpMultiplier = 2.0f;
     private Coroutine rollCoroutine;
+    private float gravityScale;
 
     void Awake()
     {
@@ -17,7 +18,7 @@ public class MovementController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        gravityScale = rb.gravityScale;
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class MovementController : MonoBehaviour
     }
 
 
-    public void MoveHorizontal(float vX)
+    public void MoveHorizontal(float vX) 
     {
         rb.linearVelocity = new Vector2(vX, rb.linearVelocity.y);
     }
@@ -53,16 +54,19 @@ public class MovementController : MonoBehaviour
 
     public void StopMovement()
     {
+        rb.gravityScale = gravityScale;
         rb.linearVelocity = Vector2.zero;
     }
 
 
     public void Rolling(float rollPower)
     {
-        rb.linearVelocity = new Vector2(rollPower, rb.linearVelocity.y);
-
+        //rb.linearVelocity = new Vector2(rollPower, 0);
+        rb.gravityScale = 0f;
+        rb.linearVelocity = new Vector2(rollPower, 0f);
 
         //rb.linearVelocity = Vector2.right * rollPower;
+
         //rb.AddForce(Vector2.right * rollPower,ForceMode2D.Impulse);
 
     }

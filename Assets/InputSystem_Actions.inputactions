@@ -476,6 +476,34 @@
             ]
         },
         {
+            "name": "Player 2",
+            "id": "3c2bfa7a-12e1-4f1f-8ee1-6b23c1b63eae",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "0b7175bd-46c7-40ab-add7-084bff40e84c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "979d5c51-b910-46f9-ae19-d28e4deacead",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
             "name": "UI",
             "id": "272f6d14-89ba-496f-b7ff-215263d3219f",
             "actions": [
