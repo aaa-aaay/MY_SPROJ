@@ -9,12 +9,6 @@ public class PlayerSpawnScript : MonoBehaviour
     public void OnPlayerJoined(PlayerInput playerInput)
     {
         playerInput.transform.position = SpawnPoints[playerCount].transform.position;
-
-        if (playerCount == 0) { 
-            //playerInput.GetComponent<PlayerController>()
-        
-        
-        }
         playerCount++;
     }
 }
