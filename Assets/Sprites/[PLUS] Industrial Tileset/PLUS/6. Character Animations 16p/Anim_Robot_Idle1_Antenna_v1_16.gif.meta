@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anim_Robot_Idle1_Antenna_v1_16_0: -6365644362692722360
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

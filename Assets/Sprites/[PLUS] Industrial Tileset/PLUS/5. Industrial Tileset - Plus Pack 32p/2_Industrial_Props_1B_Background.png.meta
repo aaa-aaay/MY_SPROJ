@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      2_Industrial_Props_1B_Background_0: 1591650496426527997
+      2_Industrial_Props_1B_Background_1: -2200445817198755051
+      2_Industrial_Props_1B_Background_2: 1779065664389598594
+      2_Industrial_Props_1B_Background_3: -5474178683581606788
+      2_Industrial_Props_1B_Background_4: 7796943048350543436
+      2_Industrial_Props_1B_Background_5: 2261506527319690675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

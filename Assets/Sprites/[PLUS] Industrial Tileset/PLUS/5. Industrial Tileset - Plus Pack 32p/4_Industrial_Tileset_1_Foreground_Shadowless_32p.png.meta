@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      4_Industrial_Tileset_1_Foreground_Shadowless_32p_0: 5244981789655519331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

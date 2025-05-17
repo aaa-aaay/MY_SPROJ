@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,9 +85,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,12 +128,12 @@ TextureImporter:
       name: Industrial_Props_1C_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 112
-        width: 33
-        height: 16
+        x: 64
+        y: 113
+        width: 32
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,10 +152,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 65
-        height: 108
+        width: 32
+        height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,13 +172,13 @@ TextureImporter:
       name: Industrial_Props_1C_2
       rect:
         serializedVersion: 2
-        x: 79
+        x: 80
         y: 63
-        width: 17
-        height: 18
+        width: 16
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -194,13 +194,13 @@ TextureImporter:
       name: Industrial_Props_1C_3
       rect:
         serializedVersion: 2
-        x: 79
+        x: 80
         y: 31
-        width: 17
-        height: 18
+        width: 16
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: Industrial_Props_1C_4
       rect:
         serializedVersion: 2
-        x: 79
+        x: 80
         y: 0
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,11 +234,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Industrial_Props_1C_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8daf811fb2d9b45a7b28ff96ca3ae4
+      internalID: -1179585776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fab9e9945f0cdd14b97873be394564c3
     internalID: 0
     vertices: []
     indices: 
@@ -247,7 +269,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Industrial_Props_1C_0: 5630431197107716843
+      Industrial_Props_1C_1: -6940373498106135964
+      Industrial_Props_1C_2: -2938522844177098049
+      Industrial_Props_1C_3: -2097917206388638
+      Industrial_Props_1C_4: -8836723359112165511
+      Industrial_Props_1C_5: -1179585776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anim_Robot_Walk1_Antenna_v1_16_spritesheet_0: -8610730677269038141
+      Anim_Robot_Walk1_Antenna_v1_16_spritesheet_1: 319586122308539176
+      Anim_Robot_Walk1_Antenna_v1_16_spritesheet_2: 2585166599489758117
+      Anim_Robot_Walk1_Antenna_v1_16_spritesheet_3: 904906655205981872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

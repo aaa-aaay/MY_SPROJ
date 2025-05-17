@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anim_Robot_Jump1_Antennales_v1_16_spritesheet_0: -7670361452422923719
+      Anim_Robot_Jump1_Antennales_v1_16_spritesheet_1: -3717061861037864267
+      Anim_Robot_Jump1_Antennales_v1_16_spritesheet_2: -3417956810554959666
+      Anim_Robot_Jump1_Antennales_v1_16_spritesheet_3: -3505926388732331489
+      Anim_Robot_Jump1_Antennales_v1_16_spritesheet_4: 5256547587030620205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

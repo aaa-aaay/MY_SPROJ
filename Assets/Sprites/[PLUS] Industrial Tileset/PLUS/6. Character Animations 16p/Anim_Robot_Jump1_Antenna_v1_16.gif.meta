@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Anim_Robot_Jump1_Antenna_v1_16_0: -5050280674613995440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

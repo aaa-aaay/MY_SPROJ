@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GreenSheetSpike1_Anim_v1_16p_0: -8845217441939205062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

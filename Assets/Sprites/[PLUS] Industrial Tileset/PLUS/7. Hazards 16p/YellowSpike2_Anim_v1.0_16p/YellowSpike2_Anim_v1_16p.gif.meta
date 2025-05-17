@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      YellowSpike2_Anim_v1_16p_0: -5054431077685245544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

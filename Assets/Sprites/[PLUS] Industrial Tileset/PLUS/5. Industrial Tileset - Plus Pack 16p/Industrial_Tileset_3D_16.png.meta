@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Industrial_Tileset_3D_16_0: -2446706248400399303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

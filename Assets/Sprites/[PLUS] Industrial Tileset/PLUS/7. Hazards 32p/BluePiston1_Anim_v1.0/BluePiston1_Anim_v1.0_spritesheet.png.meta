@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BluePiston1_Anim_v1.0_spritesheet_0: -7041258423459755510
+      BluePiston1_Anim_v1.0_spritesheet_1: -1918659973472844116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      YellowSpike1_Anim_v1.0_spritesheet_0: 4735526671476607549
+      YellowSpike1_Anim_v1.0_spritesheet_1: 929947087518743478
+      YellowSpike1_Anim_v1.0_spritesheet_2: -6865836609394187029
+      YellowSpike1_Anim_v1.0_spritesheet_3: -2425208918423710333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

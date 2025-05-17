@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BrownCircular1_Anim_v1.0_0: 3866770817888134082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

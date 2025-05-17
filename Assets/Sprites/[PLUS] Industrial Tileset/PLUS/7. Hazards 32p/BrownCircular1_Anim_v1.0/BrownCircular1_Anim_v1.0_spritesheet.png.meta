@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BrownCircular1_Anim_v1.0_spritesheet_0: -6570511448578370607
+      BrownCircular1_Anim_v1.0_spritesheet_1: 3867421613632363842
+      BrownCircular1_Anim_v1.0_spritesheet_2: -208577596809879496
+      BrownCircular1_Anim_v1.0_spritesheet_3: 760006838067446664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
