@@ -16,7 +16,8 @@ public class AnimationManager : MonoBehaviour
         Fall,
         Attack,
         Dash,
-        Climb
+        Climb,
+        Death
     }
 
     private Dictionary<AnimationState, string> animationStates = new Dictionary<AnimationState, string>()
@@ -27,7 +28,8 @@ public class AnimationManager : MonoBehaviour
         { AnimationState.Fall, "Player_Fall" },
         { AnimationState.Attack, "Player_Attack" },
         { AnimationState.Dash, "Player_Dash" },
-        { AnimationState.Climb, "Player_Climb" }
+        { AnimationState.Climb, "Player_Climb" },
+        { AnimationState.Death, "Player_Death" }
     };
 
     public void ChangeAnimationState(AnimationState newState)
@@ -36,5 +38,9 @@ public class AnimationManager : MonoBehaviour
 
         animator.Play(animationStates[newState]);
         currentState = newState;
+    }
+    public void ToggleAnimaiton()
+    {
+        animator.enabled = !animator.enabled;
     }
 }

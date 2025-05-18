@@ -1,6 +1,7 @@
 
 
 using System.Collections;
+using System.Net;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -25,13 +26,15 @@ public class PlayerController : MonoBehaviour
     public float dashPower = 4.0f;
     public float dashDuration = 0.3f;
 
-    private float dirH = 0.0f;
+    public float dirH = 0.0f;
+    public float rayCastGroundLength = 0.5f;
     private bool isJump;
     private bool canDoubleJump;
     private bool haveDoubleJumped;
     private bool dashReset = true;
     private bool dash = false;
     private bool isDashing = false;
+    private bool isDead = false;
 
 
     private void Awake()
@@ -50,10 +53,12 @@ public class PlayerController : MonoBehaviour
 
         haveDoubleJumped = false;
         isDashing = false;
+
+
     }
     void Update()
     {
-        
+
         //moving left right
         Vector2 moveInput = moveAction.ReadValue<Vector2>();
         dirH = Mathf.Lerp(dirH, moveInput.x, Time.deltaTime * slowdownSpeed);
@@ -78,15 +83,23 @@ public class PlayerController : MonoBehaviour
         }
 
 
+        // slideResults = _rb.Slide(_rb.linearVelocity, Time.deltaTime, slideMovement);
+
         //animations
-        if (isDashing) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Dash);
-        else if (_rb.linearVelocityY < -0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Fall);
-        else if (_rb.linearVelocityY > 0.1 ) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Jump);
-        else if (Mathf.Abs(dirH) > 0.1f && GetIsGrounded()) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Run);
-        else _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Idle);
+        if (!isDead)
+        {
+            if (isDashing) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Dash);
+            else if (Mathf.Abs(dirH) > 0.1f && GetIsGrounded()) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Run);
+            else if (_rb.linearVelocityY < -0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Fall);
+            else if (_rb.linearVelocityY > 0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Jump);
+            else _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Idle);
+        }
 
 
-        Debug.DrawRay(transform.position, Vector2.down * 0.5f, Color.red);
+
+
+
+        Debug.DrawRay(transform.position, Vector2.down * rayCastGroundLength, Color.red);
     }
 
     private void FixedUpdate()
@@ -148,7 +161,7 @@ public class PlayerController : MonoBehaviour
     private bool GetIsGrounded()
     {
 
-        return Physics2D.Raycast(transform.position, Vector2.down, 0.5f, LayerMask.GetMask("Ground"));
+        return Physics2D.Raycast(transform.position, Vector2.down, rayCastGroundLength, LayerMask.GetMask("Ground"));
 
     }
 
@@ -156,14 +169,22 @@ public class PlayerController : MonoBehaviour
     {
         isDashing = false;
         _MovementController.StopMovement();
+
+    }
+
+    public void PlayerDeath()
+    {
+        _PlayerInput.enabled = false;
+        _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
+        StartCoroutine(FreezeAfterDeathAnim());
+    }
+
+    private IEnumerator FreezeAfterDeathAnim()
+    {
+        yield return new WaitForSeconds(0.1f); 
+        _rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        isDead = true;
     }
 
 
-    //IEnumerator HandleRoll(float rollPower)
-    //{
-    //    _MovementController.Rolling(rollPower);
-    //    yield return new WaitForSeconds(dashDuration);
-    //    _rb.linearVelocity = new Vector2(0, _rb.linearVelocity.y); // Stop movement after dash
-    //    isDashing = false;
-    //}
 }
