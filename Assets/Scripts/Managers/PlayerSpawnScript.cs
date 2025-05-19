@@ -18,6 +18,7 @@ public class PlayerSpawnScript : MonoBehaviour
 
     public void OnPlayerJoined(PlayerInput playerInput)
     {
+        if (playerCount == 2) return;
         playerInput.transform.position = SpawnPoints[playerCount].transform.position;
         playerCount++;
     }

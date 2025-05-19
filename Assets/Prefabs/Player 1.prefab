@@ -137,13 +137,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c671ee1a2e94ed241b43f0a59c7a02f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  repsawnPosition: {fileID: 0}
   moveSpeed: 7
   slowdownSpeed: 8
   jumpSpeed: 6
   dashPower: 14
   dashDuration: 0.2
+  playerNo: 1
   dirH: 0
   rayCastGroundLength: 0.5
+  playerVolume: {fileID: 5352734916001350443}
 --- !u!114 &6319639458141290333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,6 +522,8 @@ GameObject:
   - component: {fileID: 5141828480244900529}
   - component: {fileID: 1269104527081602971}
   - component: {fileID: 8881194989077253242}
+  - component: {fileID: 5352734916001350443}
+  - component: {fileID: 5306895981266792756}
   m_Layer: 0
   m_Name: Player Camera
   m_TagString: Untagged
@@ -580,7 +585,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 127
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -623,7 +628,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -676,6 +681,44 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &5352734916001350443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842921733548951903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 0
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 8e4696bee93c3b8419b28cea3a56fabb, type: 2}
+--- !u!65 &5306895981266792756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842921733548951903}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9016043676667931335
 GameObject:
   m_ObjectHideFlags: 0
