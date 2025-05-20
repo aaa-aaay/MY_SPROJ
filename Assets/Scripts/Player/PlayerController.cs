@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private InputAction moveAction;
     private InputAction jumpAction;
     private InputAction dashAction;
+    private InputAction hurtAction;
     public InputAction interactAction;
 
     //respawning
@@ -60,6 +61,7 @@ public class PlayerController : MonoBehaviour
         moveAction = _PlayerInput.actions["Move"];
         jumpAction = _PlayerInput.actions["Jump"];
         dashAction = _PlayerInput.actions["Dash"];
+        hurtAction = _PlayerInput.actions["Hurt"];
         interactAction = _PlayerInput.actions["Interact"];
 
 
@@ -95,6 +97,12 @@ public class PlayerController : MonoBehaviour
         if (dashAction.WasPressedThisFrame() && dashReset)
         {
             dash = true;
+        }
+        if(hurtAction.WasPressedThisFrame())
+        {
+            Debug.Log("called");
+            PPManager.Instance.EnableVignette(true,playerNo);
+
         }
 
 

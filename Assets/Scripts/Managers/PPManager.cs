@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -41,6 +42,7 @@ public class PPManager : MonoBehaviour
 
     public void SetVolunmes(Volume vol, int player)
     {
+
         if (player == 1) {
             p1Volume = vol;
 
@@ -84,19 +86,48 @@ public class PPManager : MonoBehaviour
 
     public void EnableVignette(bool enable, int player1)
     {
+        Debug.Log("called");
         if (player1 == 1)
         {
-            if (vignette != null)
-            {
-                vignette.active = enable;
+            if(enable) {
+                if (vignette != null)
+                {
+                    Debug.Log("called2");
+                    vignette.active = enable;
+                    StartCoroutine(RemoveVignette(player1));
+
+                }
             }
+            else
+            {
+                if (vignette != null)
+                {
+                    Debug.Log("called3");
+                    vignette.active = false;
+
+                }
+            }
+
         }
         else
         {
-            if (p2Vignette != null)
+            if (enable)
             {
-                p2Vignette.active = enable;
+                if (p2Vignette != null)
+                {
+                    p2Vignette.active = enable;
+                    StartCoroutine(RemoveVignette(player1));
+                }
             }
+            else
+            {
+                if (p2Vignette != null)
+                {
+                    p2Vignette.active = false;
+
+                }
+            }
+
         }
 
     }
@@ -120,5 +151,11 @@ public class PPManager : MonoBehaviour
             }
         }
 
+    }
+
+    private IEnumerator RemoveVignette(int playerno)
+    {
+        yield return new WaitForSeconds(0.2f);
+        EnableVignette(false, playerno);
     }
 }

@@ -117,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -309,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laser_idle_0: 5411098469565431434
+      laser_idle_1: -545456642322665108
+      laser_idle_2: -8606687342769311192
+      laser_idle_3: -3755044778546413919
+      laser_idle_4: 8030355523692274180
+      laser_idle_5: -2174630375516616474
+      laser_idle_6: -1209172825476114679
+      laser_idle_7: -4971293076559749165
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
