@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     private bool dashReset = true;
     private bool dash = false;
     private bool isDashing = false;
-    private bool isDead = false;
+    [HideInInspector] public bool isDead = false;
     private bool frozen = false;
 
     [SerializeField] private Volume playerVolume;
@@ -194,6 +194,7 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerDeath()
     {
+        isDead = true;
         _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
         StartCoroutine(StartRevive());
     }
@@ -201,9 +202,8 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator StartRevive()
     {
-        yield return new WaitForSeconds(0.1f);
         _rb.constraints = RigidbodyConstraints2D.FreezeAll;
-        isDead = true;
+
 
         yield return new WaitForSeconds(0.6f);
         PPManager.Instance.SetBlackAndWhite(true, playerNo);
