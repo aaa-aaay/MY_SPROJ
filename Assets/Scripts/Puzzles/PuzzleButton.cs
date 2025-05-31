@@ -5,9 +5,10 @@ public class PuzzleButton : MonoBehaviour
 {
     [SerializeField] private float playerNoFor;
     [SerializeField] private Canvas buttonUI;
+    [SerializeField] private bool lockPlayer = false;
     private bool playerIn;
     public bool buttonPressed;
-    private PlayerController player;
+    [HideInInspector]public PlayerController player;
 
 
     private void Start()
@@ -45,10 +46,11 @@ public class PuzzleButton : MonoBehaviour
     }
     private void Update()
     {
-        if(playerIn)
-        if (player.interactAction.WasPressedThisFrame())
+        if (playerIn && player.interactAction.WasPressedThisFrame())
         {
             buttonPressed = true;
+            if(lockPlayer) player.FreezePlayer(true);
         }
+            
     }
 }

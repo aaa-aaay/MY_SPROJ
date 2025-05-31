@@ -16,7 +16,7 @@ public class DoorButton : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (playerNoFor == 1 && collision.gameObject.name.StartsWith("Player1") || playerNoFor == 2 && collision.gameObject.name.StartsWith("Player2"))
+        if (playerNoFor == 1 && collision.gameObject.name.StartsWith("Player1") || playerNoFor == 2 && collision.gameObject.name.StartsWith("Player2") || playerNoFor == 3)
         {
             buttonUI.enabled = true;
             playerIn = true;
@@ -28,12 +28,12 @@ public class DoorButton : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (playerNoFor == 1 && collision.gameObject.name.StartsWith("Player1") || playerNoFor == 2 && collision.gameObject.name.StartsWith("Player2"))
+        if (playerNoFor == 1 && collision.gameObject.name.StartsWith("Player1") || playerNoFor == 2 && collision.gameObject.name.StartsWith("Player2") || playerNoFor == 3)
         {
             buttonUI.enabled = false;
         }
 
-    }
+    } 
 
     private void Update()
     {
