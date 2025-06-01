@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     private InputAction dashAction;
     private InputAction hurtAction;
     public InputAction interactAction;
+    public InputAction abilityAction;
+    public InputAction aimAction;
 
     //respawning
     public Transform repsawnPosition;
@@ -63,6 +65,8 @@ public class PlayerController : MonoBehaviour
         dashAction = _PlayerInput.actions["Dash"];
         hurtAction = _PlayerInput.actions["Hurt"];
         interactAction = _PlayerInput.actions["Interact"];
+        abilityAction = _PlayerInput.actions["Ability"];
+        aimAction = _PlayerInput.actions["Look"];
 
 
         PPManager.Instance.SetVolunmes(playerVolume, playerNo);

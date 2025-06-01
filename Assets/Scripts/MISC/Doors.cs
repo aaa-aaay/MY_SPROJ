@@ -4,6 +4,7 @@ public class Doors : MonoBehaviour
 {
     [SerializeField] DoorButton button1;
     [SerializeField] DoorButton button2;
+    [SerializeField] private int nextSceneNumber;
     private Animator animator;
     private bool animationPlayed = false;
     private void Start()
@@ -17,6 +18,10 @@ public class Doors : MonoBehaviour
             animator.SetTrigger("OpenDoor");
             animationPlayed = true;
         }
+    }
+    public void GoNextScene()
+    {
+        MySceneManager.Instance.GoNextScene(nextSceneNumber);
     }
 
 }
