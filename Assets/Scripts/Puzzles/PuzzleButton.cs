@@ -22,16 +22,23 @@ public class PuzzleButton : MonoBehaviour
         if (collision.gameObject.name.StartsWith("Player")) {
 
             player = collision.gameObject.GetComponent<PlayerController>();
+            if (player != null) {
 
-            playerIn = true;
-            if(player.playerNo == 1)
-            {
-                buttonUI.gameObject.layer = 6;
+
+                playerIn = true;
+                if (player.playerNo == 1)
+                {
+                    buttonUI.gameObject.layer = 6;
+                }
+                if (player.playerNo == 2)
+                {
+                    buttonUI.gameObject.layer = 7;
+                }
+                buttonUI.enabled = true;
+
             }
-            if (player.playerNo == 2) {
-                buttonUI.gameObject.layer = 7;
-            }
-            buttonUI.enabled = true;
+
+
 
         }
     }
@@ -46,7 +53,7 @@ public class PuzzleButton : MonoBehaviour
     }
     private void Update()
     {
-        if (playerIn && player.interactAction.WasPressedThisFrame())
+        if (player != null && playerIn && player.interactAction.WasPressedThisFrame())
         {
             buttonPressed = true;
             if(lockPlayer) player.FreezePlayer(true);

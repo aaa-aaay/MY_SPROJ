@@ -6,6 +6,7 @@ public class Laser : MonoBehaviour
     [SerializeField] private bool laserActive;
     private Collider2D laserCollider;
     private Animator animator;
+    [SerializeField] private PuzzleButton deactivatebutton;
 
     private void Awake()
     {
@@ -28,6 +29,20 @@ public class Laser : MonoBehaviour
         laserActive = false;
         animator.SetTrigger("DeactivateLaser");
         laserCollider.enabled = false;
+
+    }
+
+    private void Update()
+    {
+        if(deactivatebutton == null) return;
+
+        if (deactivatebutton.buttonPressed)
+        {
+            deactivatebutton.buttonPressed = false;
+            if(laserActive) DisableLaser();
+            else EnableLaser();
+        }
+
 
     }
 

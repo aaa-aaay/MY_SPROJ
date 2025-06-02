@@ -21,6 +21,18 @@ public class PlayerSpawnScript : MonoBehaviour
         if (playerCount == 2) return;
         playerInput.transform.position = SpawnPoints[playerCount].transform.position;
         playerCount++;
+
+
+
+        // Get the Camera component from the same GameObject
+        Camera playerCamera = playerInput.transform.parent.GetComponentInChildren<Camera>();
+        int index = playerInput.playerIndex;
+
+        CameraManager.Instance.SetPlayerCameras(playerCamera, index + 1);
+        if (index == 1)
+        {
+            CameraManager.Instance.InitCameras();
+        }
     }
 }
     
