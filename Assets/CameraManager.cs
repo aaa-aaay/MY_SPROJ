@@ -7,6 +7,7 @@ public class CameraManager : MonoBehaviour
     private Camera P1camera;
     private Camera P2camera;
     private Camera singleCam;
+    private bool isSide = false;
 
 
     [SerializeField] private GameObject sidesidePanel;
@@ -76,5 +77,14 @@ public class CameraManager : MonoBehaviour
         P2camera.rect = new Rect(0.5f, 0f, 0.5f, 1f);
         sidesidePanel.SetActive(true);
         updownPanel.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.C)) {
+            isSide = true;
+
+
+        }
     }
 }

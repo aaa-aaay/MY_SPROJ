@@ -388,7 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 883224434301826971, guid: 35b3754fe63709046b82437a4ad179d4, type: 3}
   bulletSpeed: 15
-  destoryBulletCD: 1
+  destoryBulletCD: 2
 --- !u!1 &5735372384610122116
 GameObject:
   m_ObjectHideFlags: 0
