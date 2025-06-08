@@ -11,9 +11,12 @@ public class GrappleAbility : MonoBehaviour
     private DistanceJoint2D dj;
     private PlayerController player;
 
-    private bool grappling;
     private GameObject grappledObject;
     private List<GameObject> thingsToGrapple = new List<GameObject>();
+
+    private bool grappling;
+    private float originalMoveSpeed;
+    [SerializeField] private float swingForce = 10.0f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,6 +29,7 @@ public class GrappleAbility : MonoBehaviour
         dj.enabled = false;
         lr.enabled = false;
         grappling = false;
+        originalMoveSpeed = player.moveSpeed;
     }
 
     // Update is called once per frame
@@ -47,11 +51,15 @@ public class GrappleAbility : MonoBehaviour
             lr.SetPosition(0, transform.position);
             lr.SetPosition(1, closest.transform.position);
 
+            player.disableHorizontalMove = true; // prevent player movement reseting grapple momentum, also prevents p[ayer dashing while while grappling
+
         }
         if (player.abilityAction.WasReleasedThisFrame()) { 
             lr.enabled = false;
             dj.enabled = false;
             grappling = false;
+
+            player.disableHorizontalMove = false;
         }
 
         if (grappling) {
@@ -64,6 +72,17 @@ public class GrappleAbility : MonoBehaviour
             lr.enabled = true;
             lr.SetPosition(0, transform.position);
             lr.SetPosition(1, grappledObject.transform.position);
+
+
+            Vector2 ropeDir = (grappledObject.transform.position - transform.position).normalized;
+            Vector2 swingDir = new Vector2(ropeDir.y, -ropeDir.x); // Corrected direction
+
+            Vector2 moveInput = player.moveAction.ReadValue<Vector2>();
+
+            rb.AddForce(swingDir * moveInput.x * swingForce);
+
+            Vector2 forceDir = swingDir * moveInput.x;  
+            Debug.DrawRay(transform.position, forceDir.normalized * 2f, UnityEngine.Color.red);
 
 
         }

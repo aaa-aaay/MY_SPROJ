@@ -1,19 +1,26 @@
+using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
-public class NodeShootAbility : MonoBehaviour
+public class NodeShootAbility : PlayerAbilities
 {
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] private float bulletSpeed = 10;
     [SerializeField] private float destoryBulletCD = 3.0f;
-    private PlayerController player;
+    public List<GameObject> listOfNodes = new List<GameObject>();
     private GameObject currentBulletOBJ;
     private float timer;
+    private int bulletsLeft;
+    private GameObject[] uiImages;
+    //private GameObject AbilityPanel;
 
     private bool bulletFiring;
     private void Start()
     {
         player = GetComponentInParent<PlayerController>();
         timer = 0;
+        bulletsLeft = 3;
     }
 
     private void Update()
@@ -34,15 +41,23 @@ public class NodeShootAbility : MonoBehaviour
                 timer = 0;
                 bulletFiring = false;
                 if (currentBulletOBJ != null) { 
-                    Destroy(currentBulletOBJ); //can put this as a function in the bullet GO and play an animation instead (for improvement)
+                    Destroy(currentBulletOBJ);
+                    GetBulletBack();
                 }
             }
         }
 
-        if (player.abilityAction.WasCompletedThisFrame() && !bulletFiring)
+        if (abilityAction1.WasCompletedThisFrame() && !bulletFiring && bulletsLeft!=0)
         {
             FireBullet();
         }
+        if (abilityAction3.WasCompletedThisFrame()) {
+            TakeBack();
+
+
+
+        }
+        //Debug.Log(bulletsLeft);
     }
 
     private void FireBullet()
@@ -61,9 +76,44 @@ public class NodeShootAbility : MonoBehaviour
 
             bulletRb.gravityScale = 0f;
             bulletRb.linearVelocity = aimDirection * bulletSpeed;
-            currentBullet.SetInput(player.abilityAction);
+            currentBullet.InitBullet(abilityAction2, this);
+            bulletsLeft--;
+            //Debug.Log(bulletsLeft);
 
 
+
+        }
+    }
+
+    public void ResetAll()
+    {
+        foreach (GameObject obj in listOfNodes) { 
+            listOfNodes.Remove(obj);
+            Destroy(obj);
+        }
+        bulletsLeft = 3;
+    }
+    private void TakeBack()
+    {
+        if (listOfNodes.Count > 0)
+        {
+            Destroy(listOfNodes[0]);
+            listOfNodes.RemoveAt(0);
+            bulletsLeft++;
+            //Debug.Log(bulletsLeft);
+
+        }
+    }
+    public void GetBulletBack()
+    {
+        bulletsLeft++;
+    }
+    private void UpdateUI()
+    {
+        for (int i = 0; i < bulletsLeft; i++)
+        {
+
+            uiImages[i].gameObject.SetActive(false);
 
         }
     }

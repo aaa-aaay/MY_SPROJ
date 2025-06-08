@@ -17,13 +17,16 @@ public class PlayerController : MonoBehaviour
     private AnimationManager _AnimationManager;
 
     //Player Actions
-    private InputAction moveAction;
+    public InputAction moveAction;
     private InputAction jumpAction;
     private InputAction dashAction;
     private InputAction hurtAction;
     public InputAction interactAction;
     public InputAction abilityAction;
+    public InputAction abilityAction2;
+    public InputAction abilityAction3;
     public InputAction aimAction;
+    public InputAction changeCamAction;
 
     //respawning
     public Transform repsawnPosition;
@@ -44,6 +47,7 @@ public class PlayerController : MonoBehaviour
     private bool dashReset = true;
     private bool dash = false;
     private bool isDashing = false;
+    [HideInInspector] public bool disableHorizontalMove = false;
     [HideInInspector] public bool isDead = false;
     private bool frozen = false;
 
@@ -66,7 +70,10 @@ public class PlayerController : MonoBehaviour
         hurtAction = _PlayerInput.actions["Hurt"];
         interactAction = _PlayerInput.actions["Interact"];
         abilityAction = _PlayerInput.actions["Ability"];
+        abilityAction2 = _PlayerInput.actions["Ability2"];
+        abilityAction3 = _PlayerInput.actions["Ability3"];
         aimAction = _PlayerInput.actions["Look"];
+        changeCamAction = _PlayerInput.actions["SwitchCamera"];
 
 
         PPManager.Instance.SetVolunmes(playerVolume, playerNo);
@@ -98,15 +105,19 @@ public class PlayerController : MonoBehaviour
             isJump = true;
         }
 
-        if (dashAction.WasPressedThisFrame() && dashReset)
+        if (dashAction.WasPressedThisFrame() && dashReset && !disableHorizontalMove)
         {
             dash = true;
         }
         if(hurtAction.WasPressedThisFrame())
         {
-            Debug.Log("called");
             PPManager.Instance.EnableVignette(true,playerNo);
 
+        }
+
+        if (changeCamAction.WasPressedThisFrame())
+        {
+            CameraManager.Instance.SwitchModeButton();
         }
 
 
@@ -129,7 +140,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (Mathf.Abs(dirH) > 0.1f && !isDashing)
+        if (Mathf.Abs(dirH) > 0.1f && !isDashing && !disableHorizontalMove)
         {
             _MovementController.MoveHorizontal(dirH * moveSpeed);
         }

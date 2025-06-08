@@ -137,6 +137,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c671ee1a2e94ed241b43f0a59c7a02f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 58929fd4-1d5f-4624-9d02-4b8bbc96cf7f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   interactAction:
     m_Name: Interact
     m_Type: 0
@@ -155,11 +164,38 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  abilityAction2:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 42ef559f-66fb-42d8-a6f2-8dd0f941991b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  abilityAction3:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a389a63c-60a1-4d15-960c-5acc7417e5fa
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   aimAction:
     m_Name: Aim
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 1d8fbbee-5b00-4593-9b61-a692abcf7e92
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  changeCamAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 804a7e2d-27cd-4579-bad5-1917416e2786
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
@@ -173,6 +209,7 @@ MonoBehaviour:
   playerNo: 2
   dirH: 0
   rayCastGroundLength: 0.5
+  disableHorizontalMove: 0
   isDead: 0
   playerVolume: {fileID: 371447768987398935}
 --- !u!114 &6319639458141290333
@@ -386,9 +423,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d2ae7cc30366234c8a60efab08b944a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  abilityAction2:
+    m_Name: Ability Action 2
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: dbcf5eb0-b86c-4539-80d9-180a62067993
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  playerFor: 1
   bulletPrefab: {fileID: 883224434301826971, guid: 35b3754fe63709046b82437a4ad179d4, type: 3}
   bulletSpeed: 15
   destoryBulletCD: 2
+  listOfNodes: []
 --- !u!1 &5735372384610122116
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,16 +7,22 @@ public class NodeShootBullet : MonoBehaviour
     [SerializeField] LayerMask interactableWallLayer;
     [SerializeField] LayerMask wallLayer;
     private InputAction placeDownAction;
+    private NodeShootAbility shootAbility;
     private bool canPlaceDown;
     private void PlaceNode()
     {
-        Instantiate(GrappleNode,transform.position,Quaternion.identity);
+        GameObject node = Instantiate(GrappleNode,transform.position,Quaternion.identity);
+        if (shootAbility != null) { 
+            shootAbility.listOfNodes.Add(node);
+        }
+
         Destroy(gameObject);
     }
 
-    public void SetInput(InputAction action)
+    public void InitBullet(InputAction action, NodeShootAbility ability)
     {
         placeDownAction = action;
+        shootAbility = ability;
     }
 
     private void Update()
@@ -38,6 +44,11 @@ public class NodeShootBullet : MonoBehaviour
         if (((1 << collision.gameObject.layer) & wallLayer.value) != 0)
         {
             Destroy(gameObject);
+            if (shootAbility != null) {
+                shootAbility.GetBulletBack();
+            
+            
+            }
         }
 
 

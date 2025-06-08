@@ -139,6 +139,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c671ee1a2e94ed241b43f0a59c7a02f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: aaadb463-9399-42f2-8a09-9844d255ee71
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   interactAction:
     m_Name: Interact
     m_Type: 0
@@ -157,11 +166,38 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  abilityAction2:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a8269da5-c207-421b-a961-e1c57b5c8a66
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  abilityAction3:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: fc931361-1f6a-4677-86ea-24b4f1e1f9ba
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   aimAction:
     m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 2d7d63e8-1961-4e5b-a5b5-fa7cf624d487
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  changeCamAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3da9e77d-c69f-472c-b60a-4075a631919f
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
@@ -175,6 +211,7 @@ MonoBehaviour:
   playerNo: 1
   dirH: 0
   rayCastGroundLength: 0.5
+  disableHorizontalMove: 0
   isDead: 0
   playerVolume: {fileID: 5352734916001350443}
 --- !u!114 &6319639458141290333
@@ -958,6 +995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a00706c48a9ba54292530a49a8c4512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swingForce: 1
 --- !u!1 &9016043676667931335
 GameObject:
   m_ObjectHideFlags: 0
