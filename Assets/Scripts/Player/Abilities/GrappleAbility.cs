@@ -1,15 +1,13 @@
-using NUnit.Framework;
+
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using UnityEngine;
 
-public class GrappleAbility : MonoBehaviour
+public class GrappleAbility : PlayerAbilities
 {
     private Rigidbody2D rb;
     private LineRenderer lr;
     private DistanceJoint2D dj;
-    private PlayerController player;
 
     private GameObject grappledObject;
     private List<GameObject> thingsToGrapple = new List<GameObject>();
@@ -22,6 +20,13 @@ public class GrappleAbility : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
+    }
+
+    public override void SetAbilityToPlayer()
+    {
+        base.SetAbilityToPlayer(); // Run base setup first
+
         rb = GetComponentInParent<Rigidbody2D>();
         lr = GetComponent<LineRenderer>();
         dj = GetComponentInParent<DistanceJoint2D>();
@@ -32,61 +37,90 @@ public class GrappleAbility : MonoBehaviour
         originalMoveSpeed = player.moveSpeed;
     }
 
+
+
     // Update is called once per frame
     void Update()
     {
+        // Start grappling
+        if (abilityAction1.WasPressedThisFrame() && (thingsToGrapple.Count > 0 || grappling))
+        {
+            GameObject closest = thingsToGrapple
+                .OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position))
+                .FirstOrDefault();
 
-        if (player.abilityAction.WasPressedThisFrame() && (thingsToGrapple.Count > 0 || grappling)) {
-            GameObject closest = thingsToGrapple.OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position)).FirstOrDefault();
+            if (closest == null) return;
 
             grappling = true;
             grappledObject = closest;
 
+            // Enable and configure DistanceJoint2D
             dj.enabled = true;
-            dj.connectedAnchor = closest.transform.position;
-            dj.connectedBody = null;
-            dj.distance = Vector2.Distance(rb.position, closest.transform.position);
 
+            Rigidbody2D parentRb = closest.GetComponentInParent<Rigidbody2D>();
+            if (parentRb != null)
+            {
+                dj.connectedBody = parentRb;
+                dj.connectedAnchor = parentRb.transform.InverseTransformPoint(closest.transform.position);
+            }
+            else
+            {
+                dj.connectedBody = null;
+                dj.connectedAnchor = closest.transform.position;
+            }
+
+            Vector2 anchorWorldPos;
+            if (dj.connectedBody != null)
+            {
+                anchorWorldPos = dj.connectedBody.transform.TransformPoint(dj.connectedAnchor);
+            }
+            else
+            {
+                anchorWorldPos = dj.connectedAnchor;
+            }
+
+
+
+
+            dj.distance = Vector2.Distance(rb.position, anchorWorldPos);
+
+            // LineRenderer setup
             lr.enabled = true;
             lr.SetPosition(0, transform.position);
             lr.SetPosition(1, closest.transform.position);
 
-            player.disableHorizontalMove = true; // prevent player movement reseting grapple momentum, also prevents p[ayer dashing while while grappling
-
+            // Disable horizontal movement while grappling
+            player.disableHorizontalMove = true;
         }
-        if (player.abilityAction.WasReleasedThisFrame()) { 
+
+        // Stop grappling
+        if (abilityAction1.WasReleasedThisFrame())
+        {
             lr.enabled = false;
             dj.enabled = false;
             grappling = false;
-
             player.disableHorizontalMove = false;
         }
 
-        if (grappling) {
-
-
-            dj.enabled = true;
-            dj.connectedBody = null;
-            dj.distance = Vector2.Distance(rb.position, grappledObject.transform.position);
-
-            lr.enabled = true;
+        // While grappling, apply swing force and update rope visuals
+        if (grappling && grappledObject != null)
+        {
+            // Update the LineRenderer
             lr.SetPosition(0, transform.position);
             lr.SetPosition(1, grappledObject.transform.position);
 
-
+            // Apply swinging force
             Vector2 ropeDir = (grappledObject.transform.position - transform.position).normalized;
-            Vector2 swingDir = new Vector2(ropeDir.y, -ropeDir.x); // Corrected direction
-
+            Vector2 swingDir = new Vector2(ropeDir.y, -ropeDir.x); // perpendicular
             Vector2 moveInput = player.moveAction.ReadValue<Vector2>();
 
             rb.AddForce(swingDir * moveInput.x * swingForce);
 
-            Vector2 forceDir = swingDir * moveInput.x;  
-            Debug.DrawRay(transform.position, forceDir.normalized * 2f, UnityEngine.Color.red);
-
-
+            // Debug line
+            Debug.DrawRay(transform.position, swingDir.normalized * moveInput.x * 2f, Color.red);
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name.StartsWith("Grapple Node"))

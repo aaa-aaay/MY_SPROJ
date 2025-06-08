@@ -17,7 +17,7 @@ public abstract class PlayerAbilities : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void SetAbilityToPlayer()
+    public virtual void SetAbilityToPlayer()
     {
         GameObject playerMovementOBJ;
         if (playerFor == 1) {

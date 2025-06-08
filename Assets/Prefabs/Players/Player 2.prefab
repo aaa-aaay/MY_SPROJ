@@ -35,7 +35,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4196419399773915768}
-  - {fileID: 5896009621727748125}
   m_Father: {fileID: 6243187133361237326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &811184018068135646
@@ -379,64 +378,6 @@ Transform:
   - {fileID: 3377760881854587213}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4959856973466400563
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5896009621727748125}
-  - component: {fileID: 8287922366425223511}
-  m_Layer: 0
-  m_Name: PlayerAbility
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5896009621727748125
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4959856973466400563}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7695927241697431595}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8287922366425223511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4959856973466400563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d2ae7cc30366234c8a60efab08b944a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  abilityAction2:
-    m_Name: Ability Action 2
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: dbcf5eb0-b86c-4539-80d9-180a62067993
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
-  playerFor: 1
-  bulletPrefab: {fileID: 883224434301826971, guid: 35b3754fe63709046b82437a4ad179d4, type: 3}
-  bulletSpeed: 15
-  destoryBulletCD: 2
-  listOfNodes: []
 --- !u!1 &5735372384610122116
 GameObject:
   m_ObjectHideFlags: 0

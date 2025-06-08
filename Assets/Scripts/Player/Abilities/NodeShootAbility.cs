@@ -12,19 +12,26 @@ public class NodeShootAbility : PlayerAbilities
     private GameObject currentBulletOBJ;
     private float timer;
     private int bulletsLeft;
-    private GameObject[] uiImages;
-    //private GameObject AbilityPanel;
+    [SerializeField]private GameObject[] uiImages;
 
     private bool bulletFiring;
-    private void Start()
+
+    public override void SetAbilityToPlayer()
     {
-        player = GetComponentInParent<PlayerController>();
+        base.SetAbilityToPlayer(); // Run base setup first
+
+
         timer = 0;
         bulletsLeft = 3;
+        uiImages.First().gameObject.transform.parent.gameObject.SetActive(true);
     }
 
     private void Update()
     {
+        if (bulletsLeft > 3)
+        {
+            bulletsLeft = 3;
+        }
         if ((bulletFiring))
         {
             timer += Time.deltaTime;
@@ -78,7 +85,7 @@ public class NodeShootAbility : PlayerAbilities
             bulletRb.linearVelocity = aimDirection * bulletSpeed;
             currentBullet.InitBullet(abilityAction2, this);
             bulletsLeft--;
-            //Debug.Log(bulletsLeft);
+            UpdateUI();
 
 
 
@@ -92,6 +99,7 @@ public class NodeShootAbility : PlayerAbilities
             Destroy(obj);
         }
         bulletsLeft = 3;
+        UpdateUI();
     }
     private void TakeBack()
     {
@@ -99,7 +107,7 @@ public class NodeShootAbility : PlayerAbilities
         {
             Destroy(listOfNodes[0]);
             listOfNodes.RemoveAt(0);
-            bulletsLeft++;
+            GetBulletBack();
             //Debug.Log(bulletsLeft);
 
         }
@@ -107,15 +115,16 @@ public class NodeShootAbility : PlayerAbilities
     public void GetBulletBack()
     {
         bulletsLeft++;
+        UpdateUI();
     }
     private void UpdateUI()
     {
-        for (int i = 0; i < bulletsLeft; i++)
+
+        for (int i = 0; i < uiImages.Count(); i++)
         {
-
-            uiImages[i].gameObject.SetActive(false);
-
+            uiImages[i].SetActive(i < bulletsLeft);
         }
+
     }
 
 
