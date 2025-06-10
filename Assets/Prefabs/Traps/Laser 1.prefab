@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserActive: 0
+  deactivatebutton: {fileID: 0}
 --- !u!61 &5133518445120469265
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -196,7 +197,7 @@ GameObject:
   - component: {fileID: 7057510379373688786}
   - component: {fileID: 2044223971375840286}
   - component: {fileID: 7830000002134362148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}

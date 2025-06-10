@@ -11,10 +11,6 @@ public class DeathZone : MonoBehaviour
             if (player.isDead) return;
             player.PlayerDeath();
 
-            //make screen grey
-            //sent player to check point
-            //make screen normal
-
         }
     }
 }

@@ -29,6 +29,7 @@ public class PlayerSpawnScript : MonoBehaviour
         int index = playerInput.playerIndex;
 
         CameraManager.Instance.SetPlayerCameras(playerCamera, index + 1);
+        PlayerManager.Instance.SetPlayers(playerInput.gameObject.GetComponent<PlayerController>(), index + 1);
         if (index == 1)
         {
             CameraManager.Instance.InitCameras();

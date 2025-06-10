@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveAction:
-    m_Name: 
+    m_Name: Move
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 58929fd4-1d5f-4624-9d02-4b8bbc96cf7f
@@ -164,7 +164,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   abilityAction2:
-    m_Name: 
+    m_Name: Ability Action 2
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 42ef559f-66fb-42d8-a6f2-8dd0f941991b
@@ -173,7 +173,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   abilityAction3:
-    m_Name: 
+    m_Name: Ability Action 3
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: a389a63c-60a1-4d15-960c-5acc7417e5fa
@@ -191,7 +191,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   changeCamAction:
-    m_Name: 
+    m_Name: Change Cam
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 804a7e2d-27cd-4579-bad5-1917416e2786

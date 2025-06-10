@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveAction:
-    m_Name: 
+    m_Name: Move
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: aaadb463-9399-42f2-8a09-9844d255ee71
@@ -157,7 +157,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   abilityAction:
-    m_Name: 
+    m_Name: Ability
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 979130b6-6714-46d9-8e4b-622ad115808a
@@ -166,7 +166,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   abilityAction2:
-    m_Name: 
+    m_Name: Ability Action 2
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: a8269da5-c207-421b-a961-e1c57b5c8a66
@@ -175,7 +175,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   abilityAction3:
-    m_Name: 
+    m_Name: Ability Action 3
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: fc931361-1f6a-4677-86ea-24b4f1e1f9ba
@@ -184,7 +184,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   aimAction:
-    m_Name: 
+    m_Name: Aim
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 2d7d63e8-1961-4e5b-a5b5-fa7cf624d487
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   changeCamAction:
-    m_Name: 
+    m_Name: Change Cam
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 3da9e77d-c69f-472c-b60a-4075a631919f

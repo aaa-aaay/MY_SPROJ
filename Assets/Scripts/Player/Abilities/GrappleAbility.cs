@@ -14,6 +14,7 @@ public class GrappleAbility : PlayerAbilities
 
     private bool grappling;
     private float originalMoveSpeed;
+    GameObject closest;
     [SerializeField] private float swingForce = 10.0f;
 
 
@@ -42,17 +43,32 @@ public class GrappleAbility : PlayerAbilities
     // Update is called once per frame
     void Update()
     {
+
+        if (thingsToGrapple.Count > 0) {
+            if (closest != null) { closest.GetComponentInChildren<Canvas>().enabled = false; }
+            closest = thingsToGrapple .OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position)) .FirstOrDefault();
+            Canvas UI = closest.GetComponentInChildren<Canvas>();
+            UI.enabled = true;
+           
+
+
+        }
+
         // Start grappling
         if (abilityAction1.WasPressedThisFrame() && (thingsToGrapple.Count > 0 || grappling))
         {
-            GameObject closest = thingsToGrapple
-                .OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position))
-                .FirstOrDefault();
+
 
             if (closest == null) return;
 
             grappling = true;
             grappledObject = closest;
+
+            foreach (GameObject node in thingsToGrapple)
+            {
+                Canvas UI = node.GetComponentInChildren<Canvas>();
+                UI.enabled = false;
+            }
 
             // Enable and configure DistanceJoint2D
             dj.enabled = true;

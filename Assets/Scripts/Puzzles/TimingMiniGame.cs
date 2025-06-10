@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class TimingMiniGame : IPuzzle
+public class TimingMiniGame : Puzzle
 {
     [SerializeField] Laser laser;
     [SerializeField] UIMiniGame game1;
@@ -17,6 +17,7 @@ public class TimingMiniGame : IPuzzle
     {
         if (isPuzzleOver) return;
         if (button1.buttonPressed && button2.buttonPressed) { 
+            CameraManager.Instance.SwitchMode(CameraManager.mode.UpDown);
             game1.StartMiniGame(button1.player);
             game2.StartMiniGame(button2.player);
             minigameStarted = true;
