@@ -10,9 +10,6 @@ public class PlayerSpawnScript : MonoBehaviour
 
     private void Start()
     {
-        PlayerInputManager.instance.JoinPlayer();
-        PlayerInputManager.instance.playerPrefab = secondPlayer;
-        PlayerInputManager.instance.JoinPlayer();
 
     }
 
@@ -22,7 +19,7 @@ public class PlayerSpawnScript : MonoBehaviour
         playerInput.transform.position = SpawnPoints[playerCount].transform.position;
         playerCount++;
 
-
+        PlayerInputManager.instance.playerPrefab = secondPlayer;
 
         // Get the Camera component from the same GameObject
         Camera playerCamera = playerInput.transform.parent.GetComponentInChildren<Camera>();
