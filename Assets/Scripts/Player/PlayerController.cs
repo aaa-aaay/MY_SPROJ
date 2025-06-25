@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDeath
 {
     private PlayerInput _PlayerInput;
     private Rigidbody2D _rb;
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     //Player Actions
     public InputAction moveAction;
-    private InputAction jumpAction;
+    public InputAction jumpAction;
     private InputAction dashAction;
     private InputAction hurtAction;
     public InputAction interactAction;
@@ -48,11 +48,12 @@ public class PlayerController : MonoBehaviour
     private bool dash = false;
     private bool isDashing = false;
     [HideInInspector] public bool disableHorizontalMove = false;
-    [HideInInspector] public bool isDead = false;
     private bool frozen = false;
 
     [SerializeField] private Volume playerVolume;
 
+    public Transform RespawnPosition { get; set; }
+    public bool IsDead { get; set; }
 
     private void Awake()
     {
@@ -76,7 +77,7 @@ public class PlayerController : MonoBehaviour
         changeCamAction = _PlayerInput.actions["SwitchCamera"];
 
 
-        PPManager.Instance.SetVolunmes(playerVolume, playerNo);
+        PPManager.Instance.SetPlayerVolunmes(playerVolume, playerNo);
 
         haveDoubleJumped = false;
         isDashing = false;
@@ -87,7 +88,7 @@ public class PlayerController : MonoBehaviour
     {
 
         //moving left right
-        if (isDead || frozen) return;
+        if (IsDead || frozen) return;
         Vector2 moveInput = moveAction.ReadValue<Vector2>();
         dirH = Mathf.Lerp(dirH, moveInput.x, Time.deltaTime * slowdownSpeed);
         if (dirH > 0) gameObject.transform.localScale = new Vector2(1, 1);
@@ -207,13 +208,6 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void PlayerDeath()
-    {
-        isDead = true;
-        _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
-        StartCoroutine(StartRevive());
-    }
-
 
     private IEnumerator StartRevive()
     {
@@ -225,10 +219,10 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(3.0f);
         PPManager.Instance.SetBlackAndWhite(false, playerNo);
-        gameObject.transform.position = repsawnPosition.position;
+        gameObject.transform.position = RespawnPosition.position;
         _rb.constraints = RigidbodyConstraints2D.None;
         _rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        isDead = false;
+        IsDead = false;
     }
 
     public void FreezePlayer(bool freeze)
@@ -249,5 +243,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
+
+    void IDeath.StartDying()
+    {
+        IsDead = true;
+        _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
+        StartCoroutine(StartRevive());
+    }
 
 }

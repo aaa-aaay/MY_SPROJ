@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class CameraManager : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class CameraManager : MonoBehaviour
     private CinemachinePositionComposer p1Cinemachine;
     private CinemachinePositionComposer p2Cinemachine;
     private Camera singleCam;
+    private CinemachineCamera cm;
     private bool isSide = false;
+    private bool cameraLock;
     [SerializeField][Range(1f, 20f)] private float sideCameraDistance;
     [SerializeField][Range(1f, 20f)] private float topDownCameraDistance;
 
@@ -24,8 +27,6 @@ public class CameraManager : MonoBehaviour
         SideSide,
         UpDown
     
-    
-    
     }
 
 
@@ -38,10 +39,18 @@ public class CameraManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); // Optional: persists between scenes
+        DontDestroyOnLoad(gameObject); // Optional: persists between scenesCameraLock
 
 
         singleCam = gameObject.GetComponentInChildren<Camera>();
+        Volume vol = singleCam.gameObject.GetComponent<Volume>();
+        if (vol == null) Debug.Log("yooo whats tup with ts");
+        if(PPManager.Instance == null) Debug.Log("yooo whats tup with ts2");
+        PPManager.Instance.SetMainCameraVolume(vol);
+        cm = gameObject.GetComponentInChildren<CinemachineCamera>();
+        singleCam.gameObject.SetActive(false);
+
+        cameraLock = false;
     }
 
     public void SetPlayerCameras(Camera cam, int player)
@@ -63,15 +72,22 @@ public class CameraManager : MonoBehaviour
         SideSide();
     }
 
-    public void SwitchMode(mode mode)
+    public void SwitchMode(mode mode, GameObject targetforSingle = null, Vector2 targetOffset = default)
     {
-        if (mode == mode.Single) { }
+        if (cameraLock) return;
+        if (mode == mode.Single) {
+
+            MainCam(targetforSingle, targetOffset);
+
+
+        }
         else if (mode == mode.SideSide) { UpDown(); }
         else if(mode == mode.UpDown) { SideSide();}
         // Implement switching logic here (e.g., single-player to split-screen)
     }
     public void SwitchModeButton()
     {
+        if (cameraLock) return;
         if (isSide)
         {
             UpDown();
@@ -84,6 +100,8 @@ public class CameraManager : MonoBehaviour
 
     private void SideSide()
     {
+        DisablePlayerCamera(false);
+
         P1camera.rect = new Rect(0f, 0.5f, 1f, 0.5f);
         P2camera.rect = new Rect(0f, 0f, 1f, 0.5f);
 
@@ -95,6 +113,7 @@ public class CameraManager : MonoBehaviour
     }
     private void UpDown()
     {
+        DisablePlayerCamera(false);
         P1camera.rect = new Rect(0f, 0f, 0.5f, 1f); 
         P2camera.rect = new Rect(0.5f, 0f, 0.5f, 1f);
 
@@ -106,12 +125,39 @@ public class CameraManager : MonoBehaviour
         isSide = false;
     }
 
-    private void Update()
+    private void MainCam(GameObject target, Vector2 targetOffset)
     {
-        if(Input.GetKeyDown(KeyCode.C)) {
-            isSide = true;
+        DisablePlayerCamera(true);
+        LockCam(true);
 
+        if (cm == null)
+        {
 
         }
+        if (cm != null)
+        {
+            cm.Follow = target.transform;
+            CinemachinePositionComposer camPos = cm.gameObject.GetComponent<CinemachinePositionComposer>();
+            camPos.TargetOffset = new Vector3(targetOffset.x, targetOffset.y, 0);
+        }
+
+        sidesidePanel.SetActive(false);
+        updownPanel.SetActive(false);
+
+    }
+
+    private void DisablePlayerCamera(bool disable)
+    {
+        P1camera.gameObject.SetActive(!disable);
+        P2camera.gameObject.SetActive(!disable);
+        p2Cinemachine.gameObject.SetActive(!disable);
+        p1Cinemachine.gameObject.SetActive(!disable);
+        singleCam.gameObject.SetActive(disable);
+        cm.gameObject.SetActive(disable);
+    }
+
+    public void LockCam(bool lockCam)
+    {
+        cameraLock = lockCam;
     }
 }

@@ -32,19 +32,25 @@ public class FirstLevelChase : MonoBehaviour
 
         if (puzzleStarted)
         {
-            if (player1.isDead && !player2.isDead)
-            {
-                player2.PlayerDeath();
-                RestartPuzzle();
+            if(player1 is IDeath dying1 && player2 is IDeath dying2){
+
+
+                if (dying1.IsDead && !dying2.IsDead)
+                {
+                    dying2.StartDying();
+                    RestartPuzzle();
+
+                }
+                else if (dying2.IsDead && !dying1.IsDead)
+                {
+                    dying1.StartDying();
+                    RestartPuzzle();
+
+                }
+
 
             }
-            else if (player2.isDead && !player1.isDead)
-            {
-                player1.PlayerDeath();
-                RestartPuzzle();
 
-
-            }
 
         }
     }

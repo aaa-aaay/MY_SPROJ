@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
-
+[DefaultExecutionOrder(-10)]
 public class PPManager : MonoBehaviour
 {
 
@@ -12,6 +12,7 @@ public class PPManager : MonoBehaviour
     [Header("Volume Reference")]
     public Volume p1Volume;
     public Volume p2Volume;
+    public Volume mainCameraVolume;
 
     //private Bloom bloom;
     private Vignette vignette;
@@ -21,26 +22,19 @@ public class PPManager : MonoBehaviour
     private Vignette p2Vignette;
     private ColorAdjustments p2ColorAdjustments;
 
+    private Vignette mainCamVignette;
+    private ColorAdjustments mainCamColorAdjustments;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
-        //// Cache components if they exist
-        //if (p1Volume.profile.TryGet(out bloom))
-        //    bloom.active = false;
-
-
-
-        // Cache components if they exist
-        //if (p2Volume.profile.TryGet(out p2Bloom))
-        //    p2Bloom.active = false;
-
-
+         
 
     }
 
-    public void SetVolunmes(Volume vol, int player)
+    public void SetPlayerVolunmes(Volume vol, int player)
     {
 
         if (player == 1) {
@@ -64,6 +58,16 @@ public class PPManager : MonoBehaviour
                 p2ColorAdjustments.active = false;
         }
     }
+    public void SetMainCameraVolume(Volume vol)
+    {
+        mainCameraVolume = vol;
+
+        if (mainCameraVolume.profile.TryGet(out mainCamVignette))
+            mainCamVignette.active = false;
+
+        if (mainCameraVolume.profile.TryGet(out mainCamColorAdjustments))
+            mainCamColorAdjustments.active = false;
+    }
 
     //public void EnableBloom(bool enable, int player1)
     //{
@@ -84,17 +88,17 @@ public class PPManager : MonoBehaviour
 
     //}
 
-    public void EnableVignette(bool enable, int player1)
+    public void EnableVignette(bool enable, int playerNo)
     {
         Debug.Log("called");
-        if (player1 == 1)
+        if (playerNo == 1)
         {
             if(enable) {
                 if (vignette != null)
                 {
                     Debug.Log("called2");
                     vignette.active = enable;
-                    StartCoroutine(RemoveVignette(player1));
+                    StartCoroutine(RemoveVignette(playerNo));
 
                 }
             }
@@ -109,14 +113,15 @@ public class PPManager : MonoBehaviour
             }
 
         }
-        else
+        else if(playerNo == 2)
         {
+        
             if (enable)
             {
                 if (p2Vignette != null)
                 {
                     p2Vignette.active = enable;
-                    StartCoroutine(RemoveVignette(player1));
+                    StartCoroutine(RemoveVignette(playerNo));
                 }
             }
             else
@@ -129,12 +134,31 @@ public class PPManager : MonoBehaviour
             }
 
         }
+        else
+        {
+            if (enable)
+            {
+                if (mainCamVignette != null)
+                {
+                    mainCamVignette.active = enable;
+                    StartCoroutine(RemoveVignette(playerNo));
+                }
+            }
+            else
+            {
+                if (mainCamVignette != null)
+                {
+                    mainCamVignette.active = false;
+
+                }
+            }
+        }
 
     }
 
-    public void SetBlackAndWhite(bool enable, int player1)
+    public void SetBlackAndWhite(bool enable, int playerNo)
     {
-        if (player1 == 1)
+        if (playerNo == 1)
         {
             if (colorAdjustments != null)
             {
@@ -142,12 +166,20 @@ public class PPManager : MonoBehaviour
                 colorAdjustments.saturation.value = enable ? -100f : 0f;
             }
         }
-        else
+        else if (playerNo == 2)
         {
             if (p2ColorAdjustments != null)
             {
                 p2ColorAdjustments.active = true;
                 p2ColorAdjustments.saturation.value = enable ? -100f : 0f;
+            }
+        }
+        else
+        {
+            if (mainCamColorAdjustments != null)
+            {
+                mainCamColorAdjustments.active = true;
+                mainCamColorAdjustments.saturation.value = enable ? -100f : 0f;
             }
         }
 

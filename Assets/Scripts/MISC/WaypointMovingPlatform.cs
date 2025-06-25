@@ -6,12 +6,13 @@ public class WaypointMovingPlatform : MonoBehaviour
     [SerializeField] private Transform targetPos;
     [SerializeField] private bool oscilate = false;
     [SerializeField] private float speed = 2f;
-    [SerializeField] PuzzleButton button;
-    
-    private bool reachedTarget = false;
-
+    [SerializeField] private float pauseTime = 1f;
+    [SerializeField] private PuzzleButton button;
 
     private Transform currentTarget;
+    private bool isPaused = false;
+    private float pauseTimer = 0f;
+    private bool reachedTarget = false;
 
     void Start()
     {
@@ -22,25 +23,30 @@ public class WaypointMovingPlatform : MonoBehaviour
 
     void Update()
     {
+        if (button != null)
+        {
+            if (!button.buttonPressed) return;
+        }
 
-
-        if (button != null) {
-            if (button.buttonPressed) {
-                Move();
-
-
-
+        if (isPaused)
+        {
+            pauseTimer += Time.deltaTime;
+            if (pauseTimer >= pauseTime)
+            {
+                isPaused = false;
+                pauseTimer = 0f;
+                if (oscilate)
+                {
+                    currentTarget = (currentTarget == targetPos) ? startPos : targetPos;
+                }
             }
-        
         }
         else
         {
             Move();
         }
-
-
-
     }
+
     private void Move()
     {
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, speed * Time.deltaTime);
@@ -48,11 +54,7 @@ public class WaypointMovingPlatform : MonoBehaviour
         if (!reachedTarget && Vector3.Distance(transform.position, currentTarget.position) < 0.01f)
         {
             reachedTarget = true;
-
-            if (oscilate)
-            {
-                currentTarget = (currentTarget == targetPos) ? startPos : targetPos;
-            }
+            isPaused = true;
         }
 
         if (Vector3.Distance(transform.position, currentTarget.position) > 0.01f)
@@ -66,9 +68,7 @@ public class WaypointMovingPlatform : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Vector3 originalScale = collision.transform.localScale;
-
-            collision.transform.SetParent(transform, true); 
-
+            collision.transform.SetParent(transform, true);
             collision.transform.localScale = originalScale;
         }
     }
@@ -80,5 +80,4 @@ public class WaypointMovingPlatform : MonoBehaviour
             collision.gameObject.transform.parent = null;
         }
     }
-
 }

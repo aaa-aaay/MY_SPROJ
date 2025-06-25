@@ -5,11 +5,13 @@ public class DeathZone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            PlayerController player = collision.gameObject.GetComponent<PlayerController>();
-            if (player.isDead) return;
-            player.PlayerDeath();
+
+        IDeath dying = collision.gameObject.GetComponent<IDeath>();
+        if (dying != null) {
+
+            if (dying.IsDead) return;
+            dying.StartDying();
+
 
         }
     }

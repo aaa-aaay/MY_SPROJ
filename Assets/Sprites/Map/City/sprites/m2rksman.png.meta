@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: a2a1426a201c5154fb28cabd7afdbd13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2091713078228713111
+    second: m2rksman_0
+  - first:
+      213: 3525899186994553167
+    second: m2rksman_1
+  - first:
+      213: -6414487069224199248
+    second: m2rksman_2
+  - first:
+      213: 5942510399904442536
+    second: m2rksman_3
+  - first:
+      213: -6685041949149557625
+    second: m2rksman_4
+  - first:
+      213: -2852085867781827590
+    second: m2rksman_5
+  - first:
+      213: -4284015560425795106
+    second: m2rksman_6
+  - first:
+      213: 6307551596139872307
+    second: m2rksman_7
+  - first:
+      213: 6880080585213771001
+    second: m2rksman_8
+  - first:
+      213: -6487429489645453058
+    second: m2rksman_9
+  - first:
+      213: -1209947828067960493
+    second: m2rksman_10
+  - first:
+      213: -1335161118135043397
+    second: m2rksman_11
+  - first:
+      213: -6556620488425277568
+    second: m2rksman_12
+  - first:
+      213: 4298529135659349653
+    second: m2rksman_13
+  - first:
+      213: 8118546626078599533
+    second: m2rksman_14
+  - first:
+      213: -1459466929309828459
+    second: m2rksman_15
+  - first:
+      213: 1236986189979768685
+    second: m2rksman_16
+  - first:
+      213: 7522234224406744291
+    second: m2rksman_17
+  - first:
+      213: 6247547442837202656
+    second: m2rksman_18
+  - first:
+      213: 6100615200577919629
+    second: m2rksman_19
+  - first:
+      213: -8802548327233445036
+    second: m2rksman_20
+  - first:
+      213: 1800810321983099346
+    second: m2rksman_21
+  - first:
+      213: 4438209763563310221
+    second: m2rksman_22
+  - first:
+      213: 2713951574022365588
+    second: m2rksman_23
+  - first:
+      213: -6375686362562903168
+    second: m2rksman_24
+  - first:
+      213: -4765701388169906841
+    second: m2rksman_25
+  - first:
+      213: -8585575274896613104
+    second: m2rksman_26
+  - first:
+      213: 4290263325608712471
+    second: m2rksman_27
+  - first:
+      213: -1145959189010759471
+    second: m2rksman_28
+  - first:
+      213: 4909157773665190998
+    second: m2rksman_29
+  - first:
+      213: 4319410012774908252
+    second: m2rksman_30
+  - first:
+      213: -7318671732672473854
+    second: m2rksman_31
+  - first:
+      213: -1269558141067110008
+    second: m2rksman_32
+  - first:
+      213: -6736560159837786451
+    second: m2rksman_33
+  - first:
+      213: -4702328954850921171
+    second: m2rksman_34
+  - first:
+      213: 1555712733486714877
+    second: m2rksman_35
+  - first:
+      213: -3134646619902678128
+    second: m2rksman_36
+  - first:
+      213: 3217808700341327971
+    second: m2rksman_37
+  - first:
+      213: -1022378090799146835
+    second: m2rksman_38
+  - first:
+      213: 935289762352390842
+    second: m2rksman_39
+  - first:
+      213: 522489007134410982
+    second: m2rksman_40
+  - first:
+      213: -3896817388944055122
+    second: m2rksman_41
+  - first:
+      213: 4469791270507961631
+    second: m2rksman_42
+  - first:
+      213: -4198432236293347581
+    second: m2rksman_43
+  - first:
+      213: -1368507970193596940
+    second: m2rksman_44
+  - first:
+      213: -7739707665132787558
+    second: m2rksman_45
+  - first:
+      213: -187497944467530649
+    second: m2rksman_46
+  - first:
+      213: 7924718747046185013
+    second: m2rksman_47
+  - first:
+      213: -5289052110889424424
+    second: m2rksman_48
+  - first:
+      213: 2214476813458814237
+    second: m2rksman_49
+  - first:
+      213: 42424240640576105
+    second: m2rksman_50
+  - first:
+      213: 5651304673921516750
+    second: m2rksman_51
+  - first:
+      213: 4308727171254194258
+    second: m2rksman_52
+  - first:
+      213: 9022732557136063703
+    second: m2rksman_53
+  - first:
+      213: 1209151805538340872
+    second: m2rksman_54
+  - first:
+      213: 467736713329529116
+    second: m2rksman_55
+  - first:
+      213: 2826798207134870020
+    second: m2rksman_56
+  - first:
+      213: -9105345880596510409
+    second: m2rksman_57
+  - first:
+      213: 8964631139016454962
+    second: m2rksman_58
+  - first:
+      213: -6358912690379227449
+    second: m2rksman_59
+  - first:
+      213: -7199554703803487765
+    second: m2rksman_60
+  - first:
+      213: 7404821434056934881
+    second: m2rksman_61
+  - first:
+      213: -4837168110215360182
+    second: m2rksman_62
+  - first:
+      213: -3209060074336786374
+    second: m2rksman_63
+  - first:
+      213: -2895299903381467810
+    second: m2rksman_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m2rksman_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 159
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e7cd756f1470d10800000000000000
+      internalID: 2091713078228713111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 168
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4126aa21a28ee030800000000000000
+      internalID: 3525899186994553167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 159
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb1e86fef92bf6a0800000000000000
+      internalID: -6414487069224199248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 159
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a86e5459b9087250800000000000000
+      internalID: 5942510399904442536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 167
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c0b5024c5f933a0800000000000000
+      internalID: -6685041949149557625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 159
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3d3f5a30b5b68d0800000000000000
+      internalID: -2852085867781827590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 168
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed11394ab8e1c84c0800000000000000
+      internalID: -4284015560425795106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3308d5202cce88750800000000000000
+      internalID: 6307551596139872307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 136
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc7abb07d4fa7f50800000000000000
+      internalID: 6880080585213771001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 127
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef00a44404508f5a0800000000000000
+      internalID: -6487429489645453058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 136
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359f0476cd6653fe0800000000000000
+      internalID: -1209947828067960493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbab5ab790e887de0800000000000000
+      internalID: -1335161118135043397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 127
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087fc5c77643205a0800000000000000
+      internalID: -6556620488425277568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59674ab697177ab30800000000000000
+      internalID: 4298529135659349653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 104
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d696cdb742fdaa070800000000000000
+      internalID: 8118546626078599533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 95
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59abe057f8eeebbe0800000000000000
+      internalID: -1459466929309828459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 95
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67decdc268aa2110800000000000000
+      internalID: 1236986189979768685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 103
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eccc0f2c28546860800000000000000
+      internalID: 7522234224406744291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 95
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e626bf5c4fb3b650800000000000000
+      internalID: 6247547442837202656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 104
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a9bc5d33db9a450800000000000000
+      internalID: 6100615200577919629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 95
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453aa0d2fe017d580800000000000000
+      internalID: -8802548327233445036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 95
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1d8ad5273cdf810800000000000000
+      internalID: 1800810321983099346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c8cdbe340b79d30800000000000000
+      internalID: 4438209763563310221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 72
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4912733d394e9a520800000000000000
+      internalID: 2713951574022365588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 63
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083c22878030587a0800000000000000
+      internalID: -6375686362562903168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 72
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765fb8456d3dcddb0800000000000000
+      internalID: -4765701388169906841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011296b96c8e9d880800000000000000
+      internalID: -8585575274896613104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_27
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7191bcb83c31a8b30800000000000000
+      internalID: 4290263325608712471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 72
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d04beb603cb810f0800000000000000
+      internalID: -1145959189010759471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_29
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 65
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65449ad3cf4d02440800000000000000
+      internalID: 4909157773665190998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 72
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51c6ba7580a1fb30800000000000000
+      internalID: 4319410012774908252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 63
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2055d5ac5dade6a90800000000000000
+      internalID: -7318671732672473854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8895dfbd89f916ee0800000000000000
+      internalID: -1269558141067110008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 64
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daee1d8f93ee282a0800000000000000
+      internalID: -6736560159837786451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_34
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 63
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25b315cab8fdbeb0800000000000000
+      internalID: -4702328954850921171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_35
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 65
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff07041d70079510800000000000000
+      internalID: 1555712733486714877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_36
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 63
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b625cd18f7f74d0800000000000000
+      internalID: -3134646619902678128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 64
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368910bd6f3f7ac20800000000000000
+      internalID: 3217808700341327971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 63
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da856cf0b88cfc1f0800000000000000
+      internalID: -1022378090799146835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_39
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 71
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2e21f5511dafc00800000000000000
+      internalID: 935289762352390842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_40
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 64
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e80b45dbf0404700800000000000000
+      internalID: 522489007134410982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_41
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 63
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4ac612b39bbe9c0800000000000000
+      internalID: -3896817388944055122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dd4c28a73e70e30800000000000000
+      internalID: 4469791270507961631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 40
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307af26102c2cb5c0800000000000000
+      internalID: -4198432236293347581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdd1547045120de0800000000000000
+      internalID: -1368507970193596940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 39
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a986462a2e8079490800000000000000
+      internalID: -7739707665132787558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c95e7ec9fd56df0800000000000000
+      internalID: -187497944467530649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_47
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 39
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5380196a6b14afd60800000000000000
+      internalID: 7924718747046185013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 31
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9e7e3b0238996b0800000000000000
+      internalID: -5289052110889424424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_49
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 39
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d153d85dde66bbe10800000000000000
+      internalID: 2214476813458814237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_50
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a4f314f98b69000800000000000000
+      internalID: 42424240640576105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_51
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4c896b8a77d6e40800000000000000
+      internalID: 5651304673921516750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_52
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 32
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2501eac988cabcb30800000000000000
+      internalID: 4308727171254194258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_53
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc627bc47f273d70800000000000000
+      internalID: 9022732557136063703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_54
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 31
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80092a82925c7c010800000000000000
+      internalID: 1209151805538340872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_55
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 31
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c115a66001cbd7600800000000000000
+      internalID: 467736713329529116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_56
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 31
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a2cfb0efdca3720800000000000000
+      internalID: 2826798207134870020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_57
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 31
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7398afde92053a180800000000000000
+      internalID: -9105345880596510409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 8
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2333b773684c86c70800000000000000
+      internalID: 8964631139016454962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_59
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cef83c599a90c7a0800000000000000
+      internalID: -6358912690379227449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_60
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9ecca442b061c90800000000000000
+      internalID: -7199554703803487765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_61
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58922acd533c660800000000000000
+      internalID: 7404821434056934881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4114cf6b3deedcb0800000000000000
+      internalID: -4837168110215360182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38644e5dd02773d0800000000000000
+      internalID: -3209060074336786374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m2rksman_64
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d89bce314d1d7d0800000000000000
+      internalID: -2895299903381467810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      m2rksman_0: 2091713078228713111
+      m2rksman_1: 3525899186994553167
+      m2rksman_10: -1209947828067960493
+      m2rksman_11: -1335161118135043397
+      m2rksman_12: -6556620488425277568
+      m2rksman_13: 4298529135659349653
+      m2rksman_14: 8118546626078599533
+      m2rksman_15: -1459466929309828459
+      m2rksman_16: 1236986189979768685
+      m2rksman_17: 7522234224406744291
+      m2rksman_18: 6247547442837202656
+      m2rksman_19: 6100615200577919629
+      m2rksman_2: -6414487069224199248
+      m2rksman_20: -8802548327233445036
+      m2rksman_21: 1800810321983099346
+      m2rksman_22: 4438209763563310221
+      m2rksman_23: 2713951574022365588
+      m2rksman_24: -6375686362562903168
+      m2rksman_25: -4765701388169906841
+      m2rksman_26: -8585575274896613104
+      m2rksman_27: 4290263325608712471
+      m2rksman_28: -1145959189010759471
+      m2rksman_29: 4909157773665190998
+      m2rksman_3: 5942510399904442536
+      m2rksman_30: 4319410012774908252
+      m2rksman_31: -7318671732672473854
+      m2rksman_32: -1269558141067110008
+      m2rksman_33: -6736560159837786451
+      m2rksman_34: -4702328954850921171
+      m2rksman_35: 1555712733486714877
+      m2rksman_36: -3134646619902678128
+      m2rksman_37: 3217808700341327971
+      m2rksman_38: -1022378090799146835
+      m2rksman_39: 935289762352390842
+      m2rksman_4: -6685041949149557625
+      m2rksman_40: 522489007134410982
+      m2rksman_41: -3896817388944055122
+      m2rksman_42: 4469791270507961631
+      m2rksman_43: -4198432236293347581
+      m2rksman_44: -1368507970193596940
+      m2rksman_45: -7739707665132787558
+      m2rksman_46: -187497944467530649
+      m2rksman_47: 7924718747046185013
+      m2rksman_48: -5289052110889424424
+      m2rksman_49: 2214476813458814237
+      m2rksman_5: -2852085867781827590
+      m2rksman_50: 42424240640576105
+      m2rksman_51: 5651304673921516750
+      m2rksman_52: 4308727171254194258
+      m2rksman_53: 9022732557136063703
+      m2rksman_54: 1209151805538340872
+      m2rksman_55: 467736713329529116
+      m2rksman_56: 2826798207134870020
+      m2rksman_57: -9105345880596510409
+      m2rksman_58: 8964631139016454962
+      m2rksman_59: -6358912690379227449
+      m2rksman_6: -4284015560425795106
+      m2rksman_60: -7199554703803487765
+      m2rksman_61: 7404821434056934881
+      m2rksman_62: -4837168110215360182
+      m2rksman_63: -3209060074336786374
+      m2rksman_64: -2895299903381467810
+      m2rksman_7: 6307551596139872307
+      m2rksman_8: 6880080585213771001
+      m2rksman_9: -6487429489645453058
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

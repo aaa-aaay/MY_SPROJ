@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 73079dcd56926ac4f8be62e5bb7d5d31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1969793409761251170
+    second: hamm3rhead_0
+  - first:
+      213: -3114778996179391345
+    second: hamm3rhead_1
+  - first:
+      213: -5674429204725712621
+    second: hamm3rhead_2
+  - first:
+      213: 7579826184335209308
+    second: hamm3rhead_3
+  - first:
+      213: 5710812807533887912
+    second: hamm3rhead_4
+  - first:
+      213: -5383086642157128919
+    second: hamm3rhead_5
+  - first:
+      213: 5341194104402660437
+    second: hamm3rhead_6
+  - first:
+      213: 6219017644619831590
+    second: hamm3rhead_7
+  - first:
+      213: -5509317610017631920
+    second: hamm3rhead_8
+  - first:
+      213: 518027267828155638
+    second: hamm3rhead_9
+  - first:
+      213: 8015344986655423405
+    second: hamm3rhead_10
+  - first:
+      213: -6410923615335064792
+    second: hamm3rhead_11
+  - first:
+      213: 3667938886609082461
+    second: hamm3rhead_12
+  - first:
+      213: -609101824890606663
+    second: hamm3rhead_13
+  - first:
+      213: -6705941245372745321
+    second: hamm3rhead_14
+  - first:
+      213: -3466839598582904633
+    second: hamm3rhead_15
+  - first:
+      213: -6824949128430970596
+    second: hamm3rhead_16
+  - first:
+      213: 4095526330164649779
+    second: hamm3rhead_17
+  - first:
+      213: 3408836569007589628
+    second: hamm3rhead_18
+  - first:
+      213: 7527243529847691696
+    second: hamm3rhead_19
+  - first:
+      213: 5225149684199289423
+    second: hamm3rhead_20
+  - first:
+      213: 1413184741179893750
+    second: hamm3rhead_21
+  - first:
+      213: 2587353311266450504
+    second: hamm3rhead_22
+  - first:
+      213: 7388689124409735184
+    second: hamm3rhead_23
+  - first:
+      213: 368894615920610508
+    second: hamm3rhead_24
+  - first:
+      213: 3530342050462243057
+    second: hamm3rhead_25
+  - first:
+      213: -9013096955911126874
+    second: hamm3rhead_26
+  - first:
+      213: 4393533887858459575
+    second: hamm3rhead_27
+  - first:
+      213: -6814608302392444472
+    second: hamm3rhead_28
+  - first:
+      213: -3339951485054622000
+    second: hamm3rhead_29
+  - first:
+      213: -468769730678073399
+    second: hamm3rhead_30
+  - first:
+      213: -5928927020658978008
+    second: hamm3rhead_31
+  - first:
+      213: -3503947119128854748
+    second: hamm3rhead_32
+  - first:
+      213: -790709304861626316
+    second: hamm3rhead_33
+  - first:
+      213: -5718777722439748070
+    second: hamm3rhead_34
+  - first:
+      213: -7261040196210158485
+    second: hamm3rhead_35
+  - first:
+      213: 5593474879597450963
+    second: hamm3rhead_36
+  - first:
+      213: 5521487182455567294
+    second: hamm3rhead_37
+  - first:
+      213: 7864735691253754168
+    second: hamm3rhead_38
+  - first:
+      213: 4974243505144002392
+    second: hamm3rhead_39
+  - first:
+      213: -9132693408859612007
+    second: hamm3rhead_40
+  - first:
+      213: 8089340336759025465
+    second: hamm3rhead_41
+  - first:
+      213: 7388749576684387890
+    second: hamm3rhead_42
+  - first:
+      213: 5434527221337128858
+    second: hamm3rhead_43
+  - first:
+      213: -2919543987625195848
+    second: hamm3rhead_44
+  - first:
+      213: 18645472525458058
+    second: hamm3rhead_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hamm3rhead_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 191
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f89b57bac165b10800000000000000
+      internalID: 1969793409761251170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 201
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c21ea710516c4d0800000000000000
+      internalID: -3114778996179391345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 191
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b835e3b06041b0800000000000000
+      internalID: -5674429204725712621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 200
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53318841c3f03960800000000000000
+      internalID: 7579826184335209308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 191
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a10fc3cdf1e04f40800000000000000
+      internalID: 5710812807533887912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 200
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923f213483f6b45b0800000000000000
+      internalID: -5383086642157128919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 191
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cc4553dbbbf1a40800000000000000
+      internalID: 5341194104402660437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 201
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629937719936e4650800000000000000
+      internalID: 6219017644619831590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0515814c2d8fa83b0800000000000000
+      internalID: -5509317610017631920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f40dd23e07603700800000000000000
+      internalID: 518027267828155638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 143
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabfdc95cc93c3f60800000000000000
+      internalID: 8015344986655423405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 153
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b5ac930f2d707a0800000000000000
+      internalID: -6410923615335064792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 143
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d581d2adbf227e230800000000000000
+      internalID: 3667938886609082461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 153
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb6a5f0e190c87f0800000000000000
+      internalID: -609101824890606663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 143
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799bae887f5bfe2a0800000000000000
+      internalID: -6705941245372745321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 152
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c84531d0cf43efc0800000000000000
+      internalID: -3466839598582904633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 143
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1992c58de8e841a0800000000000000
+      internalID: -6824949128430970596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 152
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f19bd8f7b36d830800000000000000
+      internalID: 4095526330164649779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 143
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf80f097cce9e4f20800000000000000
+      internalID: 3408836569007589628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 152
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9dd6efb14267860800000000000000
+      internalID: 7527243529847691696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4271f824f5738840800000000000000
+      internalID: 5225149684199289423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 105
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7a704e804ac9310800000000000000
+      internalID: 1413184741179893750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 95
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ca772d02028e320800000000000000
+      internalID: 2587353311266450504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 106
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018fb389c95e98660800000000000000
+      internalID: 7388689124409735184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 95
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc808dd2b39e1500800000000000000
+      internalID: 368894615920610508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 106
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f81d6de36b4ef030800000000000000
+      internalID: 3530342050462243057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 95
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a043c0721c0be280800000000000000
+      internalID: -9013096955911126874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 134
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3c1760bc7f8fc30800000000000000
+      internalID: 4393533887858459575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_28
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 95
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c97874bad5ad61a0800000000000000
+      internalID: -6814608302392444472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 103
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6e746f1db16a1d0800000000000000
+      internalID: -3339951485054622000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 95
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c75a71e9689e79f0800000000000000
+      internalID: -468769730678073399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_31
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 103
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823186a994838bda0800000000000000
+      internalID: -5928927020658978008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_32
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 95
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f329ce8aa7f5fc0800000000000000
+      internalID: -3503947119128854748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_33
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 95
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430702b9316d605f0800000000000000
+      internalID: -790709304861626316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_34
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 105
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16bf88f5f1d2a0b0800000000000000
+      internalID: -5718777722439748070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b649f05896a9b3b90800000000000000
+      internalID: -7261040196210158485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 47
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d61a7a74c300ad40800000000000000
+      internalID: 5593474879597450963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_37
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 47
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3f22e965340ac40800000000000000
+      internalID: 5521487182455567294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 47
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83924892177252d60800000000000000
+      internalID: 7864735691253754168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857f66efc10180540800000000000000
+      internalID: 4974243505144002392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 9
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1f525bb7224180800000000000000
+      internalID: -9132693408859612007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_41
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fa2c75d2c134070800000000000000
+      internalID: 8089340336759025465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e379cb79c1a8660800000000000000
+      internalID: 7388749576684387890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f7df5e6b15b6b40800000000000000
+      internalID: 5434527221337128858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6097f2632bb77d0800000000000000
+      internalID: -2919543987625195848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamm3rhead_45
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a9c8e55fd324000800000000000000
+      internalID: 18645472525458058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hamm3rhead_0: 1969793409761251170
+      hamm3rhead_1: -3114778996179391345
+      hamm3rhead_10: 8015344986655423405
+      hamm3rhead_11: -6410923615335064792
+      hamm3rhead_12: 3667938886609082461
+      hamm3rhead_13: -609101824890606663
+      hamm3rhead_14: -6705941245372745321
+      hamm3rhead_15: -3466839598582904633
+      hamm3rhead_16: -6824949128430970596
+      hamm3rhead_17: 4095526330164649779
+      hamm3rhead_18: 3408836569007589628
+      hamm3rhead_19: 7527243529847691696
+      hamm3rhead_2: -5674429204725712621
+      hamm3rhead_20: 5225149684199289423
+      hamm3rhead_21: 1413184741179893750
+      hamm3rhead_22: 2587353311266450504
+      hamm3rhead_23: 7388689124409735184
+      hamm3rhead_24: 368894615920610508
+      hamm3rhead_25: 3530342050462243057
+      hamm3rhead_26: -9013096955911126874
+      hamm3rhead_27: 4393533887858459575
+      hamm3rhead_28: -6814608302392444472
+      hamm3rhead_29: -3339951485054622000
+      hamm3rhead_3: 7579826184335209308
+      hamm3rhead_30: -468769730678073399
+      hamm3rhead_31: -5928927020658978008
+      hamm3rhead_32: -3503947119128854748
+      hamm3rhead_33: -790709304861626316
+      hamm3rhead_34: -5718777722439748070
+      hamm3rhead_35: -7261040196210158485
+      hamm3rhead_36: 5593474879597450963
+      hamm3rhead_37: 5521487182455567294
+      hamm3rhead_38: 7864735691253754168
+      hamm3rhead_39: 4974243505144002392
+      hamm3rhead_4: 5710812807533887912
+      hamm3rhead_40: -9132693408859612007
+      hamm3rhead_41: 8089340336759025465
+      hamm3rhead_42: 7388749576684387890
+      hamm3rhead_43: 5434527221337128858
+      hamm3rhead_44: -2919543987625195848
+      hamm3rhead_45: 18645472525458058
+      hamm3rhead_5: -5383086642157128919
+      hamm3rhead_6: 5341194104402660437
+      hamm3rhead_7: 6219017644619831590
+      hamm3rhead_8: -5509317610017631920
+      hamm3rhead_9: 518027267828155638
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

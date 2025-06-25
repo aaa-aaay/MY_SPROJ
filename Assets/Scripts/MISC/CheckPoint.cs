@@ -12,14 +12,34 @@ public class CheckPoint : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             PlayerController player = other.gameObject.GetComponent<PlayerController>();
-            if (player.playerNo == 1)
+            if(player is IDeath dying)
             {
-                player.repsawnPosition = p1Respawn;
+
+                if (player.playerNo == 1)
+                {
+
+                    dying.RespawnPosition = p1Respawn;
+
+                }
+                else
+                {
+                    dying.RespawnPosition = p2Respawn;
+                }
             }
-            else
-            {
-                player.repsawnPosition = p2Respawn;
-            }
+
+            return;
+
         }
+
+
+
+
+        if (other.gameObject.GetComponent<IDeath>() != null)
+        {
+            IDeath death = other.gameObject.GetComponent<IDeath>();
+
+            death.RespawnPosition = p1Respawn;
+        }
+
     }
 }
