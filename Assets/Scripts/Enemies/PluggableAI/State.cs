@@ -21,6 +21,14 @@ public class State : ScriptableObject
         }
     }
 
+    private void InitActions(StateController controller)
+    {
+        foreach(Action action in actions)
+        {
+            action.Init(controller);
+        }
+    }
+
     private void CheckTransition(StateController controller)
     {
         foreach (Transition transition in transitions)

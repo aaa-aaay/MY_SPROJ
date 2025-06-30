@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb38e306ccd1774a849bcd05431b5af, type: 3}
+  m_Name: Phase2LaserState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: c57b5ee41cf8436468d49868235086f8, type: 2}
+  - {fileID: 11400000, guid: 079406e155bd59149a840f5ebda0d30d, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: c768ad7d9b59aa54aa04ea44793a9f6a, type: 2}
+    trueState: {fileID: 11400000, guid: aaa3b0b8af537fa48b6c2bfd51eb3285, type: 2}
+    falseState: {fileID: 11400000, guid: b43baf0609de1b649a1c0289a65d863a, type: 2}
+  sceneGizmoColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

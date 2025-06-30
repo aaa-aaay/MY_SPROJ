@@ -5,6 +5,8 @@ public class EnterShip : MonoBehaviour
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject ship;
     [SerializeField] ShipControls shipControls;
+    [SerializeField] GameObject GolemBoss;
+    [SerializeField] float  cameraOffset;
 
     private bool player1In;
     private bool player2In;
@@ -17,6 +19,7 @@ public class EnterShip : MonoBehaviour
         canvas.SetActive(false);
         player1Boarded = false;
         player2Boarded = false;
+        GolemBoss.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -78,8 +81,10 @@ public class EnterShip : MonoBehaviour
 
         if (shipCount == 2)
         {
+
+            GolemBoss.SetActive(true);
             shipControls.StartCar();
-            CameraManager.Instance.SwitchMode(CameraManager.mode.Single, ship, new Vector2(10,0));
+            CameraManager.Instance.SwitchMode(CameraManager.mode.Single, ship, new Vector2(cameraOffset, 0));
         }
     }
 }

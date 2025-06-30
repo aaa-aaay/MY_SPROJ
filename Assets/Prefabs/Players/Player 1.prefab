@@ -147,6 +147,15 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  jumpAction:
+    m_Name: Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 40ab8118-2601-40a7-9fe4-146eecf1901c
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   interactAction:
     m_Name: Interact
     m_Type: 0
@@ -211,7 +220,6 @@ MonoBehaviour:
   dirH: 0
   rayCastGroundLength: 0.5
   disableHorizontalMove: 0
-  isDead: 0
   playerVolume: {fileID: 5352734916001350443}
 --- !u!114 &6319639458141290333
 MonoBehaviour:

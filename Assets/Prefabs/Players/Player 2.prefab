@@ -145,6 +145,15 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  jumpAction:
+    m_Name: Jump
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b9ff9cc9-4659-4dc9-8368-63db4e138a77
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   interactAction:
     m_Name: Interact
     m_Type: 0
@@ -209,7 +218,6 @@ MonoBehaviour:
   dirH: 0
   rayCastGroundLength: 0.5
   disableHorizontalMove: 0
-  isDead: 0
   playerVolume: {fileID: 371447768987398935}
 --- !u!114 &6319639458141290333
 MonoBehaviour:
@@ -237,7 +245,7 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Gamepad
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 6011126969965399458}

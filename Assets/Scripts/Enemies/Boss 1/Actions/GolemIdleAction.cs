@@ -9,6 +9,11 @@ public class GolemIdleAction : Action
         controller.animator.Play("idle");
     }
 
+    public override void Init(StateController controller)
+    {
+
+    }
+
     private void Idle(StateController controller)
     {
 

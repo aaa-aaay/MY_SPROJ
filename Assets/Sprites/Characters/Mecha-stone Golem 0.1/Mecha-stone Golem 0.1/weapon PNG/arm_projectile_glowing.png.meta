@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -88,9 +88,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arm_projectile_glowing_0: 95044405116505353
+      arm_projectile_glowing_1: 5053551332890923903
+      arm_projectile_glowing_2: 959987844630726459
+      arm_projectile_glowing_3: 8066067344937695706
+      arm_projectile_glowing_4: 8081469474457304709
+      arm_projectile_glowing_5: -4212147560741854503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

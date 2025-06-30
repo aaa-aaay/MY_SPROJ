@@ -8,6 +8,7 @@ public class StateController : MonoBehaviour
     [SerializeField] private EnemyStats stats;
     [SerializeField] private Transform stateColorDebug;
     public Animator animator;
+    public Collider2D hitColldier;
 
 
     [HideInInspector] public float timer;
@@ -50,6 +51,12 @@ public class StateController : MonoBehaviour
 
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        hitColldier = collision;
+    }
+
 
     //debugging gismos
     private void OnDrawGizmos()
