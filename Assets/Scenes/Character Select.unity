@@ -861,6 +861,7 @@ MonoBehaviour:
   - {fileID: 3853873561246074440, guid: 26239e6b5197c7e43a143edf754901fe, type: 3}
   - {fileID: 3853873561246074440, guid: 69482abe92cc2364796a003ef71d462b, type: 3}
   loadedCheckPointNo: 0
+  loadedData: 0
 --- !u!4 &1311688130
 Transform:
   m_ObjectHideFlags: 0
@@ -1033,6 +1034,7 @@ MonoBehaviour:
   - {fileID: 1634242573}
   - {fileID: 1823703974}
   - {fileID: 2105826767}
+  canvas: {fileID: 986190586}
 --- !u!114 &1414725761
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class SlotsManager : MonoBehaviour
 
     [SerializeField] CharacterSlot[] characterSlots2;
     private int joinedPlayerCount = 0;
+
+    [SerializeField] private Canvas canvas;
    
     private void OnPlayerJoined(PlayerInput playerInput)
     {
@@ -34,9 +36,6 @@ public class SlotsManager : MonoBehaviour
         {
             playerInput.GetComponent<CharacterSelector>().SetSlots(characterSlots2, 1);
         }
-
-
-        Canvas canvas = FindObjectOfType<Canvas>();
         if (canvas != null)
         {
             playerInput.transform.SetParent(canvas.transform, worldPositionStays: true);
