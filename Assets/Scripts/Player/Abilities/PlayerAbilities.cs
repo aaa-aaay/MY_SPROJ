@@ -10,7 +10,7 @@ public abstract class PlayerAbilities : MonoBehaviour
     [SerializeField]private int playerFor;
     private void Start()
     {
-        
+        //SetAbilityToPlayer();
     }
     private void Awake()
     {

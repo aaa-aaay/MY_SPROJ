@@ -26,7 +26,7 @@ public class ShipControls : MonoBehaviour, IDeath
     private bool canShoot;
 
 
-    [HideInInspector]public float shipHealth = 3;
+    [HideInInspector]private float shipHealth = 3;
 
     public Transform RespawnPosition { get; set; }
     public bool IsDead { get; set; }
@@ -36,12 +36,15 @@ public class ShipControls : MonoBehaviour, IDeath
         IsDead = false;
         rb =GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         shipHealth = defaultShipHealth;
     }
 
     public void StartCar()
     {
+
+        if (shipStarted) return;
         rb.constraints = RigidbodyConstraints2D.None;
         shipStarted = true;
 
@@ -77,11 +80,6 @@ public class ShipControls : MonoBehaviour, IDeath
 
 
 
-        if (shipHealth <= 0)
-        {
-
-            StartDying();
-        }
 
 
 
@@ -140,6 +138,7 @@ public class ShipControls : MonoBehaviour, IDeath
     public void StartDying()
     {
         IsDead = true;
+
         StartCoroutine(StartRevive());
     }
 
@@ -147,10 +146,11 @@ public class ShipControls : MonoBehaviour, IDeath
 
     private IEnumerator StartRevive()
     {
-        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        //play explosion animation
         animator.SetTrigger("explode");
         sprite.SetActive(false);
-        //play explosion animation
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+
 
 
         yield return new WaitForSeconds(0.3f);
@@ -160,9 +160,27 @@ public class ShipControls : MonoBehaviour, IDeath
         PPManager.Instance.SetBlackAndWhite(false, 3);
         gameObject.transform.position = RespawnPosition.position;
         rb.constraints = RigidbodyConstraints2D.None;
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         sprite.SetActive(true);
         shipHealth = defaultShipHealth;
         IsDead = false;
+    }
+
+    public void ShipHit()
+    {
+        shipHealth--;
+
+        if (shipHealth <= 0)
+        {
+
+            StartDying();
+        }
+        else
+        {
+            PPManager.Instance.EnableVignette(true, 3);
+        }
+
+
+
+
     }
 }

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59a4ca640940bc469117799bad7687c, type: 3}
   m_Name: ShootAction
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8709333969330996677, guid: 1068a7c438818324380980ef9c6573c4, type: 3}
+  bulletPrefab: {fileID: 1603277477545579118, guid: c0565476c1ac73d449aff236fdbf65ad, type: 3}
   shootLocation: {fileID: 0}

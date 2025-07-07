@@ -58,9 +58,6 @@ public class PlayerController : MonoBehaviour, IDeath
     private void Awake()
     {
         _PlayerInput = GetComponent<PlayerInput>();
-    }
-    void Start()
-    {
         _rb = GetComponent<Rigidbody2D>();
         _MovementController = GetComponent<MovementController>();
         _AnimationManager = GetComponentInChildren<AnimationManager>();
@@ -81,6 +78,10 @@ public class PlayerController : MonoBehaviour, IDeath
 
         haveDoubleJumped = false;
         isDashing = false;
+    }
+    void Start()
+    {
+
 
 
     }

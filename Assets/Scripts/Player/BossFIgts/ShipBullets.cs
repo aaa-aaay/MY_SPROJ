@@ -7,6 +7,12 @@ public class ShipBullets : Bullet
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         //rb.gravityScale = 0;
         rb.AddForce(direction * power, ForceMode2D.Impulse);
+
+        if (direction != Vector2.zero)
+        {
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
     }
 
 
@@ -23,7 +29,7 @@ public class ShipBullets : Bullet
             }
 
 
-            DestroyBullet();
+            Destroy(gameObject);
         }
     }
 }

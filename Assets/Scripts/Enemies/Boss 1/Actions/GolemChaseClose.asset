@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GolemChaseClose
   m_EditorClassIdentifier: 
   chaseDistance: 15
-  offsetY: -4
+  offsetY: -6
   moveSpeed: 6

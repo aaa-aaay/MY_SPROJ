@@ -53,6 +53,7 @@ public class CharacterSelector : MonoBehaviour
 
         if (currentIndex == 1) return;
 
+        AudioManager.instance.PlaySFX("UIConfirm");
 
 
         hasConfirmed = true;
@@ -81,6 +82,9 @@ public class CharacterSelector : MonoBehaviour
 
     private void UpdateSlotAssignment()
     {
+
+        AudioManager.instance.PlaySFX("UISelect");
+
         if (previousIndex >= 0 && previousIndex < characterSlots.Length)
         {
             characterSlots[previousIndex].setSlotTaken(false);

@@ -139,7 +139,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -8
   m_Sprite: {fileID: -1179585776, guid: a9d711b4b19c85d4aad64240f0c5f63a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -207,7 +207,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 3.34375}
+  m_Size: {x: 0.6, y: 3}
   m_EdgeRadius: 0
 --- !u!1 &3649839432929473050
 GameObject:
@@ -320,7 +320,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -8
   m_Sprite: {fileID: -1179585776, guid: a9d711b4b19c85d4aad64240f0c5f63a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -388,7 +388,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 3.34375}
+  m_Size: {x: 0.6, y: 3}
   m_EdgeRadius: 0
 --- !u!1 &7179558671199259272
 GameObject:
@@ -436,9 +436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd4bdc534c9067941b805e13546b69b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {fileID: 8507238269192131673}
-  targetPos: {fileID: 7896023049594778199}
+  startPos: {fileID: 7896023049594778199}
+  targetPos: {fileID: 8507238269192131673}
   oscilate: 1
-  speed: 4
+  speed: -4
   pauseTime: 0.5
   button: {fileID: 0}

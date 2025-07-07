@@ -33,7 +33,9 @@ public class MySceneManager : MonoBehaviour
 
     public void LoadScene()
     {
+        AudioManager.instance.StopSounds();
         SceneManager.LoadScene(nextSceneNo);
+
     }
 
     public void GoToTitle()

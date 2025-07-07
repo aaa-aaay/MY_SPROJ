@@ -126,7 +126,20 @@ MonoBehaviour:
   SpawnPoints:
   - {fileID: 69738101615569946}
   - {fileID: 7288901231099247183}
-  secondPlayer: {fileID: 3853873561246074440, guid: 69482abe92cc2364796a003ef71d462b, type: 3}
+  tim: {fileID: 3853873561246074440, guid: 26239e6b5197c7e43a143edf754901fe, type: 3}
+  tom: {fileID: 3853873561246074440, guid: 69482abe92cc2364796a003ef71d462b, type: 3}
+  checkPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &3364852083311064247
 GameObject:
   m_ObjectHideFlags: 0

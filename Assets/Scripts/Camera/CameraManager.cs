@@ -44,8 +44,6 @@ public class CameraManager : MonoBehaviour
 
         singleCam = gameObject.GetComponentInChildren<Camera>();
         Volume vol = singleCam.gameObject.GetComponent<Volume>();
-        if (vol == null) Debug.Log("yooo whats tup with ts");
-        if(PPManager.Instance == null) Debug.Log("yooo whats tup with ts2");
         PPManager.Instance.SetMainCameraVolume(vol);
         cm = gameObject.GetComponentInChildren<CinemachineCamera>();
         singleCam.gameObject.SetActive(false);
@@ -125,8 +123,21 @@ public class CameraManager : MonoBehaviour
         isSide = false;
     }
 
-    private void MainCam(GameObject target, Vector2 targetOffset)
+    public void SetMainCam(Camera mainCam, CinemachineCamera cm)
     {
+        singleCam = mainCam;
+        Volume vol = singleCam.gameObject.GetComponent<Volume>();
+        PPManager.Instance.SetMainCameraVolume(vol);
+        this.cm = cm;
+
+        Debug.Log("camera set");
+    }
+
+    private void MainCam( GameObject target, Vector2 targetOffset)
+    {
+
+
+
         DisablePlayerCamera(true);
         LockCam(true);
 
@@ -159,5 +170,18 @@ public class CameraManager : MonoBehaviour
     public void LockCam(bool lockCam)
     {
         cameraLock = lockCam;
+    }
+
+    public Camera GetPlayerCamera(int playerNo)
+    {
+        if (playerNo == 1)
+        {
+            return P1camera;
+        }
+        else
+        {
+            return P2camera;
+        }
+       
     }
 }

@@ -4,13 +4,14 @@ using PlayFab;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+[DefaultExecutionOrder(-3)]
 public class PlayerSpawnScript : MonoBehaviour
 {
     public Transform[] SpawnPoints;
     private int playerCount = 0;
-    public GameObject secondPlayer;
     private int savedCheckpoints;
-
+    [SerializeField ]private GameObject tim, tom;
     [SerializeField] private CheckPoint[] checkPoints;
 
 
@@ -60,23 +61,33 @@ public class PlayerSpawnScript : MonoBehaviour
                     input.transform.position = SpawnPoints[i].position;
 
                     PlayerController player = input.GetComponent<PlayerController>();
-                    if (i == 0)
+                    Camera playerCamera = input.transform.parent.GetComponentInChildren<Camera>();
+                    if (prefab == tim)
                     {
                         input.transform.position = checkPoints[savedCheckpoints].p1Respawn.transform.position;
                         player.RespawnPosition = checkPoints[savedCheckpoints].p1Respawn.transform;
+
+                        PlayerManager.Instance.SetPlayers(input.gameObject.GetComponent<PlayerController>(), 1);
+
+
+                        CameraManager.Instance.SetPlayerCameras(playerCamera, 1);
+
                     }
 
-                    else
+                    else if(prefab == tom)
                     {
                         input.transform.position = checkPoints[savedCheckpoints].p2Respawn.transform.position;
                         player.RespawnPosition = checkPoints[savedCheckpoints].p2Respawn.transform;
+
+                        PlayerManager.Instance.SetPlayers(input.gameObject.GetComponent<PlayerController>(), 2);
+                        CameraManager.Instance.SetPlayerCameras(playerCamera, 2);
                     }
 
 
 
-                    Camera playerCamera = input.transform.parent.GetComponentInChildren<Camera>();
-                    CameraManager.Instance.SetPlayerCameras(playerCamera, i + 1);
-                    PlayerManager.Instance.SetPlayers(input.gameObject.GetComponent<PlayerController>(), i + 1);
+
+
+
                 }
             }
         }

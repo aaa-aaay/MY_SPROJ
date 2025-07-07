@@ -48,7 +48,7 @@ public class AudioManager : MonoBehaviour
         PlayBackgroundMusic("BGM1");
     }
 
-    public void PlaySFX(string name, Vector3 position)
+    public void PlaySFX(string name, Vector3 position = default)
     {
         foreach (Sound sound in sounds)
         {
@@ -60,7 +60,11 @@ public class AudioManager : MonoBehaviour
                     AudioSource source = audioSourcePool.Dequeue();
                     source.clip = sound.clip;
                     source.volume = sound.volume;
-                    source.transform.position = position;
+                    if(position != default)
+                    {
+                        source.transform.position = position;
+                    }
+
                     source.Play();
 
                     StartCoroutine(ReturnToPoolAfterPlayback(source));
@@ -81,12 +85,15 @@ public class AudioManager : MonoBehaviour
         {
             if (sound.name == name)
             {
+                Debug.Log("Starting BGM:" +  sound.name);
                 backgroundMusicSource.clip = sound.clip;
                 backgroundMusicSource.volume = sound.volume;
                 backgroundMusicSource.Play();
                 return;
             }
         }
+
+        Debug.Log("BGM " + name + " not found");
     }
 
     private IEnumerator ReturnToPoolAfterPlayback(AudioSource source)
@@ -114,4 +121,38 @@ public class AudioManager : MonoBehaviour
             }
         }
     }
+
+
+    public void StopSounds(bool stopAll = true, int stopWhich = 1)
+    {
+        if (stopAll || stopWhich == 1)
+        {
+            if (backgroundMusicSource != null && backgroundMusicSource.isPlaying)
+            {
+                backgroundMusicSource.Stop();
+            }
+        }
+
+        if (stopAll || stopWhich == 2)
+        {
+            List<AudioSource> activeSources = new List<AudioSource>();
+
+            while (audioSourcePool.Count > 0)
+            {
+                AudioSource source = audioSourcePool.Dequeue();
+                if (source.isPlaying)
+                {
+                    source.Stop();
+                    source.clip = null;
+                }
+                activeSources.Add(source);
+            }
+
+            foreach (var source in activeSources)
+            {
+                audioSourcePool.Enqueue(source);
+            }
+        }
+    }
+
 }

@@ -6,6 +6,7 @@ public abstract class Bullet : MonoBehaviour
     protected Transform bulletTarget;
     public LayerMask interactableLayers;
     [SerializeField] private float damage;
+    protected Explosion explosion;
 
 
     public abstract void Shoot(Vector2 direction = default, float power = 0);
@@ -19,9 +20,12 @@ public abstract class Bullet : MonoBehaviour
 
     public virtual void DestroyBullet()
     {
-        Destroy(gameObject);
-        //play animation
-        //destory bullet
+
+        if (explosion != null) {
+            explosion.TriggerExplosoin(gameObject);
+        } 
+
+        else Destroy(gameObject);
         //play sound
     }
 
@@ -30,7 +34,7 @@ public abstract class Bullet : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        explosion = GetComponentInChildren<Explosion>();
     }
 
     // Update is called once per frame
