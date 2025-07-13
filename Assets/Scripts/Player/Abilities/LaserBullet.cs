@@ -2,10 +2,18 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 
 
-public class LaserBullet : Bullet
+public class LaserBullet : Bullet, ColoredAbilities
 {
 
     public bool redBullet;
+
+    public bool IsRedColor { get; set; }
+
+    private void Start()
+    {
+        IsRedColor = redBullet;
+    }
+
     public override void Shoot(Vector2 direction = default, float power = 0)
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -23,7 +31,8 @@ public class LaserBullet : Bullet
     {
         if (((1 << collision.gameObject.layer) & interactableLayers.value) != 0)
         {
-
+            Damagable damagable = collision.GetComponent<Damagable>();
+            if(damagable != null) damagable.Hit(damage);
             Destroy(gameObject);
         }
     }

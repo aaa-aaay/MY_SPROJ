@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ColorShootAbility : PlayerAbilities
 {
     [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private GameObject GranadePrefab;
+    [SerializeField] private GameObject granadePrefab;
 
     private float shootCD;
 
@@ -12,6 +13,8 @@ public class ColorShootAbility : PlayerAbilities
     [SerializeField] private float shootPower = 10.0f;
     [SerializeField] private Transform firePoint;
     private float fireCooldown = 0f;
+
+    private GameObject nade;
 
 
     private void Update()
@@ -25,7 +28,7 @@ public class ColorShootAbility : PlayerAbilities
             if (fireCooldown <= 0f)
             {
                 Debug.Log("Bullet Shot");
-                ShootBullet();
+                ShootorThrowGrenade(bulletPrefab);
                 fireCooldown = fireRate;
             }
         }
@@ -34,26 +37,47 @@ public class ColorShootAbility : PlayerAbilities
             fireCooldown = 0f;
         }
 
-        if (abilityAction2.WasPressedThisFrame()) {
-
+        if (nade == null && abilityAction2.WasPressedThisFrame()) {
+            ShootorThrowGrenade(granadePrefab);
             //throw genreade
 
 
         }
+
+
     }
 
-
-    private void ShootBullet()
+    private void ThrowGrenade()
     {
         Vector2 aimInput = player.aimAction.ReadValue<Vector2>().normalized;
-
         if (aimInput == Vector2.zero)
         {
-            aimInput = Vector2.left;
+            aimInput = new Vector2(transform.parent.transform.localScale.x, 0);
+        }
+    }
+
+    private void ShootorThrowGrenade(GameObject objectPrefab)
+    {
+        Vector2 aimInput = player.aimAction.ReadValue<Vector2>().normalized;
+        if (aimInput == Vector2.zero)
+        {
+
+            aimInput = new Vector2(transform.parent.transform.localScale.x, 0);
         }
 
-        GameObject bulletOBJ = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bulletOBJ = Instantiate(objectPrefab, firePoint.position, Quaternion.identity);
         Bullet bullet = bulletOBJ.GetComponent<Bullet>();
+
+        if (objectPrefab == granadePrefab)
+        {
+            bullet.SetInputAction(abilityAction2);
+            nade = bulletOBJ;
+
+        }
+
         bullet.Shoot(aimInput, shootPower);
+
+
+
     }
 }

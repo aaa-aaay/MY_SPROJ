@@ -37,9 +37,11 @@ public class PlayerController : MonoBehaviour, IDeath
     [SerializeField] private float jumpSpeed = 10;
     [SerializeField] private float dashPower = 4.0f;
     [SerializeField] private float dashDuration = 0.3f;
+    [SerializeField] private int startingHealth = 5;
     [SerializeField] public int playerNo;
 
     [HideInInspector] public float dirH = 0.0f;
+    private int health;
     public float rayCastGroundLength = 0.5f;
     private bool isJump;
     private bool canDoubleJump;
@@ -78,6 +80,7 @@ public class PlayerController : MonoBehaviour, IDeath
 
         haveDoubleJumped = false;
         isDashing = false;
+        health = startingHealth;
     }
     void Start()
     {
@@ -244,13 +247,28 @@ public class PlayerController : MonoBehaviour, IDeath
         }
     }
 
-
-
     void IDeath.StartDying()
     {
         IsDead = true;
         _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
         StartCoroutine(StartRevive());
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health = health - damage;
+
+        //play hit effect
+        PPManager.Instance.EnableVignette(true,playerNo);
+
+        if(health <= 0)
+        {
+            IDeath deathHandler = GetComponent<IDeath>();
+            if (deathHandler != null)
+            {
+                deathHandler.StartDying();
+            }
+        }
     }
 
 }

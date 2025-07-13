@@ -1,15 +1,17 @@
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public abstract class Bullet : MonoBehaviour
 {
     protected Transform bulletTarget;
     public LayerMask interactableLayers;
-    [SerializeField] private float damage;
+    [SerializeField] protected int damage;
     protected Explosion explosion;
 
 
     public abstract void Shoot(Vector2 direction = default, float power = 0);
+    public virtual void SetInputAction(InputAction action) { }
 
     public void SetTarget(Transform target)
     {
