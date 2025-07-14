@@ -3,6 +3,7 @@ using PlayFab.ClientModels;
 using PlayFab;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 [DefaultExecutionOrder(-3)]
@@ -12,11 +13,20 @@ public class PlayerSpawnScript : MonoBehaviour
     private int playerCount = 0;
     private int savedCheckpoints;
     [SerializeField ]private GameObject tim, tom;
+
+    [SerializeField] private GameObject timSlide, tomSlide;
     [SerializeField] private CheckPoint[] checkPoints;
 
 
     private void Start()
     {
+
+        if(SceneManager.sceneCount == 5)
+        {
+            tim = timSlide;
+            tom = tomSlide;
+        }
+
         if (!PlayerSelectionManager.Instance.loadedData)
         {
             savedCheckpoints = PlayerSelectionManager.Instance.loadedCheckPointNo;

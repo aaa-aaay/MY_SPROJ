@@ -8,10 +8,11 @@ public class StateController : MonoBehaviour
     [SerializeField] private EnemyStats stats;
     [SerializeField] private Transform stateColorDebug;
     public Animator animator;
-    public Collider2D hitColldier;
+    [HideInInspector] public Collider2D hitColldier;
 
 
     [HideInInspector] public float timer;
+    [HideInInspector] public float timer2;
 
     public State currentState;
     public State remainState;
@@ -28,9 +29,6 @@ public class StateController : MonoBehaviour
     {
         if (isDead) return;
 
-        timer += Time.deltaTime;
-
-
 
         //updating all states and actions
         foreach (Action action in alwaysActiveActions)
@@ -46,7 +44,11 @@ public class StateController : MonoBehaviour
         if (nextState != remainState) {
             currentState = nextState;
             readyToGoNextState = false;
+            currentState.InitActions(this);
             timer = 0;
+            timer2 = 0;
+
+
 
 
         }
@@ -73,5 +75,11 @@ public class StateController : MonoBehaviour
     {
         timer += Time.deltaTime;
         return (timer >= duration);
+    }
+
+    public bool CheckIfCountDownElpasedSecond(float duration)
+    {
+        timer2 += Time.deltaTime;
+        return (timer2 >= duration);
     }
 }

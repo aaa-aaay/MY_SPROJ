@@ -1,0 +1,1976 @@
+fileFormatVersion: 2
+guid: 197a7d0e0475d5340ad1048e8244704b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7031905203961897448
+    second: Gamma Gun_0
+  - first:
+      213: -1672203582033784517
+    second: Gamma Gun_1
+  - first:
+      213: 780385981683294854
+    second: Gamma Gun_2
+  - first:
+      213: 5272359550440625811
+    second: Gamma Gun_3
+  - first:
+      213: -2460852243345775466
+    second: Gamma Gun_4
+  - first:
+      213: -7190180487712278941
+    second: Gamma Gun_5
+  - first:
+      213: 2068073112093978791
+    second: Gamma Gun_6
+  - first:
+      213: 3553732905495657491
+    second: Gamma Gun_7
+  - first:
+      213: -6374345167845827810
+    second: Gamma Gun_8
+  - first:
+      213: -6142116236698447033
+    second: Gamma Gun_9
+  - first:
+      213: 8609100327135219863
+    second: Gamma Gun_10
+  - first:
+      213: 8064351042991018214
+    second: Gamma Gun_11
+  - first:
+      213: 7931419142246084951
+    second: Gamma Gun_12
+  - first:
+      213: 2557731867133234852
+    second: Gamma Gun_13
+  - first:
+      213: 7513610054610945311
+    second: Gamma Gun_14
+  - first:
+      213: 5453021459362754443
+    second: Gamma Gun_15
+  - first:
+      213: 5957199491831815196
+    second: Gamma Gun_16
+  - first:
+      213: 6147540651252065172
+    second: Gamma Gun_17
+  - first:
+      213: 8777382479613563536
+    second: Gamma Gun_18
+  - first:
+      213: -2894706390542066620
+    second: Gamma Gun_19
+  - first:
+      213: -4369233003312076036
+    second: Gamma Gun_20
+  - first:
+      213: 799903477959579655
+    second: Gamma Gun_21
+  - first:
+      213: 1343978410154613276
+    second: Gamma Gun_22
+  - first:
+      213: 1569141142654522397
+    second: Gamma Gun_23
+  - first:
+      213: -8280311604844787981
+    second: Gamma Gun_24
+  - first:
+      213: -8885123268123250917
+    second: Gamma Gun_25
+  - first:
+      213: 2006443568453451190
+    second: Gamma Gun_26
+  - first:
+      213: -6368086502626372695
+    second: Gamma Gun_27
+  - first:
+      213: 4667518040360323306
+    second: Gamma Gun_28
+  - first:
+      213: 5319310523548697225
+    second: Gamma Gun_29
+  - first:
+      213: -1258473395937275624
+    second: Gamma Gun_30
+  - first:
+      213: -4630752759082606237
+    second: Gamma Gun_31
+  - first:
+      213: 3533171275475182054
+    second: Gamma Gun_32
+  - first:
+      213: 3207656291896037354
+    second: Gamma Gun_33
+  - first:
+      213: 3994834097966447630
+    second: Gamma Gun_34
+  - first:
+      213: -6193425928666206401
+    second: Gamma Gun_35
+  - first:
+      213: 2910301524602216065
+    second: Gamma Gun_36
+  - first:
+      213: -6295551015072148835
+    second: Gamma Gun_37
+  - first:
+      213: 7234534467810808536
+    second: Gamma Gun_38
+  - first:
+      213: -1014714887631304436
+    second: Gamma Gun_39
+  - first:
+      213: 334103480137487106
+    second: Gamma Gun_40
+  - first:
+      213: 4415795817974462521
+    second: Gamma Gun_41
+  - first:
+      213: -9112633962968122238
+    second: Gamma Gun_42
+  - first:
+      213: 7714945306303888970
+    second: Gamma Gun_43
+  - first:
+      213: 2091693352429746260
+    second: Gamma Gun_44
+  - first:
+      213: 5585552085544250530
+    second: Gamma Gun_45
+  - first:
+      213: -4419709056973508700
+    second: Gamma Gun_46
+  - first:
+      213: -5064835767973074066
+    second: Gamma Gun_47
+  - first:
+      213: 1027548882832705862
+    second: Gamma Gun_48
+  - first:
+      213: 8678788329510487683
+    second: Gamma Gun_49
+  - first:
+      213: 7664286505722027372
+    second: Gamma Gun_50
+  - first:
+      213: 5799830337009436090
+    second: Gamma Gun_51
+  - first:
+      213: 9159489979138706136
+    second: Gamma Gun_52
+  - first:
+      213: 6827873255922776153
+    second: Gamma Gun_53
+  - first:
+      213: 5851889856433683032
+    second: Gamma Gun_54
+  - first:
+      213: 5927889473045842156
+    second: Gamma Gun_55
+  - first:
+      213: -3947798209450358813
+    second: Gamma Gun_56
+  - first:
+      213: 2912993408929767850
+    second: Gamma Gun_57
+  - first:
+      213: -8942124433945864323
+    second: Gamma Gun_58
+  - first:
+      213: -7943956492789134952
+    second: Gamma Gun_59
+  - first:
+      213: 3265013508661274036
+    second: Gamma Gun_60
+  - first:
+      213: 2265148263747078314
+    second: Gamma Gun_61
+  - first:
+      213: -2020391615005026261
+    second: Gamma Gun_62
+  - first:
+      213: 7474298294300311347
+    second: Gamma Gun_63
+  - first:
+      213: -6542837765938511816
+    second: Gamma Gun_64
+  - first:
+      213: 5108373155292835580
+    second: Gamma Gun_65
+  - first:
+      213: 8517490785903146061
+    second: Gamma Gun_66
+  - first:
+      213: 8081317901731226882
+    second: Gamma Gun_67
+  - first:
+      213: 8978558996446709266
+    second: Gamma Gun_68
+  - first:
+      213: -3372694803457114869
+    second: Gamma Gun_69
+  - first:
+      213: -812661177520956357
+    second: Gamma Gun_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gamma Gun_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 511
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e51af3977a96e90800000000000000
+      internalID: -7031905203961897448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 511
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b319dbca3b32bc8e0800000000000000
+      internalID: -1672203582033784517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 511
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6826de96aec74da00800000000000000
+      internalID: 780385981683294854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 511
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396d624b31f2b2940800000000000000
+      internalID: 5272359550440625811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 479
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694e6ae3ceb49ddd0800000000000000
+      internalID: -2460852243345775466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 479
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366f6fe01f8573c90800000000000000
+      internalID: -7190180487712278941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 479
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0f5efc98543bc10800000000000000
+      internalID: 2068073112093978791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 479
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c7fa2cf35615130800000000000000
+      internalID: 3553732905495657491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 447
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b52d2b7d6c987a0800000000000000
+      internalID: -6374345167845827810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 479
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7431e6633d1d2caa0800000000000000
+      internalID: -6142116236698447033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 447
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7901892722ba97770800000000000000
+      internalID: 8609100327135219863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 447
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0d78dfb845aef60800000000000000
+      internalID: 8064351042991018214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 447
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751bf4affaf021e60800000000000000
+      internalID: 7931419142246084951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 393
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae4c2be493ee7320800000000000000
+      internalID: 2557731867133234852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 415
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1583ed2984b54860800000000000000
+      internalID: 7513610054610945311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 415
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f26ed30260dab40800000000000000
+      internalID: 5453021459362754443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 415
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cd5ce00693ca250800000000000000
+      internalID: 5957199491831815196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 415
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4932728b6a3705550800000000000000
+      internalID: 6147540651252065172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 351
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0929a135cd68fc970800000000000000
+      internalID: 8777382479613563536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 383
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cdfa6efdfe3d7d0800000000000000
+      internalID: -2894706390542066620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 368
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaaba09bbd5d53c0800000000000000
+      internalID: -4369233003312076036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 383
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7085162a9f3d91b00800000000000000
+      internalID: 799903477959579655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 383
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a5f0b4e35c6a210800000000000000
+      internalID: 1343978410154613276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 351
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d149f5a3e85b6c510800000000000000
+      internalID: 1569141142654522397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 319
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f68ea3677c661d80800000000000000
+      internalID: -8280311604844787981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 351
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fa4f98673b1b480800000000000000
+      internalID: -8885123268123250917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 351
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdf88f7bc158db10800000000000000
+      internalID: 2006443568453451190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_27
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 319
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3deffb01300a7a0800000000000000
+      internalID: -6368086502626372695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 319
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8876a9dea56c040800000000000000
+      internalID: 4667518040360323306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 319
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9820e1efcbcf1d940800000000000000
+      internalID: 5319310523548697225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 263
+        width: 153
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81111e33d11098ee0800000000000000
+      internalID: -1258473395937275624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 266
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361a83086e24cbfb0800000000000000
+      internalID: -4630752759082606237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 237
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ef453e88580130800000000000000
+      internalID: 3533171275475182054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 223
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef82001762e38c20800000000000000
+      internalID: 3207656291896037354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 223
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c78e15270807730800000000000000
+      internalID: 3994834097966447630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 223
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f282b9ee78c0aa0800000000000000
+      internalID: -6193425928666206401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_36
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 223
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e513331d7736820800000000000000
+      internalID: 2910301524602216065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 173
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92564105b5b1a8a0800000000000000
+      internalID: -6295551015072148835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_38
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 191
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2de2da4ca366460800000000000000
+      internalID: 7234534467810808536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_39
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 191
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c098f669f220be1f0800000000000000
+      internalID: -1014714887631304436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 191
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20311d35859f2a400800000000000000
+      internalID: 334103480137487106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_41
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 172
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938f50b86ee084d30800000000000000
+      internalID: 4415795817974462521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 172
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cff1501bb698180800000000000000
+      internalID: -9112633962968122238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e7fcb61edf01b60800000000000000
+      internalID: 7714945306303888970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_44
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 172
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458fe929500370d10800000000000000
+      internalID: 2091693352429746260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acae4d370ed38d40800000000000000
+      internalID: 5585552085544250530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 127
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af6480870a0aa2c0800000000000000
+      internalID: -4419709056973508700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_47
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 127
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ba54424b616b9b0800000000000000
+      internalID: -5064835767973074066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_48
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 127
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649c796c346924e00800000000000000
+      internalID: 1027548882832705862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_49
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 118
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3864745e000417870800000000000000
+      internalID: 8678788329510487683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_50
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 106
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d916648f30d5a60800000000000000
+      internalID: 7664286505722027372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 101
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab54bf276f22d7050800000000000000
+      internalID: 5799830337009436090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da00526b9b0d1f70800000000000000
+      internalID: 9159489979138706136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958baa6fc8a71ce50800000000000000
+      internalID: 6827873255922776153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 107
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85af07dd1d6163150800000000000000
+      internalID: 5851889856433683032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_55
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 107
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8cca48118144250800000000000000
+      internalID: 5927889473045842156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_56
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7c9c0e17a9639c0800000000000000
+      internalID: -3947798209450358813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_57
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 98
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1205c52180d6820800000000000000
+      internalID: 2912993408929767850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_58
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 78
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77d059643137e380800000000000000
+      internalID: -8942124433945864323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 74
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8994520a8a561c190800000000000000
+      internalID: -7943956492789134952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_60
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 74
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b56b92cc78af4d20800000000000000
+      internalID: 3265013508661274036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_61
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8cc38385c6f6f10800000000000000
+      internalID: 2265148263747078314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_62
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 42
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b289278d78026f3e0800000000000000
+      internalID: -2020391615005026261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_63
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 42
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff319b2ba0ab760800000000000000
+      internalID: 7474298294300311347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_64
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 43
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8308932a7bb2335a0800000000000000
+      internalID: -6542837765938511816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_65
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 44
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeee55c15694e640800000000000000
+      internalID: 5108373155292835580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_66
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d447b6ffdb4343670800000000000000
+      internalID: 8517490785903146061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_67
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205e1b1a0db962070800000000000000
+      internalID: 8081317901731226882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_68
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216081a36df3a9c70800000000000000
+      internalID: 8978558996446709266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_69
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0df12012f7c131d0800000000000000
+      internalID: -3372694803457114869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gamma Gun_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cdc17f6f8d8b4f0800000000000000
+      internalID: -812661177520956357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gamma Gun_0: -7031905203961897448
+      Gamma Gun_1: -1672203582033784517
+      Gamma Gun_10: 8609100327135219863
+      Gamma Gun_11: 8064351042991018214
+      Gamma Gun_12: 7931419142246084951
+      Gamma Gun_13: 2557731867133234852
+      Gamma Gun_14: 7513610054610945311
+      Gamma Gun_15: 5453021459362754443
+      Gamma Gun_16: 5957199491831815196
+      Gamma Gun_17: 6147540651252065172
+      Gamma Gun_18: 8777382479613563536
+      Gamma Gun_19: -2894706390542066620
+      Gamma Gun_2: 780385981683294854
+      Gamma Gun_20: -4369233003312076036
+      Gamma Gun_21: 799903477959579655
+      Gamma Gun_22: 1343978410154613276
+      Gamma Gun_23: 1569141142654522397
+      Gamma Gun_24: -8280311604844787981
+      Gamma Gun_25: -8885123268123250917
+      Gamma Gun_26: 2006443568453451190
+      Gamma Gun_27: -6368086502626372695
+      Gamma Gun_28: 4667518040360323306
+      Gamma Gun_29: 5319310523548697225
+      Gamma Gun_3: 5272359550440625811
+      Gamma Gun_30: -1258473395937275624
+      Gamma Gun_31: -4630752759082606237
+      Gamma Gun_32: 3533171275475182054
+      Gamma Gun_33: 3207656291896037354
+      Gamma Gun_34: 3994834097966447630
+      Gamma Gun_35: -6193425928666206401
+      Gamma Gun_36: 2910301524602216065
+      Gamma Gun_37: -6295551015072148835
+      Gamma Gun_38: 7234534467810808536
+      Gamma Gun_39: -1014714887631304436
+      Gamma Gun_4: -2460852243345775466
+      Gamma Gun_40: 334103480137487106
+      Gamma Gun_41: 4415795817974462521
+      Gamma Gun_42: -9112633962968122238
+      Gamma Gun_43: 7714945306303888970
+      Gamma Gun_44: 2091693352429746260
+      Gamma Gun_45: 5585552085544250530
+      Gamma Gun_46: -4419709056973508700
+      Gamma Gun_47: -5064835767973074066
+      Gamma Gun_48: 1027548882832705862
+      Gamma Gun_49: 8678788329510487683
+      Gamma Gun_5: -7190180487712278941
+      Gamma Gun_50: 7664286505722027372
+      Gamma Gun_51: 5799830337009436090
+      Gamma Gun_52: 9159489979138706136
+      Gamma Gun_53: 6827873255922776153
+      Gamma Gun_54: 5851889856433683032
+      Gamma Gun_55: 5927889473045842156
+      Gamma Gun_56: -3947798209450358813
+      Gamma Gun_57: 2912993408929767850
+      Gamma Gun_58: -8942124433945864323
+      Gamma Gun_59: -7943956492789134952
+      Gamma Gun_6: 2068073112093978791
+      Gamma Gun_60: 3265013508661274036
+      Gamma Gun_61: 2265148263747078314
+      Gamma Gun_62: -2020391615005026261
+      Gamma Gun_63: 7474298294300311347
+      Gamma Gun_64: -6542837765938511816
+      Gamma Gun_65: 5108373155292835580
+      Gamma Gun_66: 8517490785903146061
+      Gamma Gun_67: 8081317901731226882
+      Gamma Gun_68: 8978558996446709266
+      Gamma Gun_69: -3372694803457114869
+      Gamma Gun_7: 3553732905495657491
+      Gamma Gun_70: -812661177520956357
+      Gamma Gun_8: -6374345167845827810
+      Gamma Gun_9: -6142116236698447033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

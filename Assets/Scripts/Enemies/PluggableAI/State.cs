@@ -21,7 +21,7 @@ public class State : ScriptableObject
         }
     }
 
-    private void InitActions(StateController controller)
+    public void InitActions(StateController controller)
     {
         foreach(Action action in actions)
         {

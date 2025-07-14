@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableLayers:
     serializedVersion: 2
-    m_Bits: 505
+    m_Bits: 8697
   damage: 0
   isRedColor: 0
   boxcollider: {fileID: -856374594020672243}

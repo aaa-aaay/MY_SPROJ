@@ -34,14 +34,15 @@ public class PlayerController : MonoBehaviour, IDeath
 
     [HideInInspector] public float moveSpeed = 10;
     [SerializeField] private float slowdownSpeed = 7;
-    [SerializeField] private float jumpSpeed = 10;
+    [SerializeField] public float jumpSpeed = 10;
     [SerializeField] private float dashPower = 4.0f;
     [SerializeField] private float dashDuration = 0.3f;
     [SerializeField] private int startingHealth = 5;
+    [SerializeField] private float maxSlideSpeed = 6f;
     [SerializeField] public int playerNo;
 
     [HideInInspector] public float dirH = 0.0f;
-    private int health;
+    private int health; 
     public float rayCastGroundLength = 0.5f;
     private bool isJump;
     private bool canDoubleJump;
@@ -129,7 +130,8 @@ public class PlayerController : MonoBehaviour, IDeath
         // slideResults = _rb.Slide(_rb.linearVelocity, Time.deltaTime, slideMovement);
 
         //animations
-        if (isDashing) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Dash);
+        if(disableHorizontalMove) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Fall);
+        else if (isDashing) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Dash);
         else if (Mathf.Abs(dirH) > 0.1f && GetIsGrounded()) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Run);
         else if (_rb.linearVelocityY < -0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Fall);
         else if (_rb.linearVelocityY > 0.1) _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Jump);
@@ -153,7 +155,10 @@ public class PlayerController : MonoBehaviour, IDeath
 
         if (isJump)
         {
-            _MovementController.MoveVertical(jumpSpeed);
+            if(disableHorizontalMove)
+            _MovementController.MoveVertical(jumpSpeed,true);
+
+            else _MovementController.MoveVertical(jumpSpeed);
             isJump = false;
             canDoubleJump = true;
         }
@@ -196,13 +201,38 @@ public class PlayerController : MonoBehaviour, IDeath
             }
 
         }
+
+
+        if (disableHorizontalMove && GetIsGrounded())
+        {
+            Vector2 currentVel = _rb.linearVelocity;
+
+
+            // OR: Clamp only horizontal speed while preserving vertical movement
+            if (Mathf.Abs(currentVel.x) > maxSlideSpeed)
+            {
+                _rb.linearVelocity = new Vector2(Mathf.Sign(currentVel.x) * maxSlideSpeed, currentVel.y);
+            }
+        }
     }
 
     private bool GetIsGrounded()
     {
 
-        return Physics2D.Raycast(transform.position, Vector2.down, rayCastGroundLength, LayerMask.GetMask("Ground"));
+        Vector2 origin = transform.position;
+        float rayLength = rayCastGroundLength;
+        LayerMask groundMask = LayerMask.GetMask("Ground");
 
+        // Center
+        if (Physics2D.Raycast(origin, Vector2.down, rayLength, groundMask)) return true;
+
+        // Slightly left
+        if (Physics2D.Raycast(origin + Vector2.left * 0.3f, Vector2.down, rayLength, groundMask)) return true;
+
+        // Slightly right
+        if (Physics2D.Raycast(origin + Vector2.right * 0.3f, Vector2.down, rayLength, groundMask)) return true;
+
+        return false;
     }
 
     private void RollComplete()
@@ -227,6 +257,7 @@ public class PlayerController : MonoBehaviour, IDeath
         _rb.constraints = RigidbodyConstraints2D.None;
         _rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         IsDead = false;
+        health = startingHealth;
     }
 
     public void FreezePlayer(bool freeze)
@@ -249,6 +280,7 @@ public class PlayerController : MonoBehaviour, IDeath
 
     void IDeath.StartDying()
     {
+        if(IsDead) return;
         IsDead = true;
         _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
         StartCoroutine(StartRevive());

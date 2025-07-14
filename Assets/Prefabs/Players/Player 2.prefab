@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4550467980539339152}
   - component: {fileID: 1993598020755277117}
   - component: {fileID: 6319639458141290333}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Player2 Movement
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 17408
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -584,7 +584,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 8127
+    m_Bits: 32703
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

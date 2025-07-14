@@ -32,9 +32,13 @@ public class MovementController : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(vX, rb.linearVelocity.y);
     }
-    public void MoveVertical(float vY)
+    public void MoveVertical(float vY, bool keepVelocity = false)
     {
+        if(!keepVelocity)
         rb.linearVelocity = Vector2.up * vY;
+        else rb.linearVelocity = new Vector2(rb.linearVelocity.x, vY);
+
+
     }
 
     public float playerVerticalMovement(bool isJumpHeld)

@@ -177,6 +177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableLayers:
     serializedVersion: 2
-    m_Bits: 1855
+    m_Bits: 10047
   damage: 1
   redBullet: 1

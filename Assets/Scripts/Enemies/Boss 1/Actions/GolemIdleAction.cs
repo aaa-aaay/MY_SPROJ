@@ -17,7 +17,7 @@ public class GolemIdleAction : Action
     private void Idle(StateController controller)
     {
 
-        Debug.Log("Golem In Idle");
+        Debug.Log("Enemy In Idle");
 
     }
 }
