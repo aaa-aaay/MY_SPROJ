@@ -136,6 +136,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Effect_DitheredFire_1_003_0: 3529002398199687900
+      Effect_DitheredFire_1_003_1: -3120648065475208931
+      Effect_DitheredFire_1_003_2: 6518255228685672585
+      Effect_DitheredFire_1_003_3: -6328375050129052751
+      Effect_DitheredFire_1_003_4: 8133035499458802777
+      Effect_DitheredFire_1_003_5: 1066776282671673218
+      Effect_DitheredFire_1_003_6: 436773100185518610
+      Effect_DitheredFire_1_003_7: 8941074271951815984
+      Effect_DitheredFire_1_003_8: -3385640621883996670
+      Effect_DitheredFire_1_003_9: 2959788188909316842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

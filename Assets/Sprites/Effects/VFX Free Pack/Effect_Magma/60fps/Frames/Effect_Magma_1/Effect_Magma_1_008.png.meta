@@ -127,6 +127,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -297,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Effect_Magma_1_008_0: -4046686545042642334
+      Effect_Magma_1_008_1: -2668292521591856693
+      Effect_Magma_1_008_2: -5750855176109895649
+      Effect_Magma_1_008_3: 1290382258830364357
+      Effect_Magma_1_008_4: -3275624409788900689
+      Effect_Magma_1_008_5: -4495594897925780511
+      Effect_Magma_1_008_6: -5061978937063720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

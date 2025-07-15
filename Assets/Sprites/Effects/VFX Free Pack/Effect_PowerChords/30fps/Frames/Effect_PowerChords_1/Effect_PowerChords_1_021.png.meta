@@ -127,6 +127,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -297,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Effect_PowerChords_1_021_0: -7771070565715131145
+      Effect_PowerChords_1_021_1: -5747263536828492977
+      Effect_PowerChords_1_021_2: 3369874799429674218
+      Effect_PowerChords_1_021_3: 4772277066653880065
+      Effect_PowerChords_1_021_4: 9222466148011022032
+      Effect_PowerChords_1_021_5: -6130055233204889568
+      Effect_PowerChords_1_021_6: 3856231590621848936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

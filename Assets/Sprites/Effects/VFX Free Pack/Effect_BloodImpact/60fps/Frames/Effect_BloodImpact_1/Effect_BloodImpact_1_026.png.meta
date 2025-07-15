@@ -130,6 +130,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -322,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Effect_BloodImpact_1_026_0: -2357105822528290849
+      Effect_BloodImpact_1_026_1: -2380869221347135470
+      Effect_BloodImpact_1_026_2: 7572632784755639578
+      Effect_BloodImpact_1_026_3: -2443848552818463547
+      Effect_BloodImpact_1_026_4: -6995959836715797492
+      Effect_BloodImpact_1_026_5: -3235338919000263705
+      Effect_BloodImpact_1_026_6: -8865065477081395359
+      Effect_BloodImpact_1_026_7: 414260468877096067
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

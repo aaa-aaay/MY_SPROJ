@@ -121,6 +121,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -247,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '[SHOOTING_SHELL_02] Shotgun_V1.02_0': 4598468221607479807
+      '[SHOOTING_SHELL_02] Shotgun_V1.02_1': -7277067440224395940
+      '[SHOOTING_SHELL_02] Shotgun_V1.02_2': -6311071290666193368
+      '[SHOOTING_SHELL_02] Shotgun_V1.02_3': 5083283842858162574
+      '[SHOOTING_SHELL_02] Shotgun_V1.02_4': 6741710673731636854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

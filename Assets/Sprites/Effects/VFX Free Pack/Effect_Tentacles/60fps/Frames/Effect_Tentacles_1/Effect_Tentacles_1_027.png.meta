@@ -127,6 +127,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -297,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Effect_Tentacles_1_027_0: 7556417722121149609
+      Effect_Tentacles_1_027_1: 336614346245399636
+      Effect_Tentacles_1_027_2: 817910376841989545
+      Effect_Tentacles_1_027_3: -3159054310518961477
+      Effect_Tentacles_1_027_4: -4689675040173544752
+      Effect_Tentacles_1_027_5: -1545156383627054654
+      Effect_Tentacles_1_027_6: -7388489972511191754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

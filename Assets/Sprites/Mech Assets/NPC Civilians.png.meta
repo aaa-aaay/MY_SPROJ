@@ -268,6 +268,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1472,7 +1485,61 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NPC Civilians_0: 2488464645670284802
+      NPC Civilians_1: 6568431025491274792
+      NPC Civilians_10: -1365856679188030430
+      NPC Civilians_11: 3578913117202496602
+      NPC Civilians_12: 328358329458973049
+      NPC Civilians_13: 3026791867048194918
+      NPC Civilians_14: -4844481023522131316
+      NPC Civilians_15: 4267885452785649800
+      NPC Civilians_16: -8524562407320846464
+      NPC Civilians_17: -4728205559732043671
+      NPC Civilians_18: -5499720708060376125
+      NPC Civilians_19: -5849853434983456685
+      NPC Civilians_2: 1231861687397651169
+      NPC Civilians_20: 2462876045120860197
+      NPC Civilians_21: 1349867763591395290
+      NPC Civilians_22: -3686912019422758815
+      NPC Civilians_23: 4837053242484011263
+      NPC Civilians_24: 3057785810231488533
+      NPC Civilians_25: -1909107149343091530
+      NPC Civilians_26: 2657830813535991487
+      NPC Civilians_27: -1501861692836393874
+      NPC Civilians_28: -1178132700860028975
+      NPC Civilians_29: 8826543005220413166
+      NPC Civilians_3: -3561856646438786937
+      NPC Civilians_30: 5532777101003690776
+      NPC Civilians_31: -4511942359553767447
+      NPC Civilians_32: -7206205572736214464
+      NPC Civilians_33: 72741659522577216
+      NPC Civilians_34: 7566663422161113896
+      NPC Civilians_35: -3977951198771580857
+      NPC Civilians_36: -3044941889311117978
+      NPC Civilians_37: -1736890071220859202
+      NPC Civilians_38: 564864372729181574
+      NPC Civilians_39: 210499660199630822
+      NPC Civilians_4: 965002954657735475
+      NPC Civilians_40: 3428616397347695528
+      NPC Civilians_41: 8844769544472867127
+      NPC Civilians_42: 1653687206349031300
+      NPC Civilians_43: -8192040373200349639
+      NPC Civilians_44: -2512347299807660884
+      NPC Civilians_45: -7886545057183422481
+      NPC Civilians_46: 7141312823522900361
+      NPC Civilians_47: 5331563872259033911
+      NPC Civilians_48: 2690847056849325565
+      NPC Civilians_49: 1310918801267354640
+      NPC Civilians_5: 8710098362468352384
+      NPC Civilians_50: 6866445219379350794
+      NPC Civilians_51: -2181735783998275754
+      NPC Civilians_52: 8992038234638041659
+      NPC Civilians_53: -6444248016835118799
+      NPC Civilians_6: 6796920296745919155
+      NPC Civilians_7: -4754871829799337890
+      NPC Civilians_8: -8718810489660140734
+      NPC Civilians_9: 3536690757189868613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
