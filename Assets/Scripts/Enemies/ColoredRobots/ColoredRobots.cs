@@ -10,6 +10,7 @@ public class ColoredRobots : ColorPuzzle
     private Color originalColor;
     private Explosion explosion;
     [SerializeField] private int health;
+    [HideInInspector] public bool hasDashed;
 
     public float dashForce = 10.0f;
 
@@ -25,6 +26,9 @@ public class ColoredRobots : ColorPuzzle
         health--;
         if (health <= 0)
         {
+            gameObject.GetComponent<Collider2D>().enabled = false;
+            gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+
             if (explosion != null) { explosion.TriggerExplosoin(gameObject); }
             else
                 Destroy(gameObject);
@@ -32,8 +36,10 @@ public class ColoredRobots : ColorPuzzle
         StartCoroutine(FlashWhite());
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    protected override void OnTriggerEnter2D(Collider2D collision)
     {
+        base.OnTriggerEnter2D(collision);
+
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController controller = collision.gameObject.GetComponent<PlayerController>();

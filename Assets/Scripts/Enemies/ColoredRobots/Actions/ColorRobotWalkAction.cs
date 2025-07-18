@@ -17,7 +17,7 @@ public class ColorRobotWalkAction : Action
         ColoredRobots robot = controller.GetComponent<ColoredRobots>();
         if (targetPlayer == null) return;
 
-        if (!hasDashed)
+        if (!robot.hasDashed)
         {
             controller.animator.Play("walk");
 
@@ -36,12 +36,13 @@ public class ColorRobotWalkAction : Action
             float direction = targetPlayer.transform.position.x < controller.transform.position.x ? -1f : 1f;
             rb.linearVelocity = new Vector2(direction * robot.dashForce, rb.linearVelocity.y);
 
-            hasDashed = true;
+            robot.hasDashed = true;
         }
 
         // Wait until velocity is close to 0 before transitioning
         if (Mathf.Abs(rb.linearVelocity.x) < 0.1f)
         {
+            robot.hasDashed = false;
             controller.readyToGoNextState = true;
         }
     }

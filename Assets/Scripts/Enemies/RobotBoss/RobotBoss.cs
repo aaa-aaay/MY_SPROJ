@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 public class RobotBoss : MonoBehaviour
@@ -25,6 +26,26 @@ public class RobotBoss : MonoBehaviour
     [HideInInspector] public bool rightHandHasSwiped;
     [HideInInspector] public bool leftHandHasSwiped;
 
+    [Header("Apply Barrier")]
+    [SerializeField] float barrierApplyTime;
+    [SerializeField] GameObject blueBaarrierPlayfab;
+    [SerializeField] GameObject redBarrierPlayfab;
+    [SerializeField] Transform barrierLocation;
+
+
+
+    [Header("ColorRobots")]
+    [SerializeField] public GameObject blueRobot;
+    [SerializeField] public GameObject redRobot;
+    [HideInInspector] public bool rightRobotSummoned;
+    [HideInInspector] public bool leftRobotSummoned;
+
+
+    [HideInInspector] public float timer;
+
+    private float barrierSummonTimer;
+    private GameObject barrier;
+
 
 
 
@@ -39,6 +60,9 @@ public class RobotBoss : MonoBehaviour
 
         rightHandAnimator = rightHand.GetComponent<Animator>();
         rightHandRigidbody = rightHand.GetComponent<Rigidbody2D>();
+
+        timer = 0;
+        barrierSummonTimer = 0.0f;
     }
 
 
@@ -52,6 +76,26 @@ public class RobotBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (barrier != null) return;
+        barrierSummonTimer += Time.deltaTime;
+
+        if (barrierSummonTimer >= barrierApplyTime)
+        {
+            GameObject barrierToSummon = redBarrierPlayfab;
+            int randomValue = Random.Range(1, 3);
+
+            if (randomValue == 1) {
+                barrierToSummon = blueBaarrierPlayfab;
+            }
+
+            barrierSummonTimer = 0;
+            barrier = Instantiate(barrierToSummon, barrierLocation.position, Quaternion.identity);
+            barrier.transform.SetParent(barrierLocation, false);
+            barrier.transform.localPosition = Vector3.zero;
+        }
     }
+
+
+
 }

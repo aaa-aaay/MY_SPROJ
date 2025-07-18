@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,9 +100,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -143,10 +143,10 @@ TextureImporter:
       name: h0arder_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 7
-        width: 18
-        height: 25
+        x: 0
+        y: 0
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: h0arder_1
       rect:
         serializedVersion: 2
-        x: 14
+        x: 48
         y: 0
-        width: 20
-        height: 9
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,9 +187,9 @@ TextureImporter:
       name: h0arder_2
       rect:
         serializedVersion: 2
-        x: 61
+        x: 96
         y: 0
-        width: 21
+        width: 48
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: h0arder_3
       rect:
         serializedVersion: 2
-        x: 109
+        x: 144
         y: 0
-        width: 22
-        height: 31
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: h0arder_4
       rect:
         serializedVersion: 2
-        x: 157
+        x: 192
         y: 0
-        width: 21
-        height: 30
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: h0arder_5
       rect:
         serializedVersion: 2
-        x: 205
-        y: 7
-        width: 18
-        height: 25
+        x: 240
+        y: 0
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: h0arder_6
       rect:
         serializedVersion: 2
-        x: 206
+        x: 288
         y: 0
-        width: 20
-        height: 9
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,9 +297,9 @@ TextureImporter:
       name: h0arder_7
       rect:
         serializedVersion: 2
-        x: 253
+        x: 336
         y: 0
-        width: 21
+        width: 48
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -315,55 +315,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: h0arder_8
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 0
-        width: 22
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d4c56ad6a8b336d0800000000000000
-      internalID: -3011860699012545326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: h0arder_9
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 0
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6e5aaece379d5d10800000000000000
-      internalID: 2116013695945039471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ecd7cadb5d41d94fa1f6e39f9499956
     internalID: 0
     vertices: []
     indices: 
@@ -381,8 +337,6 @@ TextureImporter:
       h0arder_5: 1640599130372926720
       h0arder_6: 3308066904467946639
       h0arder_7: 1037298680827637787
-      h0arder_8: -3011860699012545326
-      h0arder_9: 2116013695945039471
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

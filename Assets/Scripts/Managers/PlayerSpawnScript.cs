@@ -21,11 +21,6 @@ public class PlayerSpawnScript : MonoBehaviour
     private void Start()
     {
 
-        if(SceneManager.sceneCount == 5)
-        {
-            tim = timSlide;
-            tom = tomSlide;
-        }
 
         if (!PlayerSelectionManager.Instance.loadedData)
         {
@@ -78,7 +73,6 @@ public class PlayerSpawnScript : MonoBehaviour
                         player.RespawnPosition = checkPoints[savedCheckpoints].p1Respawn.transform;
 
                         PlayerManager.Instance.SetPlayers(input.gameObject.GetComponent<PlayerController>(), 1);
-
 
                         CameraManager.Instance.SetPlayerCameras(playerCamera, 1);
 

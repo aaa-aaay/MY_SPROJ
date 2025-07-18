@@ -32,5 +32,6 @@ public class ColorBarrier : ColorPuzzle
     {
         circleCollider.enabled = false;
         spriteRender.enabled = false;
+        Destroy(gameObject);
     }
 }

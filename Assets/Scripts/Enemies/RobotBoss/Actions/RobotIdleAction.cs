@@ -17,6 +17,9 @@ public class RobotIdleAction : Action
         leftHandAnimator.Play("idle");
         rightHandAnimator.Play("idle");
 
+        if (controller.CheckIfCountDownElpased(3)){
+            controller.readyToGoNextState = true;
+        }
 
     }
 

@@ -54,7 +54,9 @@ public class PlayerController : MonoBehaviour, IDeath
     private bool frozen = false;
 
     [SerializeField] private Volume playerVolume;
-
+    [SerializeField] private SpriteRenderer sRenderer;
+    private Color originalColor;
+    private bool stopRevive;
     public Transform RespawnPosition { get; set; }
     public bool IsDead { get; set; }
 
@@ -81,7 +83,9 @@ public class PlayerController : MonoBehaviour, IDeath
 
         haveDoubleJumped = false;
         isDashing = false;
+        stopRevive = false;
         health = startingHealth;
+        originalColor = sRenderer.color;
     }
     void Start()
     {
@@ -245,13 +249,18 @@ public class PlayerController : MonoBehaviour, IDeath
 
     private IEnumerator StartRevive()
     {
+
         _rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
 
         yield return new WaitForSeconds(0.6f);
         PPManager.Instance.SetBlackAndWhite(true, playerNo);
 
+
+
+
         yield return new WaitForSeconds(3.0f);
+        if (stopRevive) yield return null;
         PPManager.Instance.SetBlackAndWhite(false, playerNo);
         gameObject.transform.position = RespawnPosition.position;
         _rb.constraints = RigidbodyConstraints2D.None;
@@ -283,6 +292,7 @@ public class PlayerController : MonoBehaviour, IDeath
         if(IsDead) return;
         IsDead = true;
         _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
+        if (stopRevive) return;
         StartCoroutine(StartRevive());
     }
 
@@ -290,6 +300,7 @@ public class PlayerController : MonoBehaviour, IDeath
     {
         health = health - damage;
 
+        StartCoroutine(HitEffect());
         //play hit effect
         PPManager.Instance.EnableVignette(true,playerNo);
 
@@ -303,4 +314,27 @@ public class PlayerController : MonoBehaviour, IDeath
         }
     }
 
+    private System.Collections.IEnumerator HitEffect()
+    {
+
+        sRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.3f);
+        sRenderer.color = originalColor;
+    }
+
+    public void SetStopRevive(bool stopRevive, bool revive)
+    {
+        this.stopRevive = stopRevive;
+        if (revive) {
+            gameObject.transform.position = RespawnPosition.position;
+            _rb.constraints = RigidbodyConstraints2D.None;
+            _rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            IsDead = false;
+            health = startingHealth;
+
+
+
+        }
+
+    }
 }

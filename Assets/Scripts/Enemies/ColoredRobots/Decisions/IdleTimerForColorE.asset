@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a1e4e67f042de245b91b13315dfb3ef, type: 3}
   m_Name: IdleTimerForColorE
   m_EditorClassIdentifier: 
-  timeToSwitch: 4
+  timeToSwitch: 2

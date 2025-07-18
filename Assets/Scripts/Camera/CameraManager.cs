@@ -2,6 +2,8 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+
+[DefaultExecutionOrder(-6)]
 public class CameraManager : MonoBehaviour
 {
     public static CameraManager Instance { get; private set; }
@@ -58,10 +60,12 @@ public class CameraManager : MonoBehaviour
         {
             P1camera = cam;
             p1Cinemachine = P1camera.transform.parent.GetComponentInChildren<CinemachinePositionComposer>();
+            Debug.Log("debug 1");
         }
         if (player == 2) {
             P2camera = cam;
             p2Cinemachine = P2camera.transform.parent.GetComponentInChildren<CinemachinePositionComposer>();
+            Debug.Log("debug 2");
         }
     }
 
@@ -130,7 +134,6 @@ public class CameraManager : MonoBehaviour
         PPManager.Instance.SetMainCameraVolume(vol);
         this.cm = cm;
 
-        Debug.Log("camera set");
     }
 
     private void MainCam( GameObject target, Vector2 targetOffset)
@@ -139,7 +142,9 @@ public class CameraManager : MonoBehaviour
 
 
         DisablePlayerCamera(true);
+
         LockCam(true);
+
 
         if (cm == null)
         {
@@ -147,13 +152,17 @@ public class CameraManager : MonoBehaviour
         }
         if (cm != null)
         {
+            if (target != null)
             cm.Follow = target.transform;
             CinemachinePositionComposer camPos = cm.gameObject.GetComponent<CinemachinePositionComposer>();
+            if (camPos != null) 
             camPos.TargetOffset = new Vector3(targetOffset.x, targetOffset.y, 0);
+
         }
 
         sidesidePanel.SetActive(false);
         updownPanel.SetActive(false);
+
 
     }
 
@@ -163,7 +172,9 @@ public class CameraManager : MonoBehaviour
         P2camera.gameObject.SetActive(!disable);
         p2Cinemachine.gameObject.SetActive(!disable);
         p1Cinemachine.gameObject.SetActive(!disable);
+        if(singleCam != null)
         singleCam.gameObject.SetActive(disable);
+        if(cm != null)  
         cm.gameObject.SetActive(disable);
     }
 
