@@ -4,38 +4,46 @@ public class ColorButtonThatMovesShip : ColorPuzzle
 {
     [SerializeField] private GameObject ship;
 
-    [SerializeField] private float shipMoveBackSpeed = 1f;       // Drift speed left
-    [SerializeField] private float shipNudgeRightDistance = 2f;  // Nudge distance
-    [SerializeField] private float moveSpeed = 5f;               // Move speed
-    [SerializeField] private Transform endLimit;                 // Max right limit
+    [SerializeField] private float pushForce = 2f;            // How strong the nudge right is
+    [SerializeField] private float returnSpeed = 1f;          // How quickly it returns left
+    [SerializeField] private float moveLerpSpeed = 5f;        // How smooth the movement is
+    [SerializeField] private Transform endLimit;              // Right boundary
 
-    private Vector2 targetPosition;
+    private Vector2 velocity = Vector2.zero;
     private Vector2 startPosition;
-
 
     private void Start()
     {
         startPosition = ship.transform.position;
-        targetPosition = startPosition;
     }
 
     public override void Interact()
     {
-        // Nudge right but clamp to endLimit
-        targetPosition += Vector2.right * shipNudgeRightDistance;
-        targetPosition.x = Mathf.Min(targetPosition.x, endLimit.position.x);
+        // Add push velocity to the right
+        velocity += Vector2.right * pushForce;
     }
 
     private void Update()
     {
-
-        targetPosition += Vector2.left * shipMoveBackSpeed * Time.deltaTime;
-
-        // Clamp to not go past startPosition (left limit)
-        targetPosition.x = Mathf.Clamp(targetPosition.x, startPosition.x, endLimit.position.x);
-
-        // Move ship toward target position
         Vector2 currentPosition = ship.transform.position;
-        ship.transform.position = Vector2.MoveTowards(currentPosition, targetPosition, moveSpeed * Time.deltaTime);
+
+        // Apply return force to bring it back
+        velocity += Vector2.left * returnSpeed * Time.deltaTime;
+
+        // Apply velocity
+        currentPosition += velocity * Time.deltaTime;
+
+        // Clamp within limits
+        float clampedX = Mathf.Clamp(currentPosition.x, startPosition.x, endLimit.position.x);
+        currentPosition = new Vector2(clampedX, currentPosition.y);
+
+        // Smoothly move the ship
+        ship.transform.position = Vector2.Lerp(ship.transform.position, currentPosition, moveLerpSpeed * Time.deltaTime);
+
+        // Optional: damp velocity when near start position to prevent overshooting
+        if (Mathf.Abs(currentPosition.x - startPosition.x) < 0.01f)
+        {
+            velocity = Vector2.zero;
+        }
     }
 }

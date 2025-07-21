@@ -19,6 +19,10 @@ public class ColorShootAbility : PlayerAbilities
 
     private void Update()
     {
+
+        if(player.IsDead) return;
+
+
         if (abilityAction1.IsInProgress())
         {
             Debug.Log("Holding Shoot");

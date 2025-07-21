@@ -177,5 +177,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableLayers:
     serializedVersion: 2
-    m_Bits: 799
+    m_Bits: 17182
   damage: 0

@@ -23347,6 +23347,7 @@ MonoBehaviour:
   p1Respawn: {fileID: 2018478317}
   p2Respawn: {fileID: 1810733604}
   checkPointNo: 0
+  finaSceneNo: 8
 --- !u!61 &1229807313
 BoxCollider2D:
   m_ObjectHideFlags: 0

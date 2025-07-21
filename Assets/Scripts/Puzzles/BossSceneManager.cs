@@ -19,6 +19,10 @@ public class BossSceneManager : MonoBehaviour
     [SerializeField] private float restingPositionBoss;
     [SerializeField] private float moveSpeed;
 
+    [SerializeField] GameObject head;
+
+    [SerializeField] private int nextSceneNo;
+
 
     float lerpDuration = 1f; // time in seconds
     float lerpTime = 0f;
@@ -62,6 +66,24 @@ public class BossSceneManager : MonoBehaviour
                 healthBar.gameObject.SetActive(true);
 
             }
+        }
+
+
+        if (!sceneStarted) {
+
+
+
+            if(head == null)
+            {
+                MySceneManager.Instance.GoNextScene(nextSceneNo);
+            }
+            
+
+
+        
+        
+        
+        
         }
 
 

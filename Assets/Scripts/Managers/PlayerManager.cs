@@ -45,4 +45,6 @@ public class PlayerManager : MonoBehaviour
     {
         return player2;
     }
+
+    public void DestoryGameObject() { Destroy(gameObject); }
 }

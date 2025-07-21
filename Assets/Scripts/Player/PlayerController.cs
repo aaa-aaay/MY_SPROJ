@@ -146,6 +146,10 @@ public class PlayerController : MonoBehaviour, IDeath
 
 
         Debug.DrawRay(transform.position, Vector2.down * rayCastGroundLength, Color.red);
+        Debug.DrawRay(transform.position + Vector3.left * 0.8f, Vector2.down * rayCastGroundLength, Color.red);
+        Debug.DrawRay(transform.position + Vector3.right * 0.8f, Vector2.down * rayCastGroundLength, Color.red);
+
+
     }
 
     private void FixedUpdate()
@@ -218,6 +222,11 @@ public class PlayerController : MonoBehaviour, IDeath
                 _rb.linearVelocity = new Vector2(Mathf.Sign(currentVel.x) * maxSlideSpeed, currentVel.y);
             }
         }
+
+
+
+
+
     }
 
     private bool GetIsGrounded()
@@ -231,13 +240,16 @@ public class PlayerController : MonoBehaviour, IDeath
         if (Physics2D.Raycast(origin, Vector2.down, rayLength, groundMask)) return true;
 
         // Slightly left
-        if (Physics2D.Raycast(origin + Vector2.left * 0.3f, Vector2.down, rayLength, groundMask)) return true;
+        if (Physics2D.Raycast(origin + Vector2.left * 0.8f, Vector2.down, rayLength, groundMask)) return true;
 
         // Slightly right
-        if (Physics2D.Raycast(origin + Vector2.right * 0.3f, Vector2.down, rayLength, groundMask)) return true;
+        if (Physics2D.Raycast(origin + Vector2.right * 0.8f, Vector2.down, rayLength, groundMask)) return true;
 
         return false;
     }
+
+
+
 
     private void RollComplete()
     {
@@ -298,6 +310,7 @@ public class PlayerController : MonoBehaviour, IDeath
 
     public void TakeDamage(int damage)
     {
+        if(IsDead) return;
         health = health - damage;
 
         StartCoroutine(HitEffect());

@@ -142,7 +142,8 @@ public class DialogueManager : MonoBehaviour
             // Play typing/talk sound
             if (!char.IsWhiteSpace(letter) && audioText.Length > 0)
             {
-                AudioManager.instance.PlaySFX(audioText, PlayerManager.Instance.GetPlayer1().gameObject.transform.position);
+
+                AudioManager.instance.PlaySFX(audioText,default);
             }
 
             yield return new WaitForSeconds(typingSpeed);
@@ -182,5 +183,10 @@ public class DialogueManager : MonoBehaviour
             this.image = image;
         }
     }
+
+
+
+    private void DestoryGameObject() { Destroy(gameObject); }
+
 
 }

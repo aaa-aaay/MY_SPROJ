@@ -195,4 +195,7 @@ public class CameraManager : MonoBehaviour
         }
        
     }
+
+
+    public void DestoryGameObject() { Destroy(gameObject); }
 }

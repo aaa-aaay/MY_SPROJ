@@ -8,6 +8,9 @@ public class GiveAbilitiesNPC : MonoBehaviour
     [SerializeField] PlayerAbilities ability2;
     [SerializeField] GameObject panel1;
     [SerializeField] GameObject panel2;
+
+
+    [SerializeField] TutorialPlayer toturial;
     private OnTriggerDialouge dialouge;
 
     private void Start()
@@ -24,6 +27,15 @@ public class GiveAbilitiesNPC : MonoBehaviour
             ability2.SetAbilityToPlayer();
             abilityGiven = true;
 
+
+            if (toturial != null)
+            {
+
+                toturial.ShowToturial();
+
+
+
+            }
 
         }
     }

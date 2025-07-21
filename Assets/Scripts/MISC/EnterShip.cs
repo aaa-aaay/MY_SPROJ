@@ -10,6 +10,11 @@ public class EnterShip : MonoBehaviour
     [SerializeField] private float cameraOffset;
     [SerializeField] Camera sceneCamera;
     [SerializeField] CinemachineCamera cineMachineCamera;
+    [SerializeField] GameObject colliderGO;
+
+
+    private bool shipBoarded;
+    [SerializeField] TutorialPlayer tut;
 
     private bool player1In;
     private bool player2In;
@@ -23,6 +28,7 @@ public class EnterShip : MonoBehaviour
         player1Boarded = false;
         player2Boarded = false;
         shipCount = 0;
+        shipBoarded = false;
         GolemBoss.SetActive(false);
     }
 
@@ -61,6 +67,19 @@ public class EnterShip : MonoBehaviour
 
     private void Update()
     {
+        if (shipBoarded) return;
+        if(shipCount >= 2 && !tut.showingClips)
+        {
+            colliderGO.SetActive(false);
+            GolemBoss.SetActive(true);
+            shipControls.StartCar();
+            CameraManager.Instance.SetMainCam(sceneCamera, cineMachineCamera);
+            CameraManager.Instance.SwitchMode(CameraManager.mode.Single, ship, new Vector2(cameraOffset, 0));
+            shipBoarded = true;
+            return;
+        }
+
+
         if (player1In && !player1Boarded)
         {
             var player = PlayerManager.Instance.player1.gameObject;
@@ -103,10 +122,7 @@ public class EnterShip : MonoBehaviour
 
         if (shipCount == 2)
         {
-            GolemBoss.SetActive(true);
-            shipControls.StartCar();
-            CameraManager.Instance.SetMainCam(sceneCamera, cineMachineCamera);
-            CameraManager.Instance.SwitchMode(CameraManager.mode.Single, ship, new Vector2(cameraOffset, 0));
+            tut.ShowToturial();
         }
 
         return true;

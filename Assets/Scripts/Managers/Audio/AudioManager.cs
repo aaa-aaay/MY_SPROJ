@@ -58,6 +58,7 @@ public class AudioManager : MonoBehaviour
                 if (audioSourcePool.Count > 0)
                 {
                     AudioSource source = audioSourcePool.Dequeue();
+                    if (source == null) return;
                     source.clip = sound.clip;
                     source.volume = sound.volume;
                     if(position != default)
@@ -140,7 +141,7 @@ public class AudioManager : MonoBehaviour
             while (audioSourcePool.Count > 0)
             {
                 AudioSource source = audioSourcePool.Dequeue();
-                if (source.isPlaying)
+                if (source != null && source.isPlaying)
                 {
                     source.Stop();
                     source.clip = null;
@@ -154,5 +155,8 @@ public class AudioManager : MonoBehaviour
             }
         }
     }
+
+
+    public void DestoryGameObject() { Destroy(gameObject); }
 
 }

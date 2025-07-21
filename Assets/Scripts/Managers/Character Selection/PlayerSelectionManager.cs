@@ -49,9 +49,10 @@ public class PlayerSelectionManager : MonoBehaviour
             Debug.Log("StartGame");
             MySceneManager.Instance.GoNextScene(loadedSceneNo);
         }
-        
-
     }
+
+
+    public void DestoryGameObject() { Destroy(gameObject); }
 
 
     public bool AreBothCharactersSelected()

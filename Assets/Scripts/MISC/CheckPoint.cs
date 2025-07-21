@@ -10,6 +10,8 @@ public class CheckPoint : MonoBehaviour
     [SerializeField] public Transform p2Respawn;
 
     [SerializeField] private int checkPointNo;
+
+    [SerializeField] private int finaSceneNo = 8;
     private ProgressSaveData progress;
 
 
@@ -19,7 +21,17 @@ public class CheckPoint : MonoBehaviour
         progress = new ProgressSaveData();
 
         progress.checkPointNo = checkPointNo;
-        progress.sceneInt = SceneManager.GetActiveScene().buildIndex;
+
+        if(SceneManager.GetActiveScene().buildIndex == finaSceneNo)
+        {
+            progress.sceneInt = 0;
+        }
+        else
+        {
+            progress.sceneInt = SceneManager.GetActiveScene().buildIndex;
+        }
+
+       
 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -66,7 +78,7 @@ public class CheckPoint : MonoBehaviour
 
     public void SavePlayerProgress()
     {
-
+        
         string json = JsonUtility.ToJson(progress);
         var request = new UpdateUserDataRequest
         {

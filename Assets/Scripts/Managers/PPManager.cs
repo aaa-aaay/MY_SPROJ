@@ -190,4 +190,6 @@ public class PPManager : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         EnableVignette(false, playerno);
     }
+
+    public void DestoryGameObject() { Destroy(gameObject); }
 }

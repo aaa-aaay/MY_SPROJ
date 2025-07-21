@@ -224,6 +224,8 @@ MonoBehaviour:
   disableHorizontalMove: 0
   playerVolume: {fileID: 5352734916001350443}
   sRenderer: {fileID: 7121208907490600842}
+  airMaterial: {fileID: 6200000, guid: 1686df27dfbc21449a96ded6b2c1847a, type: 2}
+  Groundmaterial: {fileID: 6200000, guid: 29a9ec73dda3f25449866c39a3d87f68, type: 2}
 --- !u!114 &6319639458141290333
 MonoBehaviour:
   m_ObjectHideFlags: 0
