@@ -793,6 +793,7 @@ MonoBehaviour:
   p1Respawn: {fileID: 342444535}
   p2Respawn: {fileID: 1075230339}
   checkPointNo: 0
+  finaSceneNo: 8
 --- !u!61 &350703436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24101,6 +24102,7 @@ MonoBehaviour:
   p1Respawn: {fileID: 2028848893}
   p2Respawn: {fileID: 1529324981}
   checkPointNo: 1
+  finaSceneNo: 8
 --- !u!61 &711064988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54300,11 +54302,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4166513266446796932, guid: d56b404a7590e97489e4634726d824ae, type: 3}
       propertyPath: sideCameraDistance
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4166513266446796932, guid: d56b404a7590e97489e4634726d824ae, type: 3}
       propertyPath: topDownCameraDistance
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4347787486473542636, guid: d56b404a7590e97489e4634726d824ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54546,6 +54548,7 @@ MonoBehaviour:
   p1Respawn: {fileID: 342444535}
   p2Respawn: {fileID: 1075230339}
   checkPointNo: 0
+  finaSceneNo: 8
 --- !u!61 &1338643577
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55152,6 +55155,7 @@ MonoBehaviour:
   p1Respawn: {fileID: 342444535}
   p2Respawn: {fileID: 1075230339}
   checkPointNo: 0
+  finaSceneNo: 8
 --- !u!1 &1658443250
 GameObject:
   m_ObjectHideFlags: 0
