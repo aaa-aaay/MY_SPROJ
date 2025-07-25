@@ -77,7 +77,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         if (audioName.Length > 0)
-        AudioManager.instance.PlaySFX(audioName, PlayerManager.Instance.GetPlayer1().gameObject.transform.position);
+        AudioManager.instance.PlaySFX(audioName);
 
         DisplayNextSentence();
     }
@@ -120,7 +120,6 @@ public class DialogueManager : MonoBehaviour
             }
             else if (audioText.Length > 0)
             {
-                AudioManager.instance.PlaySFX(audioText);
                 StartCoroutine(TypeSentence(sentence));
             }
 
@@ -132,6 +131,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence, string audioText = "")
     {
+        if (!haveDialouge) yield return null;
         sentenceText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {

@@ -131,6 +131,7 @@ public class AudioManager : MonoBehaviour
             if (backgroundMusicSource != null && backgroundMusicSource.isPlaying)
             {
                 backgroundMusicSource.Stop();
+
             }
         }
 
@@ -140,11 +141,13 @@ public class AudioManager : MonoBehaviour
 
             while (audioSourcePool.Count > 0)
             {
+                Debug.Log("things in the pool");
                 AudioSource source = audioSourcePool.Dequeue();
                 if (source != null && source.isPlaying)
                 {
                     source.Stop();
                     source.clip = null;
+                    Debug.Log("Audio Stopeed");
                 }
                 activeSources.Add(source);
             }

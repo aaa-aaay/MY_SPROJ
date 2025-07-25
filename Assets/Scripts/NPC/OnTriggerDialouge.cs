@@ -5,14 +5,19 @@ public class OnTriggerDialouge : MonoBehaviour
     private DialogueTrigger dialogueTrigger;
     private bool dialougeStarted;
     public bool dialougeFinished;
+    public ShowStoryAtStart startingStory;
     private void Start()
     {
         dialougeFinished = false;
         dialogueTrigger = GetComponent<DialogueTrigger>();
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (dialougeFinished)
+        if (dialougeFinished || dialougeStarted)
+        {
+            return;
+        }
+        if ((startingStory != null && !startingStory.dialougeFinished))
         {
             return;
         }
@@ -24,6 +29,7 @@ public class OnTriggerDialouge : MonoBehaviour
             dialougeStarted = true;
         }
     }
+
 
     private void Update()
     {

@@ -13,6 +13,7 @@ public class NodeShootBullet : MonoBehaviour
     private GameObject canPlaceOn;
     private void PlaceNode()
     {
+        AudioManager.instance.PlaySFX("PlaceNode");
         GameObject node = Instantiate(GrappleNode,transform.position,Quaternion.identity);
         node.transform.SetParent(canPlaceOn.transform);
         if (shootAbility != null) { 

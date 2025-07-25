@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: eeff73aa658545d48b53d08af355fd89, type: 3}
   name: BGMMainMenu
-  volume: 0.5
+  volume: 1

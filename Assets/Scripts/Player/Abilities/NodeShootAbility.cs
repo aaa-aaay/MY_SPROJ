@@ -28,6 +28,14 @@ public class NodeShootAbility : PlayerAbilities
 
     private void Update()
     {
+
+        if (player.IsDead)
+        {
+            ResetAll();
+            return;
+        }
+
+
         if (bulletsLeft > 3)
         {
             bulletsLeft = 3;
@@ -69,7 +77,7 @@ public class NodeShootAbility : PlayerAbilities
 
     private void FireBullet()
     {
-
+        AudioManager.instance.PlaySFX("ShootAbility");
         Vector2 aimDirection = player.aimAction.ReadValue<Vector2>().normalized;
         if (aimDirection == Vector2.zero) aimDirection = new Vector2(transform.parent.transform.localScale.x, 0);
 
@@ -94,8 +102,10 @@ public class NodeShootAbility : PlayerAbilities
 
     public void ResetAll()
     {
-        foreach (GameObject obj in listOfNodes) { 
-            listOfNodes.Remove(obj);
+        for (int i = listOfNodes.Count - 1; i >= 0; i--)
+        {
+            GameObject obj = listOfNodes[i];
+            listOfNodes.RemoveAt(i);
             Destroy(obj);
         }
         bulletsLeft = 3;
@@ -105,6 +115,7 @@ public class NodeShootAbility : PlayerAbilities
     {
         if (listOfNodes.Count > 0)
         {
+            AudioManager.instance.PlaySFX("TakeBackNode");
             Destroy(listOfNodes[0]);
             listOfNodes.RemoveAt(0);
             GetBulletBack();

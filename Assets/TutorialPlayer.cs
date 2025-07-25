@@ -40,6 +40,7 @@ public class TutorialPlayer : MonoBehaviour
 
         if (PlayerManager.Instance.player1.jumpAction.WasPressedThisFrame() || PlayerManager.Instance.player2.jumpAction.WasPressedThisFrame()) {
             NextToturial();
+            AudioManager.instance.PlaySFX("UIConfirm");
         }
     }
 

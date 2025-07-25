@@ -19,13 +19,14 @@ public class ShowStoryAtStart : MonoBehaviour
 
     private void Start()
     {
+        dialougeFinished = false;
+        dialougeStarted = true;
         DialogueManager.Instance.SetDisplayFields(false, null,displayText, panel);
         DialogueManager.Instance.DisplayStoryDialouge(dialouge);
 
         PlayerManager.Instance.GetPlayer1().FreezePlayer(true);
         PlayerManager.Instance.GetPlayer2().FreezePlayer(true);
 
-        dialougeStarted = true;
     }
 
 
@@ -40,8 +41,11 @@ public class ShowStoryAtStart : MonoBehaviour
                 PlayerManager.Instance.GetPlayer2().FreezePlayer(false);
                 dialougeStarted = false;
                 dialougeFinished = true;
+                AudioManager.instance.StopSounds(false,2);
                 AudioManager.instance.PlayBackgroundMusic(BGMNameForScene);
+
                 return;
+
             }
             if (PlayerManager.Instance.GetPlayer1().interactAction.WasPressedThisFrame() || PlayerManager.Instance.GetPlayer2().interactAction.WasPressedThisFrame())
             {

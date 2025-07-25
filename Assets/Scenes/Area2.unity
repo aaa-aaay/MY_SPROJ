@@ -3000,6 +3000,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5891855650697409974, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
+      propertyPath: checkPointNo
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7923878550752609373, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.48
@@ -5126,6 +5130,10 @@ PrefabInstance:
     - target: {fileID: 3729930632695680205, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891855650697409974, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
+      propertyPath: checkPointNo
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7923878550752609373, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7758,6 +7766,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5891855650697409974, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
+      propertyPath: checkPointNo
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7923878550752609373, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -214.82
@@ -7990,6 +8002,10 @@ PrefabInstance:
     - target: {fileID: 3729930632695680205, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891855650697409974, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
+      propertyPath: checkPointNo
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7923878550752609373, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8630,6 +8646,18 @@ PrefabInstance:
     - target: {fileID: 4385796577739568448, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
       propertyPath: m_Name
       value: Laser 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830000002134362148, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
+      propertyPath: m_Size.y
+      value: 0.046775788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830000002134362148, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0012872294
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830000002134362148, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.26759338
       objectReference: {fileID: 0}
     - target: {fileID: 8966728299247813300, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
       propertyPath: m_LocalScale.x
@@ -13254,6 +13282,10 @@ PrefabInstance:
     - target: {fileID: 3729930632695680205, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891855650697409974, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
+      propertyPath: checkPointNo
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7923878550752609373, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49101,6 +49133,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5891855650697409974, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
+      propertyPath: checkPointNo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7923878550752609373, guid: cfab15b6b54b6b946b19b29eb1e5adbb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -77.5
@@ -49632,6 +49668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialougeFinished: 0
+  startingStory: {fileID: 1986522065}
 --- !u!61 &1883802725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49648,7 +49685,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16383
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -49666,7 +49703,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.3277241, y: 0.13638204}
+  m_Offset: {x: 21.563162, y: -0.49293983}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -49676,7 +49713,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1354485, y: 0.75276446}
+  m_Size: {x: 44.917217, y: 3.827163}
   m_EdgeRadius: 0
 --- !u!114 &1883802726
 MonoBehaviour:
@@ -53479,6 +53516,18 @@ PrefabInstance:
     - target: {fileID: 4385796577739568448, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
       propertyPath: m_Name
       value: Laser 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830000002134362148, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
+      propertyPath: m_Size.y
+      value: 0.04613164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830000002134362148, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0012872294
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830000002134362148, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.26727134
       objectReference: {fileID: 0}
     - target: {fileID: 8966728299247813300, guid: acb4e8aeed9ded644ab79622cf6aedfd, type: 3}
       propertyPath: m_LocalScale.x

@@ -55,6 +55,7 @@ public class PuzzleButton : MonoBehaviour
     {
         if (player != null && playerIn && player.interactAction.WasPressedThisFrame())
         {
+            AudioManager.instance.PlaySFX("UIConfirm");
             buttonPressed = true;
             if(lockPlayer) player.FreezePlayer(true);
         }

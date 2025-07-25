@@ -57,6 +57,7 @@ public class FirstLevelChase : MonoBehaviour
 
     private void RestartPuzzle()
     {
+        AudioManager.instance.PlayBackgroundMusic("LaserChaseBGM");
         player1Enter = false;
         player2Enter = false;
         puzzleStarted = false;
@@ -77,7 +78,7 @@ public class FirstLevelChase : MonoBehaviour
                 laser.gameObject.SetActive(true);
                 laser.EnableLaser();
                 laser.transform.position = startingTransofrm.position;
-
+                AudioManager.instance.PlayBackgroundMusic("LaserChaseBGM");
 
                 Debug.Log("Laser Started");
             } 

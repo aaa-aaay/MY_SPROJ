@@ -31,6 +31,11 @@ public class ShipControls : MonoBehaviour, IDeath
     public Transform RespawnPosition { get; set; }
     public bool IsDead { get; set; }
 
+
+    private InputAction jumpAction;
+    private InputAction shootAction;
+    private InputAction aimAction;
+
     private void Start()
     {
         IsDead = false;
@@ -39,6 +44,11 @@ public class ShipControls : MonoBehaviour, IDeath
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         rb.constraints = RigidbodyConstraints2D.FreezePosition;
         shipHealth = defaultShipHealth;
+
+        jumpAction = PlayerManager.Instance.GetPlayer1().jumpAction;
+        shootAction = PlayerManager.Instance.GetPlayer2().abilityAction;
+        aimAction = PlayerManager.Instance.GetPlayer2().aimAction;
+
     }
 
     public void StartCar()
@@ -54,15 +64,14 @@ public class ShipControls : MonoBehaviour, IDeath
     {
         if (IsDead || !shipStarted) return;
         // Pressing space -> go up
-        if (PlayerManager.Instance.GetPlayer1().jumpAction.IsInProgress())
+        if (jumpAction.IsInProgress())
         {
-            Debug.Log("Pressed");
             jump = true;
 
         }
 
 
-        if (PlayerManager.Instance.GetPlayer2().abilityAction.IsInProgress()) {
+        if (shootAction.IsInProgress()) {
             fireCooldown -= Time.deltaTime;
 
 
@@ -123,7 +132,7 @@ public class ShipControls : MonoBehaviour, IDeath
 
     private void ShootBullet()
     {
-        Vector2 aimInput = PlayerManager.Instance.GetPlayer2().aimAction.ReadValue<Vector2>();
+        Vector2 aimInput = aimAction.ReadValue<Vector2>();
 
         if (aimInput == Vector2.zero)
         {

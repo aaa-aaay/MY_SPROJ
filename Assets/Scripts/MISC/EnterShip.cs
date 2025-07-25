@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class EnterShip : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class EnterShip : MonoBehaviour
     [SerializeField] Camera sceneCamera;
     [SerializeField] CinemachineCamera cineMachineCamera;
     [SerializeField] GameObject colliderGO;
+
+
 
 
     private bool shipBoarded;
@@ -75,6 +78,7 @@ public class EnterShip : MonoBehaviour
             shipControls.StartCar();
             CameraManager.Instance.SetMainCam(sceneCamera, cineMachineCamera);
             CameraManager.Instance.SwitchMode(CameraManager.mode.Single, ship, new Vector2(cameraOffset, 0));
+            AudioManager.instance.PlayBackgroundMusic("Boss1BGM");
             shipBoarded = true;
             return;
         }
@@ -106,8 +110,8 @@ public class EnterShip : MonoBehaviour
         if (player.transform.parent == ship.transform)
             return false; // Already boarded
 
-        player.transform.SetParent(ship.transform, false);
-        player.transform.localPosition = Vector3.zero;
+        //player.transform.SetParent(ship.transform, false);
+        //player.transform.localPosition = Vector3.zero;
 
         var sr = player.GetComponentInChildren<SpriteRenderer>();
         if (sr) sr.enabled = false;
@@ -115,8 +119,10 @@ public class EnterShip : MonoBehaviour
         var col = player.GetComponent<Collider2D>();
         if (col) col.enabled = false;
 
-        var rb = player.GetComponent<Rigidbody2D>();
-        if (rb) rb.bodyType = RigidbodyType2D.Static;
+        var playerController = player.GetComponent<PlayerController>();
+        playerController.FreezePlayer(true);
+        //var rb = player.GetComponent<Rigidbody2D>();
+        //if (rb) rb.bodyType = RigidbodyType2D.Static;
 
         shipCount++;
 

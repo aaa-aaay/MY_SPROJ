@@ -43,15 +43,20 @@ public class GrappleAbility : PlayerAbilities
     // Update is called once per frame
     void Update()
     {
+        if (player.IsDead)
+        {
+            lr.enabled = false;
+            dj.enabled = false;
+            grappling = false;
+            player.disableHorizontalMove = false;
+            return;
+        }
 
         if (thingsToGrapple.Count > 0) {
             if (closest != null) { closest.GetComponentInChildren<Canvas>().enabled = false; }
             closest = thingsToGrapple .OrderBy(obj => Vector2.Distance(transform.position, obj.transform.position)) .FirstOrDefault();
             Canvas UI = closest.GetComponentInChildren<Canvas>();
             UI.enabled = true;
-           
-
-
         }
 
         // Start grappling
@@ -60,7 +65,7 @@ public class GrappleAbility : PlayerAbilities
 
 
             if (closest == null) return;
-
+            AudioManager.instance.PlaySFX("RopeHit");
             grappling = true;
             grappledObject = closest;
 
