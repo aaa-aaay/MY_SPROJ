@@ -295,6 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialougeFinished: 0
+  startingStory: {fileID: 0}
 --- !u!95 &150230877
 Animator:
   serializedVersion: 7
@@ -739,7 +740,7 @@ Transform:
   m_GameObject: {fileID: 342444534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.26, y: -0.1, z: 0}
+  m_LocalPosition: {x: 125.8, y: 6.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54086,7 +54087,7 @@ Transform:
   m_GameObject: {fileID: 1075230338}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.4, y: -0.4, z: 0}
+  m_LocalPosition: {x: 128.66, y: 5.8000007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
