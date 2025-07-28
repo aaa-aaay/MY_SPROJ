@@ -31,7 +31,6 @@ public class GrappleAbility : PlayerAbilities
         rb = GetComponentInParent<Rigidbody2D>();
         lr = GetComponent<LineRenderer>();
         dj = GetComponentInParent<DistanceJoint2D>();
-        player = GetComponentInParent<PlayerController>();
         dj.enabled = false;
         lr.enabled = false;
         grappling = false;

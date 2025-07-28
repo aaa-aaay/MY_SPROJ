@@ -29,11 +29,11 @@ public class NodeShootAbility : PlayerAbilities
     private void Update()
     {
 
-        if (player.IsDead)
-        {
-            ResetAll();
-            return;
-        }
+        //if (player.IsDead)
+        //{
+        //    ResetAll();
+        //    return;
+        //}
 
 
         if (bulletsLeft > 3)

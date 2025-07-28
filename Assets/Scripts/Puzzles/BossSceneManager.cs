@@ -33,8 +33,9 @@ public class BossSceneManager : MonoBehaviour
     private void Start()
     {
         healthBar.gameObject.SetActive(false);
+        CameraManager.Instance.LockCam(false);
         CameraManager.Instance.SetMainCam(_camera, cinemachineCamera);
-        CameraManager.Instance.SwitchMode(CameraManager.mode.Single);
+        CameraManager.Instance.SwitchMode(CameraManager.mode.Single,null);
         PPManager.Instance.SetMainCameraVolume(_camera.gameObject.GetComponent<Volume>());
 
 
