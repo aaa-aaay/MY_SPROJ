@@ -7,6 +7,7 @@ public class MySceneManager : MonoBehaviour
     private Animator animator;
     [SerializeField] GameObject animationCanvas;
     private int nextSceneNo;
+    private bool sceneLoading;
 
 
     private void Awake()
@@ -23,10 +24,13 @@ public class MySceneManager : MonoBehaviour
         SceneManager.sceneLoaded += OnSceneLoaded;
         animationCanvas.SetActive(true);
         animator = GetComponent<Animator>();
+        sceneLoading = false;
     }
 
     public void GoNextScene(int sceneNo)
     {
+        if (sceneLoading) return;
+        sceneLoading = true;
         nextSceneNo = sceneNo;
         animator.SetTrigger("StartEndSceneAnimation");
     }
@@ -35,7 +39,7 @@ public class MySceneManager : MonoBehaviour
     {
         AudioManager.instance.StopSounds();
         SceneManager.LoadScene(nextSceneNo);
-
+        sceneLoading = false;
     }
 
     public void GoToTitle()

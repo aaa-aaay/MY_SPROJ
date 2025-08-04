@@ -23949,7 +23949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button1: {fileID: 647416231}
   button2: {fileID: 775628033}
-  nextSceneNumber: 6
+  nextSceneNumber: 7
 --- !u!95 &2022338005
 Animator:
   serializedVersion: 7

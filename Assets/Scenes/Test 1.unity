@@ -24246,7 +24246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button1: {fileID: 1615912767}
   button2: {fileID: 1852311023}
-  nextSceneNumber: 2
+  nextSceneNumber: 3
 --- !u!1001 &781739491
 PrefabInstance:
   m_ObjectHideFlags: 0

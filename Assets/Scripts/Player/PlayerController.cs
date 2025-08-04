@@ -304,6 +304,7 @@ public class PlayerController : MonoBehaviour, IDeath
         if(IsDead) return;
         IsDead = true;
         _AnimationManager.ChangeAnimationState(AnimationManager.AnimationState.Death);
+        RumbleManager.instance.RumblePulse(0.5f, 1f, 0.3f, _PlayerInput);
         if (stopRevive) return;
         StartCoroutine(StartRevive());
     }
@@ -312,7 +313,7 @@ public class PlayerController : MonoBehaviour, IDeath
     {
         if(IsDead) return;
         health = health - damage;
-
+        RumbleManager.instance.RumblePulse(0.3f, 0.8f, 0.2f, _PlayerInput);
         StartCoroutine(HitEffect());
         //play hit effect
         PPManager.Instance.EnableVignette(true,playerNo);

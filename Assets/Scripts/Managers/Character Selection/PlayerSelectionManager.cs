@@ -93,13 +93,13 @@ public class PlayerSelectionManager : MonoBehaviour
             ProgressSaveData progress = JsonUtility.FromJson<ProgressSaveData>(json);
 
             loadedSceneNo = progress.sceneInt;
-            if(loadedSceneNo < 1) loadedSceneNo = 1;
+            if(loadedSceneNo < 2) loadedSceneNo = 2;
             loadedCheckPointNo = progress.checkPointNo;
             Debug.Log("Loaded progress: Level = " + progress.sceneInt + ", Coins = " + progress.checkPointNo);
         }
         else
         {
-            loadedSceneNo = 1;
+            loadedSceneNo = 2;
             loadedCheckPointNo = 0;
             Debug.Log("No player progress found.");
         }
@@ -107,7 +107,7 @@ public class PlayerSelectionManager : MonoBehaviour
 
     private void OnDataLoadFailure(PlayFabError error)
     {
-        loadedSceneNo = 1;
+        loadedSceneNo = 2;
         loadedCheckPointNo = 0;
 
         Debug.LogError("Failed to load player progress: " + error.GenerateErrorReport());

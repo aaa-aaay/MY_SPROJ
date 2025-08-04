@@ -21995,7 +21995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialouge: {fileID: 11338141}
   startDialouge: {fileID: 0}
-  nextSceneNo: 7
+  nextSceneNo: 8
   deleteManagers: 0
   destoryManager: {fileID: 0}
 --- !u!4 &2038445470

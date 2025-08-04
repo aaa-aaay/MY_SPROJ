@@ -146,8 +146,10 @@ public class ShipControls : MonoBehaviour, IDeath
 
     public void StartDying()
     {
+        if (IsDead) return;
         IsDead = true;
-
+        RumbleManager.instance.RumblePulse(0.5f, 1.0f, 0.3f, PlayerManager.Instance.GetPlayer1().gameObject.GetComponent<PlayerInput>());
+        RumbleManager.instance.RumblePulse(0.5f, 1.0f, 0.3f, PlayerManager.Instance.GetPlayer2().gameObject.GetComponent<PlayerInput>());
         StartCoroutine(StartRevive());
     }
 
@@ -177,7 +179,8 @@ public class ShipControls : MonoBehaviour, IDeath
     public void ShipHit()
     {
         shipHealth--;
-
+        RumbleManager.instance.RumblePulse(0.2f, 0.7f, 0.2f, PlayerManager.Instance.GetPlayer1().gameObject.GetComponent<PlayerInput>());
+        RumbleManager.instance.RumblePulse(0.5f, 0.7f, 0.2f, PlayerManager.Instance.GetPlayer2().gameObject.GetComponent<PlayerInput>());
         if (shipHealth <= 0)
         {
 

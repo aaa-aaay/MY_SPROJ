@@ -3437,7 +3437,7 @@ MonoBehaviour:
   restingPositionBoss: 4.77
   moveSpeed: 1
   head: {fileID: 1796864686}
-  nextSceneNo: 8
+  nextSceneNo: 9
 --- !u!4 &1757484722
 Transform:
   m_ObjectHideFlags: 0
