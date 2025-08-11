@@ -16,6 +16,7 @@ public class ShipControls : MonoBehaviour, IDeath
     public float forwardSpeed = 5f;
     private Rigidbody2D rb;
     private bool jump;
+    private Camera cam;
 
     //Shooting Mech
     [SerializeField] private Transform firePoint;
@@ -51,13 +52,14 @@ public class ShipControls : MonoBehaviour, IDeath
 
     }
 
-    public void StartCar()
+    public void StartCar(Camera cam)
     {
 
         if (shipStarted) return;
         rb.constraints = RigidbodyConstraints2D.None;
         shipStarted = true;
 
+        this.cam = cam;
     }
 
     private void Update()
@@ -138,10 +140,11 @@ public class ShipControls : MonoBehaviour, IDeath
         {
             aimInput = Vector2.left;
         }
-
+        AudioManager.instance.PlaySFX("LaserBullet");
         GameObject bulletOBJ = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Bullet bullet = bulletOBJ.GetComponent<Bullet>();
         bullet.Shoot(aimInput, shootPower);
+
     }
 
     public void StartDying()

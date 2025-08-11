@@ -75,7 +75,7 @@ public class EnterShip : MonoBehaviour
         {
             colliderGO.SetActive(false);
             GolemBoss.SetActive(true);
-            shipControls.StartCar();
+            shipControls.StartCar(sceneCamera);
             CameraManager.Instance.SetMainCam(sceneCamera, cineMachineCamera);
             CameraManager.Instance.SwitchMode(CameraManager.mode.Single, ship, new Vector2(cameraOffset, 0));
             AudioManager.instance.PlayBackgroundMusic("Boss1BGM");

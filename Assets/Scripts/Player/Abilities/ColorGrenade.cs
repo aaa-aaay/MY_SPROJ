@@ -24,6 +24,7 @@ public class ColorGrenade : Bullet, ColoredAbilities
         {
             boxcollider.enabled = false;
             circlecollider.enabled = true;
+            AudioManager.instance.PlaySFX("SciFiExplosion");
             DestroyBullet();
         }
     }

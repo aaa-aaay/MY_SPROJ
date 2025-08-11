@@ -77,7 +77,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         if (audioName.Length > 0)
-        AudioManager.instance.PlaySFX(audioName);
+        //AudioManager.instance.PlaySFX(audioName);
 
         DisplayNextSentence();
     }
@@ -143,7 +143,7 @@ public class DialogueManager : MonoBehaviour
             if (!char.IsWhiteSpace(letter) && audioText.Length > 0)
             {
 
-                AudioManager.instance.PlaySFX(audioText,default);
+                //AudioManager.instance.PlaySFX(audioText,default);
             }
 
             yield return new WaitForSeconds(typingSpeed);

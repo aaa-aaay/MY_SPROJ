@@ -32,6 +32,7 @@ public class ColorShootAbility : PlayerAbilities
             if (fireCooldown <= 0f)
             {
                 Debug.Log("Bullet Shot");
+                AudioManager.instance.PlaySFX("LaserBullet");
                 ShootorThrowGrenade(bulletPrefab);
                 fireCooldown = fireRate;
             }

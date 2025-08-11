@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: cb7e1b9afe2f92d4a91e2d10f7902315, type: 3}
   name: Dash
-  volume: 0.2
+  volume: 0.3
