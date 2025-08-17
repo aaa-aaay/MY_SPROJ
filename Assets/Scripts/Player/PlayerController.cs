@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour, IDeath
     public Transform repsawnPosition;
 
 
-    [HideInInspector] public float moveSpeed = 10;
+     public float moveSpeed = 10;
     [SerializeField] private float slowdownSpeed = 7;
     [SerializeField] public float jumpSpeed = 10;
     [SerializeField] private float dashPower = 4.0f;

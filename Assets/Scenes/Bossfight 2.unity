@@ -3615,7 +3615,7 @@ MonoBehaviour:
   swipeAttackSpeed: 40
   rightHandHasSwiped: 0
   leftHandHasSwiped: 0
-  barrierApplyTime: 3
+  barrierApplyTime: 4
   blueBaarrierPlayfab: {fileID: 365901251726241765, guid: b1d7702fe92127e42958f0bd11403ff6, type: 3}
   redBarrierPlayfab: {fileID: 365901251726241765, guid: 1c76ee355edddab47b42aa70a80d7bd2, type: 3}
   barrierLocation: {fileID: 1653580106}
@@ -3673,7 +3673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flashDuration: 0.1
-  health: 600
+  health: 400
   hitColor: {r: 0.95228755, g: 1, b: 0.007843137, a: 1}
   healthBar: {fileID: 1144023618}
 --- !u!1001 &1838530352
