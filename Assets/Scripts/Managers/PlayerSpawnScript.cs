@@ -20,7 +20,7 @@ public class PlayerSpawnScript : MonoBehaviour
 
     private void Start()
     {
-
+        Cursor.visible = false;
 
         if (!PlayerSelectionManager.Instance.loadedData)
         {
@@ -33,10 +33,16 @@ public class PlayerSpawnScript : MonoBehaviour
         }
 
 
+        if (savedCheckpoints < 0 || savedCheckpoints >= checkPoints.Length)
+        {
+            savedCheckpoints = 0;
+        }
 
-       
 
-        for (int i = 0; i < 2; i++)
+
+
+
+            for (int i = 0; i < 2; i++)
         {
             GameObject prefab = PlayerSelectionManager.Instance.GetCharacterPrefabForPlayer(i);
             InputDevice device = PlayerSelectionManager.Instance.GetDeviceForPlayer(i);

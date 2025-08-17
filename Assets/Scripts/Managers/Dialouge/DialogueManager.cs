@@ -55,6 +55,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialouge, string audioName = "")
     {
+        EndDialogue();
+
         SetDisplayFields(true);
         sentences.Clear();
         canvas.SetActive(true);
@@ -62,7 +64,8 @@ public class DialogueManager : MonoBehaviour
         haveDialouge = true;
         nameText.text = dialouge.name;
 
-        if(image != null && dialouge.icon != null)
+
+        if (image != null && dialouge.icon != null)
         {
             image.enabled = true;
             image.sprite = dialouge.icon;
@@ -84,6 +87,8 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayStoryDialouge(Dialogue dialouge)
     {
+
+        sentenceText.text = "";
         sentences.Clear();
         canvas.SetActive(true);
         haveDialouge = true;
@@ -154,11 +159,26 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+
         haveDialouge = false;
-        if (image != null )image.enabled = false;
+
+        StopAllCoroutines();     
+        sentences.Clear();          
+
+        if (sentenceText != null)
+            sentenceText.text = "";
+
+        if (nameText != null)
+            nameText.text = "";
+
+        if (image != null)
+            image.enabled = false;
+
+        if(canvas != null)
         canvas.SetActive(false);
+
+        if(animator != null)
         animator.SetBool("isOpen", false);
-        SetDisplayFields(true);
 
     }
     public bool StillHaveDialogue()

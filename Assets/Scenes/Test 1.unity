@@ -372,7 +372,7 @@ MonoBehaviour:
     - about 1000 years into the future......
     - Somewhere in an abandoned factory......
     - buzzz buzzz..
-    - 2 small robots sulldenly powered up and gained consciousness....
+    - 2 small robots suddenly powered up and gained consciousness....
   displayText: {fileID: 1918022331}
   panel: {fileID: 614654178}
   BGMNameForScene: BGMLevel1
@@ -794,7 +794,6 @@ MonoBehaviour:
   p1Respawn: {fileID: 342444535}
   p2Respawn: {fileID: 1075230339}
   checkPointNo: 0
-  finaSceneNo: 8
 --- !u!61 &350703436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23878,7 +23877,6 @@ MonoBehaviour:
   p1Respawn: {fileID: 2028848893}
   p2Respawn: {fileID: 1529324981}
   checkPointNo: 1
-  finaSceneNo: 8
 --- !u!61 &711064988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -74374,7 +74372,6 @@ MonoBehaviour:
   p1Respawn: {fileID: 342444535}
   p2Respawn: {fileID: 1075230339}
   checkPointNo: 0
-  finaSceneNo: 8
 --- !u!61 &1338643577
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -74934,7 +74931,6 @@ MonoBehaviour:
   p1Respawn: {fileID: 342444535}
   p2Respawn: {fileID: 1075230339}
   checkPointNo: 0
-  finaSceneNo: 8
 --- !u!1 &1658443250
 GameObject:
   m_ObjectHideFlags: 0

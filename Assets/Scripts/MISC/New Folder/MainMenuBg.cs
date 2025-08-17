@@ -10,6 +10,7 @@ public class MainMenuBg : MonoBehaviour
     {
         startPos = transform.position.x;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
+        Cursor.visible = true;
     }
 
     void FixedUpdate()

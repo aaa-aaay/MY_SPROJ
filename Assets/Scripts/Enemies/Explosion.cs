@@ -43,6 +43,11 @@ public class Explosion : MonoBehaviour
         }
     }
 
+    public void TriggerExplosionSFX()
+    {
+        AudioManager.instance.PlaySFX("SFXExplosion");
+    }
+
 
 
 

@@ -2020,7 +2020,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1068797667}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1209381315}
+        m_TargetAssemblyTypeName: GoNextScene, Assembly-CSharp
+        m_MethodName: GoScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1068797667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,7 +2308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: CheatCode
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4237,6 +4249,10 @@ PrefabInstance:
     - target: {fileID: 7228286994556672925, guid: f556cb91eabccfb4c831705e4ccb113b, type: 3}
       propertyPath: m_Name
       value: Dialouge Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537612588215171775, guid: f556cb91eabccfb4c831705e4ccb113b, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8371100711549601824, guid: f556cb91eabccfb4c831705e4ccb113b, type: 3}
       propertyPath: m_text

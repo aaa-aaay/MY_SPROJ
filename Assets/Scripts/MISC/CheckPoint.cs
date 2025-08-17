@@ -11,7 +11,7 @@ public class CheckPoint : MonoBehaviour
 
     [SerializeField] private int checkPointNo;
 
-    [SerializeField] private int finaSceneNo = 8;
+    private int finaSceneNo = 9;
     private ProgressSaveData progress;
 
 
